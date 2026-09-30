@@ -81,7 +81,7 @@ for (const vp of viewports) {
       };
     });
     await page.screenshot({ path: path.join(shots, `${(p.replace(/\//g, '_').replace(/^_|_$/g, '') || 'home')}-${vp.name}.png`) });
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+    await page.evaluate(() => { document.documentElement.style.scrollBehavior = 'auto'; window.scrollTo(0, document.documentElement.scrollHeight); });
     await page.waitForTimeout(500);
     const stickyBottom = await page.evaluate(() => {
       const vis = (el) => { if (!el) return null; const s = getComputedStyle(el); const r = el.getBoundingClientRect(); return s.display !== 'none' && s.visibility !== 'hidden' && Number(s.opacity) > 0.05 && r.width > 0 && r.bottom > 0 && r.top < innerHeight; };
