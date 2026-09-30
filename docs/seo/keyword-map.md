@@ -1,5 +1,7 @@
 # carpinteria.com.py: keyword map
 
+> **2026-09-30, window E:** the keyword-library MCP was **still not connected**, so group IDs stay provisional (`H-xx`), volumes stay `?`, and every title verdict stays **keep** (IMPROVE-PLAN §3.3 needs group data to justify a change). No new pages are proposed. Which domain owns which group (carpinteria / obra / arq), and every overlap with obra's and arq's real pages, is now in [`domain-split.md`](domain-split.md); that file wins where the two differ. H-20 is corrected there: arq has no interiores/diseño page, so the group has no owner page today (A-04).
+
 > **2026-09-30, window D:** no cross-domain links any more (Anton). "route" below now means "that domain owns the keyword; carpinteria does not target it", never a link. H-17 to H-19 (pergolas, decks, machimbre) wait on Anton's Q8.
 
 Written 2026-09-30, window C (phase C3).
@@ -34,7 +36,7 @@ Written 2026-09-30, window C (phase C3).
 | H-17 | pergolas | pergolas de madera | ? | obra (`/patios/pergolas/`) | route; keep `/pergolas/` + handover |
 | H-18 | decks | deck de madera | ? | obra (`/patios/decks/`) | route; keep `/decks/` + handover |
 | H-19 | machimbre | techos de madera, techado de quincho, quincho de madera | ? | obra (`/quinchos/techo-madera/`) | route; keep `/machimbre/` + handover |
-| H-20 | diseño de cocinas / interiores | diseño de interiores, planos | ? | arq (`/arquitectos`) | route (1 link from `/cocinas/`, `/placares/`) |
+| H-20 | diseño de cocinas / interiores | diseño de interiores, planos | ? | arq (A-04, no page yet) | not targeted by carpinteria; no link |
 
 \* These could become their own group once the MCP data arrives. The plan §4.3 candidates are `/melamina/` (H-02), `/oficina/` (H-06), `/vestidores/` (H-04), `/barandas/` (H-15) and `/mosquiteros/` (not in the KWP list). **None is proposed now.** Each stays a section of its owner page until the MCP shows a distinct group with PY volume. Then ask Anton (Q2), with a hard cap of 3 pages.
 
