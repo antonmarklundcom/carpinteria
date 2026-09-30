@@ -37,6 +37,10 @@ for (const f of files) {
       if (m[0].replace(/\D/g, '').replace(/^0/, '595') !== NUMBER) fail(rel(f), `foreign phone number ${m[0]}`);
     }
   }
+  // Anton: no links between carpinteria and the sister domains (obra, arq); keep keywords apart instead
+  if (/\.(html|js|json|xml)$/.test(f) && !rel(f).startsWith('tools/') && !/^audit-/.test(rel(f))) {
+    for (const m of txt.matchAll(/https?:\/\/(?:www\.)?(?:obra|arq)\.com\.py[^\s"'<)]*/g)) fail(rel(f), `sister-domain URL ${m[0]}`);
+  }
 }
 
 // ---------- 2. message map ----------

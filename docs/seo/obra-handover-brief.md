@@ -1,5 +1,7 @@
 # Obra.com.py handover brief (from carpinteria.com.py)
 
+> **Superseded 2026-09-30 (window D).** Anton decided: no links between carpinteria, obra and arq, and this brief is not copied to the obra repo. The links in the table below were removed. The keyword ownership part moves to `docs/seo/domain-split.md` in window E. Kept for history only.
+
 Written 2026-09-30, window A. The obra repo now exists (`antonmarklundcom/obra`); copy this file to its `docs/seo/` when Anton says so (Q6).
 
 **Status of the data (updated window C, 2026-09-30):** target URLs are now **verified against the obra and arq repositories** (`antonmarklundcom/obra` main, `obra_routes()` in `app/routes.php`; `antonmarklundcom/arq` main, `sitemap.php`). They are **not yet verified live**: the egress proxy still blocked obra.com.py and arq.com.py in window C, so `linkcheck.mjs --external` is NOT RUN. The keyword-library MCP was still not connected, so volumes and group IDs are still missing. Obra's config defaults its WhatsApp to `595992279599` (same number, answers Q4 part 2 at repo level).

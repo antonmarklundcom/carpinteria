@@ -1,5 +1,7 @@
 # carpinteria.com.py: keyword map
 
+> **2026-09-30, window D:** no cross-domain links any more (Anton). "route" below now means "that domain owns the keyword; carpinteria does not target it", never a link. H-17 to H-19 (pergolas, decks, machimbre) wait on Anton's Q8.
+
 Written 2026-09-30, window C (phase C3).
 
 **Source status: HYPOTHESIS, not MCP data.** The keyword-library MCP (`list_projects`, `project_overview`, `list_groups`, `get_group`, `keyword_lookup`) was **not connected** in window C either. As the window C prompt requires, this map is built from `docs/IMPROVE-PLAN.md` §4 and the 60-term KWP list in `docs/seo/carpinteria-com-py-site-structure.md`. Consequences:
