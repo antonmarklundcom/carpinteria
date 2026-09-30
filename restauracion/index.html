@@ -18,138 +18,224 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/restauracion/#webpage",
-            "url": "https://carpinteria.com.py/restauracion/",
-            "name": "Restauración de muebles en Asunción",
-            "description": "Consultá por reparación y restauración de muebles de madera en Asunción y Gran Asunción. Enviá fotos claras del estado actual.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/restauracion/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Restauración de muebles en Asunción",
-                    "item": "https://carpinteria.com.py/restauracion/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/restauracion/#service",
-            "name": "Restauración de muebles en Asunción",
-            "serviceType": "Restauración de muebles",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/restauracion/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/restauracion/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Cómo sé si conviene restaurar o hacer uno nuevo a medida?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende de la estructura, del tipo de madera y de lo que el mueble significa para vos. Si el armazón está firme, restaurar suele tener sentido; si la madera está muy dañada o necesitás otras medidas, conviene comparar con un mueble nuevo."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Pueden lijar y volver a dar lustre, barniz o laca?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, se puede recuperar la superficie con lijado y una nueva terminación al lustre, barniz o laca. En un mueble enchapado el lijado admite menos."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se pueden reparar patas rotas o uniones flojas?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "En muchos casos sí. Las uniones flojas de sillas y mesas se pueden volver a encolar y reforzar, y una pata partida se puede reparar o reponer según el tipo de rotura. Se confirma al medir en el lugar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Pueden tratar polilla o humedad?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Se evalúa desde las fotos, pero no prometemos resultados. El alcance real solo se confirma al revisar la madera."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hacen el tapizado?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "El tapizado se coordina por separado y no lo realizamos nosotros."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cómo se cotiza sin ver el mueble?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Las fotos dan una primera orientación, pero ciertos daños solo se confirman al revisar la pieza en persona. No hay precios públicos: el presupuesto detalla qué se repara, qué se cambia y qué queda afuera."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿También reacondicionan puertas y escaleras de madera?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, la recuperación de madera no se limita a muebles. Para puertas y escaleras se pide un tipo de fotos y medidas propio, así que mirá las páginas de puertas de madera y de escaleras y barandas."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/restauracion/#webpage",
+              "url": "https://carpinteria.com.py/restauracion/",
+              "name": "Restauración de muebles en Asunción",
+              "description": "Consultá por reparación y restauración de muebles de madera en Asunción y Gran Asunción. Enviá fotos claras del estado actual.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/restauracion/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Restauración de muebles en Asunción",
+                      "item": "https://carpinteria.com.py/restauracion/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/restauracion/#service",
+              "name": "Restauración de muebles en Asunción",
+              "serviceType": "Restauración de muebles",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/restauracion/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/restauracion/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Cómo sé si conviene restaurar o hacer uno nuevo a medida?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende de la estructura, del tipo de madera y de lo que el mueble significa para vos. Si el armazón está firme, restaurar suele tener sentido; si la madera está muy dañada o necesitás otras medidas, conviene comparar con un mueble nuevo."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Pueden lijar y volver a dar lustre, barniz o laca?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, se puede recuperar la superficie con lijado y una nueva terminación al lustre, barniz o laca. En un mueble enchapado el lijado admite menos."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se pueden reparar patas rotas o uniones flojas?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "En muchos casos sí. Las uniones flojas de sillas y mesas se pueden volver a encolar y reforzar, y una pata partida se puede reparar o reponer según el tipo de rotura. Se confirma al medir en el lugar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Pueden tratar polilla o humedad?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Se evalúa desde las fotos, pero no prometemos resultados. El alcance real solo se confirma al revisar la madera."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hacen el tapizado?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "El tapizado se coordina por separado y no lo realizamos nosotros."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cómo se cotiza sin ver el mueble?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Las fotos dan una primera orientación, pero ciertos daños solo se confirman al revisar la pieza en persona. No hay precios públicos: el presupuesto detalla qué se repara, qué se cambia y qué queda afuera."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿También reacondicionan puertas y escaleras de madera?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, la recuperación de madera no se limita a muebles. Para puertas y escaleras se pide un tipo de fotos y medidas propio, así que mirá las páginas de puertas de madera y de escaleras y barandas."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--restauracion">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

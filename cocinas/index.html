@@ -18,146 +18,232 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/cocinas/#webpage",
-            "url": "https://carpinteria.com.py/cocinas/",
-            "name": "Cocinas a medida en Asunción | Carpinteria.com.py",
-            "description": "Planificá muebles de cocina a medida para Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp para orientar tu presupuesto.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/cocinas/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Cocinas a medida en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/cocinas/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/cocinas/#service",
-            "name": "Cocinas a medida en Asunción | Carpinteria.com.py",
-            "serviceType": "Cocinas a medida",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/cocinas/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/cocinas/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Cuánto cuesta una cocina a medida?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No publicamos precios. Depende de las medidas, la cantidad de módulos, el material, los herrajes y si hay columnas o isla. Mandá fotos y medidas por WhatsApp para preparar una consulta comparable y evitar un número sin contexto."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Puedo consultar aunque todavía no tenga medidas exactas?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí. Unas fotos generales y medidas aproximadas sirven para una primera orientación. Las medidas finales se confirman al medir, antes de definir el trabajo."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede contemplar una mesada de granito o cuarzo?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, como parte de la coordinación del proyecto. La mesada la define y la coloca quien la provee; nosotros ajustamos los muebles bajo mesada a su espesor y a los cortes de pileta y anafe. Conviene aclarar el tipo de mesada desde el inicio."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué diferencia hay entre melamina y MDF para los frentes?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La melamina es un tablero con superficie ya terminada, práctico para cuerpos y frentes lisos. El MDF permite fresados, pintura y otros acabados en los frentes. La mejor opción depende del estilo, del uso y de la humedad del ambiente, y se define en el presupuesto."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué herrajes conviene definir?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Bisagras con cierre suave, correderas y sistemas de cajones son los que más se usan a diario. Indicá cuáles querés y para qué módulos, así el presupuesto especifica el tipo de herraje en cada uno."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Trabajan las instalaciones de agua, gas o electricidad?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Nuestro trabajo es de carpintería en madera, aluminio y blindex. Las conexiones de agua, gas y electricidad se coordinan con quien corresponda; nos sirve saber dónde están para ubicar los módulos."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cómo elijo entre cocina lineal, en L, en U o con isla?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del largo de las paredes, de dónde están las aberturas y de cómo circulás. Con fotos y medidas te orientamos sobre qué configuración entra mejor en tu ambiente."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Trabajan en Asunción y Gran Asunción?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La cobertura es Asunción y Gran Asunción. Confirmá tu barrio o ciudad por WhatsApp al consultar."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/cocinas/#webpage",
+              "url": "https://carpinteria.com.py/cocinas/",
+              "name": "Cocinas a medida en Asunción | Carpinteria.com.py",
+              "description": "Planificá muebles de cocina a medida para Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp para orientar tu presupuesto.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/cocinas/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Cocinas a medida en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/cocinas/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/cocinas/#service",
+              "name": "Cocinas a medida en Asunción | Carpinteria.com.py",
+              "serviceType": "Cocinas a medida",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/cocinas/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/cocinas/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Cuánto cuesta una cocina a medida?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No publicamos precios. Depende de las medidas, la cantidad de módulos, el material, los herrajes y si hay columnas o isla. Mandá fotos y medidas por WhatsApp para preparar una consulta comparable y evitar un número sin contexto."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Puedo consultar aunque todavía no tenga medidas exactas?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí. Unas fotos generales y medidas aproximadas sirven para una primera orientación. Las medidas finales se confirman al medir, antes de definir el trabajo."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede contemplar una mesada de granito o cuarzo?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, como parte de la coordinación del proyecto. La mesada la define y la coloca quien la provee; nosotros ajustamos los muebles bajo mesada a su espesor y a los cortes de pileta y anafe. Conviene aclarar el tipo de mesada desde el inicio."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué diferencia hay entre melamina y MDF para los frentes?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "La melamina es un tablero con superficie ya terminada, práctico para cuerpos y frentes lisos. El MDF permite fresados, pintura y otros acabados en los frentes. La mejor opción depende del estilo, del uso y de la humedad del ambiente, y se define en el presupuesto."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué herrajes conviene definir?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Bisagras con cierre suave, correderas y sistemas de cajones son los que más se usan a diario. Indicá cuáles querés y para qué módulos, así el presupuesto especifica el tipo de herraje en cada uno."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Trabajan las instalaciones de agua, gas o electricidad?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Nuestro trabajo es de carpintería en madera, aluminio y blindex. Las conexiones de agua, gas y electricidad se coordinan con quien corresponda; nos sirve saber dónde están para ubicar los módulos."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cómo elijo entre cocina lineal, en L, en U o con isla?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del largo de las paredes, de dónde están las aberturas y de cómo circulás. Con fotos y medidas te orientamos sobre qué configuración entra mejor en tu ambiente."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Trabajan en Asunción y Gran Asunción?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "La cobertura es Asunción y Gran Asunción. Confirmá tu barrio o ciudad por WhatsApp al consultar."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--cocinas">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

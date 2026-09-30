@@ -18,138 +18,224 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/escritorios/#webpage",
-            "url": "https://carpinteria.com.py/escritorios/",
-            "name": "Escritorios a medida en Asunción | Carpinteria.com.py",
-            "description": "Planificá escritorios, bibliotecas y home office a medida. Mandá fotos y medidas para consultar en Asunción y Gran Asunción.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/escritorios/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Escritorios a medida en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/escritorios/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/escritorios/#service",
-            "name": "Escritorios a medida en Asunción | Carpinteria.com.py",
-            "serviceType": "Escritorios a medida",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/escritorios/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/escritorios/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Qué profundidad y altura de trabajo conviene para un escritorio?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del equipo, de la silla y de quién lo use. Una notebook, un monitor grande o el trabajo con papeles piden profundidades distintas. Se confirma al medir."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede aprovechar un rincón?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí. Mandá fotos amplias y las medidas de ambas paredes para evaluar un escritorio en L."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Puedo combinar escritorio y biblioteca?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Es una combinación habitual. Se dimensiona según los libros, carpetas y equipos reales."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cuántos libros aguanta un estante?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del largo del estante, del espesor y del material, y de dónde apoya. Un estante largo con libros pesados necesita más espesor o soportes intermedios."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede hacer un escritorio infantil o de estudio?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí. Conviene pensar la altura para que siga sirviendo y prever lugar para útiles y libros."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Los cables pueden quedar ocultos?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Se pueden prever pasacables en la superficie y un recorrido interno. La conexión eléctrica se coordina aparte."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hacen muebles de oficina para empresas?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Las consultas de locales, oficinas y varios puestos tienen su propia página, muebles comerciales, para ordenar cantidad, uso y circulación."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/escritorios/#webpage",
+              "url": "https://carpinteria.com.py/escritorios/",
+              "name": "Escritorios a medida en Asunción | Carpinteria.com.py",
+              "description": "Planificá escritorios, bibliotecas y home office a medida. Mandá fotos y medidas para consultar en Asunción y Gran Asunción.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/escritorios/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Escritorios a medida en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/escritorios/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/escritorios/#service",
+              "name": "Escritorios a medida en Asunción | Carpinteria.com.py",
+              "serviceType": "Escritorios a medida",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/escritorios/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/escritorios/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué profundidad y altura de trabajo conviene para un escritorio?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del equipo, de la silla y de quién lo use. Una notebook, un monitor grande o el trabajo con papeles piden profundidades distintas. Se confirma al medir."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede aprovechar un rincón?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí. Mandá fotos amplias y las medidas de ambas paredes para evaluar un escritorio en L."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Puedo combinar escritorio y biblioteca?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Es una combinación habitual. Se dimensiona según los libros, carpetas y equipos reales."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cuántos libros aguanta un estante?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del largo del estante, del espesor y del material, y de dónde apoya. Un estante largo con libros pesados necesita más espesor o soportes intermedios."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede hacer un escritorio infantil o de estudio?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí. Conviene pensar la altura para que siga sirviendo y prever lugar para útiles y libros."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Los cables pueden quedar ocultos?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Se pueden prever pasacables en la superficie y un recorrido interno. La conexión eléctrica se coordina aparte."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hacen muebles de oficina para empresas?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Las consultas de locales, oficinas y varios puestos tienen su propia página, muebles comerciales, para ordenar cantidad, uso y circulación."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--escritorios">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

@@ -18,146 +18,232 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/decks/#webpage",
-            "url": "https://carpinteria.com.py/decks/",
-            "name": "Decks de madera en Asunción | Carpinteria.com.py",
-            "description": "Consultá por decks de madera para patios y quinchos en Asunción y Gran Asunción. Mandá fotos, medidas y estado de la base.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/decks/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Decks de madera en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/decks/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/decks/#service",
-            "name": "Decks de madera en Asunción | Carpinteria.com.py",
-            "serviceType": "Decks de madera",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/decks/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/decks/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede hacer un deck sobre cualquier piso?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del nivel, la humedad y el drenaje del piso actual; se confirma al medir y la base la coordina Obra.com.py."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué diferencia hay entre un deck sobre contrapiso y uno sobre tierra?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sobre contrapiso hay que revisar pendiente y fisuras. Sobre tierra, la base y el drenaje son el punto central y los coordina Obra.com.py."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué madera conviene para un deck de piscina?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Una madera dura para exterior, con tablas separadas para que escurra el agua; la especie se define en la propuesta."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Por qué se dejan juntas entre las tablas?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Porque la madera se hincha y se contrae; la junta deja escurrir el agua y ventilar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Las fijaciones se ven o quedan ocultas?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "De las dos formas: las visibles son simples de revisar y las ocultas dan una superficie más limpia."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué mantenimiento necesita?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende de la madera, el sol y el uso: se renueva un aceite o protector, o se deja el gris natural."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Puedo combinar deck y pérgola?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, conviene consultarlos juntos para coordinar niveles y proporciones, con cada alcance detallado."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Publican precios por metro cuadrado?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No. Base, altura, recortes y madera cambian el resultado; mandá fotos y medidas."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/decks/#webpage",
+              "url": "https://carpinteria.com.py/decks/",
+              "name": "Decks de madera en Asunción | Carpinteria.com.py",
+              "description": "Consultá por decks de madera para patios y quinchos en Asunción y Gran Asunción. Mandá fotos, medidas y estado de la base.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/decks/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Decks de madera en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/decks/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/decks/#service",
+              "name": "Decks de madera en Asunción | Carpinteria.com.py",
+              "serviceType": "Decks de madera",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/decks/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/decks/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede hacer un deck sobre cualquier piso?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del nivel, la humedad y el drenaje del piso actual; se confirma al medir y la base la coordina Obra.com.py."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué diferencia hay entre un deck sobre contrapiso y uno sobre tierra?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sobre contrapiso hay que revisar pendiente y fisuras. Sobre tierra, la base y el drenaje son el punto central y los coordina Obra.com.py."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué madera conviene para un deck de piscina?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Una madera dura para exterior, con tablas separadas para que escurra el agua; la especie se define en la propuesta."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Por qué se dejan juntas entre las tablas?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Porque la madera se hincha y se contrae; la junta deja escurrir el agua y ventilar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Las fijaciones se ven o quedan ocultas?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "De las dos formas: las visibles son simples de revisar y las ocultas dan una superficie más limpia."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué mantenimiento necesita?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende de la madera, el sol y el uso: se renueva un aceite o protector, o se deja el gris natural."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Puedo combinar deck y pérgola?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, conviene consultarlos juntos para coordinar niveles y proporciones, con cada alcance detallado."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Publican precios por metro cuadrado?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No. Base, altura, recortes y madera cambian el resultado; mandá fotos y medidas."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--decks">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

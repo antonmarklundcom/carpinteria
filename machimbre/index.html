@@ -18,130 +18,216 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/machimbre/#webpage",
-            "url": "https://carpinteria.com.py/machimbre/",
-            "name": "Machimbre y techos de madera en Asunción",
-            "description": "Consultá por revestimientos de machimbre y cielorrasos de madera para quinchos en Asunción y Gran Asunción.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/machimbre/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Machimbre y techos de madera en Asunción",
-                    "item": "https://carpinteria.com.py/machimbre/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/machimbre/#service",
-            "name": "Machimbre y techos de madera en Asunción",
-            "serviceType": "Machimbre y techos de madera",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/machimbre/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/machimbre/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿El machimbre incluye toda la cubierta?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No. El machimbre es la terminación de madera que se ve desde abajo. Vigas, estructura, pendiente, aislación y cubierta las coordina Obra.com.py, la marca hermana que se ocupa de la ejecución de techos de quincho."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué fotos tengo que mandar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Una vista completa desde abajo, otra desde afuera, la estructura existente con vigas y tirantes a la vista, los bordes contra paredes y cualquier luz, ventilador o caño que deba quedar en el techo."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Sirve para cielorraso interior o para paredes?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, el machimbre también se evalúa como cielorraso de un living o dormitorio y como revestimiento de paredes. Contá qué ambiente es y si hay humedad."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué diferencia hay entre barniz, laca y protector?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "El barniz y la laca forman una película; el protector penetra y deja la veta más natural. Cuál conviene depende de si el sector está expuesto al sol, la lluvia o solo a la humedad ambiente."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Natural o teñido?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "El natural muestra el tono propio de la madera; el teñido unifica el color entre tablas."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cómo se cotiza un techo de machimbre?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Por superficie, tipo de madera, soporte disponible, altura de trabajo, recortes, terminación y accesibilidad. No hay precios públicos: se confirma al medir el ambiente y con las fotos de la estructura."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/machimbre/#webpage",
+              "url": "https://carpinteria.com.py/machimbre/",
+              "name": "Machimbre y techos de madera en Asunción",
+              "description": "Consultá por revestimientos de machimbre y cielorrasos de madera para quinchos en Asunción y Gran Asunción.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/machimbre/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Machimbre y techos de madera en Asunción",
+                      "item": "https://carpinteria.com.py/machimbre/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/machimbre/#service",
+              "name": "Machimbre y techos de madera en Asunción",
+              "serviceType": "Machimbre y techos de madera",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/machimbre/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/machimbre/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿El machimbre incluye toda la cubierta?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No. El machimbre es la terminación de madera que se ve desde abajo. Vigas, estructura, pendiente, aislación y cubierta las coordina Obra.com.py, la marca hermana que se ocupa de la ejecución de techos de quincho."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué fotos tengo que mandar?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Una vista completa desde abajo, otra desde afuera, la estructura existente con vigas y tirantes a la vista, los bordes contra paredes y cualquier luz, ventilador o caño que deba quedar en el techo."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Sirve para cielorraso interior o para paredes?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, el machimbre también se evalúa como cielorraso de un living o dormitorio y como revestimiento de paredes. Contá qué ambiente es y si hay humedad."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué diferencia hay entre barniz, laca y protector?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "El barniz y la laca forman una película; el protector penetra y deja la veta más natural. Cuál conviene depende de si el sector está expuesto al sol, la lluvia o solo a la humedad ambiente."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Natural o teñido?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "El natural muestra el tono propio de la madera; el teñido unifica el color entre tablas."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cómo se cotiza un techo de machimbre?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Por superficie, tipo de madera, soporte disponible, altura de trabajo, recortes, terminación y accesibilidad. No hay precios públicos: se confirma al medir el ambiente y con las fotos de la estructura."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--machimbre">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

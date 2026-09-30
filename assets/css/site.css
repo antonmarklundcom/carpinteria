@@ -368,3 +368,14 @@ body.show-mobile-bar .mobile-bar { transform: translateY(0); visibility: visible
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Mobile tap targets (>=44px) for brand, breadcrumbs, footer and related links */
+@media (max-width: 768px) {
+  .brand { min-height: 44px; }
+  .breadcrumbs a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; }
+  .breadcrumbs ol { gap: 0 8px; }
+  .breadcrumbs { padding: 6px 0; }
+  .footer-links { gap: 0; }
+  .footer-links a, .footer-bottom a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; }
+  .related-links a { display: inline-flex; min-height: 44px; align-items: center; }
+}

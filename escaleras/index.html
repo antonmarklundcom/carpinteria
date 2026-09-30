@@ -18,130 +18,216 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/escaleras/#webpage",
-            "url": "https://carpinteria.com.py/escaleras/",
-            "name": "Escaleras de madera en Asunción | Carpinteria.com.py",
-            "description": "Consultá por escalones, revestimientos y barandas de madera en Asunción y Gran Asunción. Enviá fotos y medidas.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/escaleras/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Escaleras de madera en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/escaleras/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/escaleras/#service",
-            "name": "Escaleras de madera en Asunción | Carpinteria.com.py",
-            "serviceType": "Escaleras de madera",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/escaleras/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/escaleras/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Necesito enviar fotos de toda la escalera?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí. Incluí el arranque, el remate en el piso superior, los descansos, los laterales y una foto frontal. Sumá la cantidad de escalones y las medidas aproximadas de cada uno."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hacen la estructura completa de la escalera?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Esta página se concentra en la madera: escalones, contrahuellas, revestimientos, barandas y pasamanos. Si hace falta una estructura nueva de hormigón o metálica, se coordina aparte y tiene que estar definida antes de cotizar la parte de madera."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede revestir una escalera existente de hormigón con madera?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Puede evaluarse. Depende del estado y la nivelación de los escalones, de la altura de cada contrahuella y de cómo termina el revestimiento contra las paredes. Las fotos y las medidas ayudan a decidir si conviene revestir o pensar una escalera nueva."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué medidas necesito tomar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La altura entre pisos, de piso terminado a piso terminado, el ancho disponible, el largo libre para el desarrollo y, si hay planta alta, el tamaño del hueco en la losa."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué madera conviene para escalones?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del tránsito, de la terminación que busques, de si la escalera es interior o queda protegida y del soporte. Se deja escrito en el presupuesto."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se pueden combinar barandas de madera con vidrio o aluminio?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, es una opción a evaluar según el diseño y el uso. La altura y el tipo de baranda se definen según el uso y la normativa aplicable."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/escaleras/#webpage",
+              "url": "https://carpinteria.com.py/escaleras/",
+              "name": "Escaleras de madera en Asunción | Carpinteria.com.py",
+              "description": "Consultá por escalones, revestimientos y barandas de madera en Asunción y Gran Asunción. Enviá fotos y medidas.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/escaleras/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Escaleras de madera en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/escaleras/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/escaleras/#service",
+              "name": "Escaleras de madera en Asunción | Carpinteria.com.py",
+              "serviceType": "Escaleras de madera",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/escaleras/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/escaleras/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Necesito enviar fotos de toda la escalera?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí. Incluí el arranque, el remate en el piso superior, los descansos, los laterales y una foto frontal. Sumá la cantidad de escalones y las medidas aproximadas de cada uno."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hacen la estructura completa de la escalera?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Esta página se concentra en la madera: escalones, contrahuellas, revestimientos, barandas y pasamanos. Si hace falta una estructura nueva de hormigón o metálica, se coordina aparte y tiene que estar definida antes de cotizar la parte de madera."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede revestir una escalera existente de hormigón con madera?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Puede evaluarse. Depende del estado y la nivelación de los escalones, de la altura de cada contrahuella y de cómo termina el revestimiento contra las paredes. Las fotos y las medidas ayudan a decidir si conviene revestir o pensar una escalera nueva."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué medidas necesito tomar?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "La altura entre pisos, de piso terminado a piso terminado, el ancho disponible, el largo libre para el desarrollo y, si hay planta alta, el tamaño del hueco en la losa."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué madera conviene para escalones?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del tránsito, de la terminación que busques, de si la escalera es interior o queda protegida y del soporte. Se deja escrito en el presupuesto."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se pueden combinar barandas de madera con vidrio o aluminio?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, es una opción a evaluar según el diseño y el uso. La altura y el tipo de baranda se definen según el uso y la normativa aplicable."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--escaleras">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
