@@ -6,3 +6,5 @@ config.local.php
 *.zip
 *.log
 .DS_Store
+audit-shots/
+audit-after.json
