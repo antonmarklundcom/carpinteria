@@ -9,7 +9,7 @@ Execution keywords (construcción, obra, llave en mano) belong to obra.com.py. E
 
 **URL rule:** short slugs, max 2 levels, Ads display-path friendly.
 
-**Conventions:** WhatsApp-first (+595 995 628862 stage 1), no prices, PYG only, AI-generated architectural
+**Conventions:** WhatsApp-first (+595 992 279 599), no prices, PYG only, AI-generated architectural
 imagery with strict "doesn't look AI" rules, no named architects stage 1.
 
 ---

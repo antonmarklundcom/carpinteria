@@ -136,7 +136,10 @@
       details ? `Detalles: ${details}.` : '',
       'Voy a adjuntar fotos y medidas por WhatsApp.'
     ].filter(Boolean);
-    window.open(`https://wa.me/595995628862?text=${encodeURIComponent(parts.join(' '))}`, '_blank', 'noopener');
+    // Number comes from data/whatsapp.json via the generated wa-config.js.
+    const waNumber = window.WA_CONFIG?.number;
+    if (!waNumber) return;
+    window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(parts.join(' '))}`, '_blank', 'noopener');
   });
 
   const privacyNote = document.querySelector('.privacy-note');

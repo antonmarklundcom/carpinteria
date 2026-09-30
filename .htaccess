@@ -4,9 +4,25 @@ ErrorDocument 404 /404.html
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  # Non-public files in the repo (docs, tooling, data, audits) → 404.
+  RewriteRule ^(docs|tools|data|audit-shots|node_modules)(/|$) - [R=404,L]
+  RewriteRule \.(md|json|mjs|example)$ - [R=404,L]
+  RewriteRule (^|/)package(-lock)?\.json$ - [R=404,L]
+  RewriteRule (^|/)\.(?!well-known/) - [R=404,L]
+
+  # www → apex (one hop, straight to https).
+  RewriteCond %{HTTP_HOST} ^www\.carpinteria\.com\.py$ [NC]
+  RewriteRule ^ https://carpinteria.com.py%{REQUEST_URI} [L,R=301]
+
   RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # /index.html and /<slug>/index.html → /<slug>/ (only on the client's
+  # request, not on the internal DirectoryIndex lookup).
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?]
+  RewriteRule ^(.*/)?index\.html$ https://carpinteria.com.py/$1 [L,R=301]
 </IfModule>
 
 <IfModule mod_deflate.c>

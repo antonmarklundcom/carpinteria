@@ -30,7 +30,7 @@ Goal: improve the site a lot (conversion, speed, content depth, scope clarity) *
 
 ### 2.1 Critical
 1. **3 sitemap URLs 404 live**: `/vanitorys/`, `/ventanas/`, `/trabajos/`. Files exist and are valid in the repo (1 H1, self canonical, schema OK, 404/404/229 words). Most likely an incomplete zip upload. Google is being told to crawl 3 dead URLs; `/ventanas/` is a head term ("ventanas de aluminio").
-2. **Old number still live in the quote form**: `assets/js/site.js:139` opens `wa.me/595995628862`. Every lead from `/cotizar/` goes to the old number. Also in 4 docs files (`docs/seo/*.md`, historical text; they are not served as pages but must be cleaned so the "appears nowhere" rule holds).
+2. **Old number still live in the quote form**: `assets/js/site.js:139` opens `wa.me/` with the retired old number. Every lead from `/cotizar/` goes to the old number. Also in 4 docs files (`docs/seo/*.md`, historical text; they are not served as pages but must be cleaned so the "appears nowhere" rule holds).
 3. **Docs would be public if deployed via Git**: `docs/seo/` (incl. the 35 KB arq business brief), `audit-before.json`, future `tools/`/`data/` sit in the web root. With Git deploy they are downloadable at `https://carpinteria.com.py/docs/...`. Needs a deny rule in `.htaccess` before the first Git deploy.
 
 ### 2.2 Important
@@ -169,7 +169,7 @@ Obra's live URLs must be verified in the build window (obra sitemap has 56 URLs;
   }
   ```
 - `tools/apply-wa.mjs` rewrites every `<a data-wa="page">` / `data-wa="service:cocinas"` href in the HTML from the map, rewrites every visible number and `tel:`, and generates `assets/js/wa-config.js` (tiny, public) for the form. Idempotent; run before every commit.
-- `tools/verify.mjs` (the QA gate) fails on: any `wa.me/` or `api.whatsapp.com` number ≠ `595992279599`; any `tel:` ≠ `+595992279599`; any 8+ digit number starting 595/09 that is not ours in HTML/JS/CSS/XML/MD/JSON; the string `595995628862` or `995 628862` anywhere in the repo; any wa link with empty or missing `text`; two pages sharing the same page message; a message containing a price, "Gs", "$", "USD" or "tú/tienes/puedes"; a JSON-LD telephone not `+595992279599`.
+- `tools/verify.mjs` (the QA gate) fails on: any `wa.me/` or `api.whatsapp.com` number ≠ `595992279599`; any `tel:` ≠ `+595992279599`; any 8+ digit number starting 595/09 that is not ours in HTML/JS/CSS/XML/MD/JSON; the retired old number (pattern in tools/lib.mjs OLD_PATTERNS) anywhere in the repo; any wa link with empty or missing `text`; two pages sharing the same page message; a message containing a price, "Gs", "$", "USD" or "tú/tienes/puedes"; a JSON-LD telephone not `+595992279599`.
 
 ### 5.2 Message map (page × service), drafts
 Style: Paraguay voseo, first person from the visitor, no prices, mention the page so the lead is traceable, invite photos/measures. Each page has one page message used by all its CTAs; the home service cards and the form use service messages.

@@ -5,7 +5,7 @@ No masonry, pools, chapa roofing, metal structures — those live on obra.com.py
 
 **URL rule:** short slugs, max 2 path levels, every segment fits Google Ads display path (≤15 chars).
 
-**Conventions:** WhatsApp-first (+595 995 628862 stage 1), no prices, PYG only,
+**Conventions:** WhatsApp-first (+595 992 279 599), no prices, PYG only,
 Asunción + Gran Asunción coverage language, AI imagery (no names, no fake team claims).
 
 ---
