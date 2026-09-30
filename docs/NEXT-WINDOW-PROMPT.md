@@ -77,13 +77,16 @@ PHASE A4: HANDOFF (you)
 
 ## Prompt D (Opus 5.5, medium) — use this next: live verification, video and real keyword data
 
+**Window D was tried on 2026-09-30 and blocked again** (same four hosts denied, MCP not connected; see "Status after window D" in IMPROVE-PLAN.md). Run this prompt again as is once the network and MCP are open. Anton's answers from that attempt are now written into the prompt below; only Q1 and Q5 still need filling in.
+
 Window C (2026-09-30) shipped PRs #5–#10: cross-links, the keyword map as a hypothesis, all 18 service pages deepened, schema and tap targets, and the build report. Every live step, the video and the MCP work are still NOT RUN, because the environment blocked all four hosts and the MCP was not connected. **Before starting this window, add `carpinteria.com.py`, `obra.com.py`, `arq.com.py` and `d8j0ntlcm91z4.cloudfront.net` under the environment's Network access, and connect the keyword-library MCP.** Otherwise this window can do almost nothing.
 
 ```text
-You are the director of the carpinteria.com.py build, window D. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no CI). Read on main first: docs/IMPROVE-PLAN.md ("Status after window C"), docs/BUILD-REPORT-2026-09-30.md, docs/seo/keyword-map.md, docs/seo/obra-handover-brief.md, audit-before.json, audit-after.json, and tools/*.mjs. Run `cd tools && npm ci` first. Playwright uses the preinstalled Chromium in /opt/pw-browsers; never run "playwright install".
+You are the director of the carpinteria.com.py build, window D. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no CI). Read on main first: docs/IMPROVE-PLAN.md ("Status after window D" and "Status after window C"), docs/BUILD-REPORT-2026-09-30.md, docs/seo/keyword-map.md, docs/seo/obra-handover-brief.md, audit-before.json, audit-after.json, and tools/*.mjs. Run `cd tools && npm ci` first. Playwright uses the preinstalled Chromium in /opt/pw-browsers; never run "playwright install".
 Model rules: you run on Opus 5.5. Subagents are Sonnet 5.5 only (low for mechanical edits, medium for page writing). Never Fable.
 All HARD RULES and GATES of Prompt B in docs/NEXT-WINDOW-PROMPT.md apply to you and every subagent. Also run `node tools/overlap.mjs` before every content merge. Run live tools with NODE_USE_ENV_PROXY=1.
-Deploy answer (Q1): <write "Git auto-deploy is connected" or "I uploaded carpinteria-deploy.zip on <date>">. Other answers: <Q2–Q7 or "defaults are fine">.
+Deploy answer (Q1): <write "Git auto-deploy is connected" or "I uploaded carpinteria-deploy.zip on <date>">. Hero (Q5): <keep 4 desktop videos, self-hosted | one still image>.
+Answers already given: Q6 do NOT copy the obra handover brief into the obra repo; the obra session handles its own links. arq target: keep https://arq.com.py/arquitectos for cocinas and placares (the URL arq's sitemap and canonical use). Do not link to any other arq URL unless it returns 200 live AND is listed in arq's docs/seo/arq-urls.md on main. Other questions: defaults are fine.
 
 PRECONDITIONS (first 5 minutes)
 - curl -sI https://carpinteria.com.py/, https://obra.com.py/, https://arq.com.py/ and https://d8j0ntlcm91z4.cloudfront.net/ must return a real status, not a proxy 403. If any is blocked, tell Anton in ONE short message, then do only what does not need that host and mark the rest NOT RUN.
@@ -113,7 +116,8 @@ PHASE D3: REAL KEYWORD MAP PR (you)
 - If Anton approves in this chat: build the approved pages as in Prompt B phase B3 (Sonnet 5.5 medium, one per page), and apply the approved titles through docs/seo/approved-titles.txt in a separate PR.
 
 FINISH
-- Update the status section to "Status after window D" in IMPROVE-PLAN.md.
+- Before FINISH: every link to obra.com.py and arq.com.py must return 200 live (NODE_USE_ENV_PROXY=1 node tools/linkcheck.mjs --external). If one fails, replace it with the closest URL from that site's sitemap.xml; if none exists, fall back to the site's home page. Note each change in the window D addendum.
+- Update the status section "Status after window D" in IMPROVE-PLAN.md.
 - Add a short "Window D addendum" to the build report, with live-check output, the before/after live seo-diff and NOT RUN items. Small PR, then merge.
 - Final message to Anton: PR links, live-check result, open questions, what comes next (GBP, real photos, reviews).
 ```

@@ -113,3 +113,45 @@ The home page still has no third-party request except the CloudFront hero video 
 3. Replace the "visual de referencia" images with first real job photos as they come in, and add them to `/trabajos/`.
 4. Collect first reviews and link them from `/trabajos/`.
 5. Two to four weeks after the content deploy, compare Search Console impressions per page before any title change.
+
+## Window D addendum (2026-09-30)
+
+**Result: blocked. No live step ran, so this addendum has no live-check output and no live seo-diff.**
+
+### Preconditions
+| Check | Result |
+|---|---|
+| `curl -sI https://carpinteria.com.py/` | 403 from the egress proxy (CONNECT denied) |
+| `curl -sI https://obra.com.py/` | 403 from the egress proxy |
+| `curl -sI https://arq.com.py/` | 403 from the egress proxy |
+| `curl -sI https://d8j0ntlcm91z4.cloudfront.net/` | 403 from the egress proxy |
+| keyword-library MCP `list_projects` | not connected (no such tool in the session) |
+
+### NOT RUN
+1. D1: `live-check.mjs`, live `audit-live-after.json`, live seo-diff vs `audit-before.json`, `.htaccess` curls, www/404 checks, pw-check on live. **Whether live has PRs #2–#11 is still unknown.**
+2. Anton's extra check: `linkcheck --external` (every obra/arq link must return 200 live). No link was replaced, because no failure could be observed.
+3. D2: hero video self-hosting (CloudFront blocked). Q5 was also still a placeholder.
+4. D3: real keyword map (no MCP), so no title changes and no new pages.
+
+### What ran (local, on `main` at `b53d23f`)
+```
+verify: OK — 23 pages, 63 text files scanned, 23 distinct page messages
+linkcheck: 1760 internal refs in 23 pages, 0 broken; 7 cross-domain links not fetched
+overlap: OK — 20 page(s) checked against 20
+seo-diff audit-before.json → local audit: 22 URLs, 95 differences, 0 failing
+pw-check: 0 overflow, 0 broken images; the only console error / failed request / third-party host is the
+          CloudFront hero video on / desktop (ERR_TUNNEL_CONNECTION_FAILED, the proxy block)
+```
+
+### Cross-domain links, checked against the repos (not live)
+| carpinteria page | Target | In the target's sitemap (generated from its repo `main`) |
+|---|---|---|
+| /pergolas/ | https://obra.com.py/patios/pergolas/ | yes |
+| /decks/ | https://obra.com.py/patios/decks/ | yes |
+| /machimbre/ | https://obra.com.py/quinchos/techo-madera/ | yes |
+| /aluminio/, /ventanas/ | https://obra.com.py/reformas/ | yes |
+| /cerramientos/ | https://obra.com.py/ampliaciones/galeria/ | yes |
+| /cotizar/ | https://obra.com.py/patios/ | yes |
+| /cocinas/, /placares/ | https://arq.com.py/arquitectos | yes (`sitemap.php` list; canonical has no trailing slash) |
+
+obra's sitemap was produced by running its `sitemap.php` with PHP locally (56 URLs). arq's `docs/seo/arq-urls.md` does not exist on arq `main` yet, so, per Anton's rule, no other arq URL may be linked. Links changed in window D: **none**.
