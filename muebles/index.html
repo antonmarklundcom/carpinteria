@@ -95,7 +95,7 @@
                     "name": "¿Qué mueble conviene consultar primero?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Empezá por el ambiente con una necesidad clara y medidas disponibles. Si son varios, listalos por prioridad."
+                        "text": "Empezá por el ambiente que más te limita hoy y del que ya tenés medidas. Si son varios, listalos por prioridad y consultá cada uno en su página."
                     }
                 },
                 {
@@ -103,7 +103,31 @@
                     "name": "¿Hacen muebles de melamina?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "La melamina y el MDF están contemplados como términos de material, pero deben definirse espesor, acabado, cantos y herrajes en cada propuesta."
+                        "text": "Sí, la melamina es una de las opciones habituales. En la propuesta se define espesor, acabado, cantos y herrajes, para que puedas comparar."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Cuál es la diferencia entre melamina y MDF?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "La melamina viene con la superficie decorativa incluida y tiene muchos colores; el MDF es un tablero parejo que se puede fresar y lacar. Muchos proyectos usan melamina adentro y MDF en los frentes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Cuándo conviene la madera maciza?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Cuando querés una pieza con veta, que se pueda lijar y recuperar, como una mesada de apoyo, una tapa o un frente. El lapacho es más duro y denso; el cedro es más liviano y fácil de trabajar. Se define según el uso."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Cómo influye la humedad en la elección del material?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mucho en cocinas y baños. Ahí importa el sellado de cantos, la ventilación y los herrajes. Contá dónde va el mueble y cuánta agua lo alcanza."
                     }
                 },
                 {
@@ -119,7 +143,7 @@
                     "name": "¿Hay precios estándar?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No. Un mueble cambia por medidas, interiores, frentes, herrajes y condiciones de instalación."
+                        "text": "No. Un mueble cambia por medidas, interiores, frentes, herrajes y condiciones de instalación, y se define en el presupuesto."
                     }
                 }
             ]
@@ -202,23 +226,59 @@
     <section class="section section--surface" id="opciones"><div class="container">
       <div class="section-head"><div><p class="section-kicker">Elegí por ambiente o necesidad</p><h2 class="section-title">Una página para cada tipo de mueble</h2></div><p class="section-head__aside">No repetimos el mismo texto: cocina, placar, baño, living y comercio tienen problemas distintos.</p></div>
       <div class="hub-grid">
-                  <a class="hub-link reveal" href="/cocinas/"><span>Servicio específico</span><div><h2>Cocinas a medida</h2><p>Ordená guardado, circulación y terminaciones desde las medidas reales de tu cocina. Mandanos fotos, un croquis o medidas aproximadas y te ayudamos a encaminar la consulta.</p></div></a>
-                  <a class="hub-link reveal" href="/placares/"><span>Servicio específico</span><div><h2>Placares y vestidores</h2><p>Definí el interior antes de elegir solamente la fachada. Ropa larga, cajones, calzados, valijas y puertas disponibles cambian por completo el diseño útil.</p></div></a>
-                  <a class="hub-link reveal" href="/muebles-tv/"><span>Servicio específico</span><div><h2>Muebles de TV</h2><p>Un mueble de TV tiene que resolver cables, ventilación, equipos y guardado sin cargar visualmente el ambiente. Empezá con una foto frontal de la pared.</p></div></a>
-                  <a class="hub-link reveal" href="/escritorios/"><span>Servicio específico</span><div><h2>Escritorios y bibliotecas</h2><p>Convertí una pared, un rincón o una habitación en un espacio de trabajo ordenado. Definí equipos, postura, guardado e iluminación antes de elegir la forma.</p></div></a>
-                  <a class="hub-link reveal" href="/vanitorys/"><span>Servicio específico</span><div><h2>Vanitorys y baños</h2><p>Aprovechá el espacio alrededor de la pileta sin bloquear cañerías, sifón ni limpieza. La humedad y el uso cotidiano deben guiar la elección de material y distribución.</p></div></a>
-                  <a class="hub-link reveal" href="/comercial/"><span>Servicio específico</span><div><h2>Muebles comerciales</h2><p>Organizá atención, exhibición y guardado según el flujo real de tu negocio. Mandá un plano simple, fotos del local y las funciones que cada mueble debe cumplir.</p></div></a>
+                  <a class="hub-link reveal" href="/cocinas/"><span>Servicio específico</span><div><h2>Cocinas a medida</h2><p>Guardado, circulación y terminaciones de la cocina, definidos desde las medidas reales del espacio.</p></div></a>
+                  <a class="hub-link reveal" href="/placares/"><span>Servicio específico</span><div><h2>Placares y vestidores</h2><p>El interior del placar (ropa larga, cajones, calzado, valijas) manda sobre el diseño del frente.</p></div></a>
+                  <a class="hub-link reveal" href="/muebles-tv/"><span>Servicio específico</span><div><h2>Muebles de TV</h2><p>Rack o panel para la pared del televisor, con lugar para equipos, cables y ventilación.</p></div></a>
+                  <a class="hub-link reveal" href="/escritorios/"><span>Servicio específico</span><div><h2>Escritorios y bibliotecas</h2><p>Puesto de trabajo, estantes y biblioteca para un rincón, una pared o una habitación entera.</p></div></a>
+                  <a class="hub-link reveal" href="/vanitorys/"><span>Servicio específico</span><div><h2>Vanitorys y baños</h2><p>Mueble bajo pileta pensado para la humedad del baño, el sifón y la limpieza diaria.</p></div></a>
+                  <a class="hub-link reveal" href="/comercial/"><span>Servicio específico</span><div><h2>Muebles comerciales</h2><p>Mostradores, exhibidores y guardado para negocios, según cómo circula la gente en el local.</p></div></a>
               </div>
     </div></section>
-    <section class="process-band"><div class="container process-band__inner"><p class="section-kicker">Una consulta bien armada</p><h2 class="section-title">Fotos, medidas, uso y terminación</h2><div class="process-grid"><article class="process-step"><span class="process-step__number">01</span><div><h3>Mostrá el ambiente</h3><p>Fotos generales y de los puntos que condicionan el proyecto.</p></div></article><article class="process-step"><span class="process-step__number">02</span><div><h3>Medí lo disponible</h3><p>Ancho, alto y profundidad aproximados para orientar.</p></div></article><article class="process-step"><span class="process-step__number">03</span><div><h3>Contá cómo lo usás</h3><p>Guardado, circulación, aperturas y prioridades.</p></div></article><article class="process-step"><span class="process-step__number">04</span><div><h3>Pedí un alcance claro</h3><p>Confirmá materiales, responsable y condiciones antes de avanzar.</p></div></article></div></div></section>
+    <section class="section section--surface"><div class="container">
+      <p class="section-kicker">Muebles a pedido</p>
+      <h2 class="section-title">Cómo se piensa un mueble a medida</h2>
+      <p class="section-lead">Un mueble a medida se diseña desde el hueco donde va a entrar y desde lo que tiene que guardar. Por eso cada ambiente tiene su propia página: <a href="/cocinas/">cocinas a medida</a>, <a href="/placares/">placares y vestidores</a>, <a href="/muebles-tv/">muebles de TV</a>, <a href="/escritorios/">escritorios y bibliotecas</a> y <a href="/vanitorys/">vanitorys</a> para el hogar, y <a href="/comercial/">muebles comerciales</a> para locales. Esta página sirve para decidir por dónde empezar y qué material conviene conversar.</p>
+      <ul class="scope-list"><li>Muebles de melamina, de MDF, de madera maciza o combinados, según el ambiente.</li><li>Herrajes, interiores y frentes definidos por escrito en cada propuesta.</li><li>Trabajo sobre muebles nuevos; si tenés uno que querés recuperar, mirá <a href="/restauracion/">restauración de muebles</a>.</li><li>Puertas de ambiente y de acceso se consultan aparte en <a href="/puertas/">puertas de madera</a>.</li></ul>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-head"><div><p class="section-kicker">Cómo elegir entre melamina, MDF y madera</p><h2 class="section-title">Melamina, MDF o madera maciza: qué cambia</h2></div><p class="section-head__aside">Ninguno es mejor en todo: cada material tiene un lugar donde rinde más.</p></div>
+      <div class="decision-grid">
+        <article class="decision-card reveal"><h3>Melamina</h3><p>Es un tablero aglomerado con una capa decorativa resistente al roce. Ofrece muchos colores y texturas y suele ser la base de módulos, interiores y estantes. Su punto débil es el agua: los cantos y las zonas con humedad necesitan buena terminación.</p></article>
+        <article class="decision-card reveal"><h3>MDF</h3><p>Es un tablero de fibras de superficie muy pareja, que admite fresados, molduras y pintura lacada. Se usa mucho en frentes y en piezas con relieve. Pesa y necesita sellado en los bordes si va a zonas húmedas.</p></article>
+        <article class="decision-card reveal"><h3>Madera maciza</h3><p>El lapacho es una madera muy dura y densa; el cedro es más liviano, fácil de trabajar y de aroma característico. La madera maciza se mueve con la humedad y el calor, se lija y se puede recuperar con los años. Se define por pieza, por veta y por terminación.</p></article>
+        <article class="decision-card reveal"><h3>Combinaciones</h3><p>Es frecuente usar melamina en el interior, MDF en los frentes y madera maciza en mesadas de apoyo, tapas o detalles. Combinar permite ajustar el diseño sin cargar todo el mueble con el material más exigente.</p></article>
+      </div>
+      <p>Los herrajes pesan tanto como el tablero: bisagras, correderas de cajones, sistemas de apertura y soportes se definen junto con el uso. Un cajón de ollas y uno de ropa liviana no piden lo mismo. Y una mesada de granito o cuarzo, si el proyecto la lleva, se coordina aparte del mueble.</p>
+    </div></section>
+    <section class="section section--surface"><div class="container">
+      <p class="section-kicker">Qué mueble conviene para cada ambiente</p>
+      <h2 class="section-title">Qué conviene en cada ambiente</h2>
+      <div class="decision-grid">
+        <article class="decision-card reveal"><h3>Cocina y baño</h3><p>Donde hay agua y vapor, importa la terminación de cantos, el sellado y la ventilación del mueble. Por eso la elección de material y de herrajes es más delicada que en un dormitorio.</p></article>
+        <article class="decision-card reveal"><h3>Dormitorio y vestidor</h3><p>Acá manda el interior: barrales, cajones, estantes y espacio para valijas. La melamina resuelve bien esta parte y el frente puede ir en otro material.</p></article>
+        <article class="decision-card reveal"><h3>Living, trabajo y comercio</h3><p>Muebles de TV, bibliotecas y escritorios cargan peso y cables; los locales suman tránsito y uso intensivo. Se define resistencia, apoyo de equipos y facilidad de limpieza.</p></article>
+      </div>
+    </div></section>
+    <section class="section"><div class="container">
+      <h2 class="section-title">Qué medir y cómo sacar las fotos</h2>
+      <ul class="scope-list"><li>Ancho, alto y profundidad del hueco, medidos en más de un punto: paredes y pisos rara vez están a escuadra.</li><li>Ubicación de tomas, llaves, ventanas, puertas, zócalos, cañerías y cualquier obstáculo.</li><li>Foto frontal del muro completo, foto de las esquinas y foto del piso al techo.</li><li>Una lista de lo que tiene que guardar, con prioridades, y una referencia de estilo si la tenés.</li><li>Si el material te preocupa, anotá dónde llega la humedad, el sol o el uso intensivo.</li></ul>
+      <p>Las medidas que mandás orientan la consulta; la medida definitiva se confirma al medir en el lugar. Si tenés ideas de estilo, mirá primero las <a href="/trabajos/">ideas visuales</a> y elegí lo que se acerca a lo que buscás.</p>
+    </div></section>
 
     <section class="mid-cta"><div class="container mid-cta__inner"><p><strong>¿Ya tenés fotos o medidas aproximadas?</strong> Mandalas por WhatsApp o armá la consulta paso a paso.</p><div class="mid-cta__actions"><a data-wa="page" class="button button--wa" href="https://wa.me/595992279599?text=Hola%2C%20vi%20la%20secci%C3%B3n%20de%20muebles%20a%20medida%20en%20Carpinteria.com.py.%20Quiero%20consultar%20por%20un%20mueble%20para%20mi%20casa.%20Te%20mando%20fotos%20del%20lugar%20y%20medidas%20aproximadas." target="_blank" rel="noopener">Consultar por WhatsApp</a><a class="button button--line" href="/cotizar/?servicio=muebles">Armar mi consulta</a></div></div></section>
-    <section class="section"><div class="container materials-layout"><div><p class="section-kicker">Decisiones útiles</p><h2 class="section-title">Separá estructura, frente y herrajes</h2><p class="section-lead">Decir “melamina” no alcanza para comparar propuestas. Cantidad de módulos, cajones, sistemas y terminaciones cambian el alcance.</p><div class="material-index"><div class="material-row"><strong>Melamina</strong><span>Variedad de colores y texturas</span></div><div class="material-row"><strong>MDF</strong><span>Frentes y terminaciones según proyecto</span></div><div class="material-row"><strong>Herrajes</strong><span>Bisagras, correderas y sistemas</span></div><div class="material-row"><strong>Mesadas</strong><span>Granito o cuarzo a coordinar</span></div></div></div><aside class="guide-panel"><h3>No elijas solamente por una foto.</h3><p>La misma referencia cambia según medidas, herrajes, exposición y uso. Mandala junto con fotos reales del lugar.</p><a class="button button--dark" href="/cotizar/">Preparar mi consulta</a></aside></div></section>
-    <section class="section section--surface"><div class="container"><div class="section-head"><div><p class="section-kicker">Preguntas frecuentes</p><h2 class="section-title">Cómo empezar</h2></div><p class="section-head__aside">Respuestas honestas para evitar presupuestos vacíos o comparaciones que mezclan alcances distintos.</p></div>  <div class="faq-list">
-          <details class="faq-item" open><summary>¿Qué mueble conviene consultar primero?</summary><p>Empezá por el ambiente con una necesidad clara y medidas disponibles. Si son varios, listalos por prioridad.</p></details>
-          <details class="faq-item"><summary>¿Hacen muebles de melamina?</summary><p>La melamina y el MDF están contemplados como términos de material, pero deben definirse espesor, acabado, cantos y herrajes en cada propuesta.</p></details>
+    <section class="section section--surface"><div class="container">
+      <h2 class="section-title">Qué debe incluir un presupuesto de muebles</h2>
+      <p class="section-lead">No hay precios públicos: el importe depende de la medida, el material y la cantidad de interiores. Para comparar dos propuestas, pedí que digan lo mismo.</p>
+      <ul class="scope-list"><li>Medidas finales y planta o croquis del mueble.</li><li>Material de cuerpo, frentes y cantos, con espesor y acabado.</li><li>Herrajes: tipo de bisagras, correderas y sistemas de apertura.</li><li>Cantidad de cajones, estantes y puertas.</li><li>Instalación, y si incluye retiro del mueble anterior.</li><li>Qué queda fuera: mesada, instalaciones de agua o electricidad y trabajos de obra, que se coordinan aparte.</li></ul>
+    </div></section>
+    <section class="section"><div class="container"><div class="section-head"><div><p class="section-kicker">Preguntas frecuentes</p><h2 class="section-title">Preguntas sobre muebles a medida</h2></div></div>  <div class="faq-list">
+          <details class="faq-item" open><summary>¿Qué mueble conviene consultar primero?</summary><p>Empezá por el ambiente que más te limita hoy y del que ya tenés medidas. Si son varios, listalos por prioridad y consultá cada uno en su página.</p></details>
+          <details class="faq-item"><summary>¿Hacen muebles de melamina?</summary><p>Sí, la melamina es una de las opciones habituales. En la propuesta se define espesor, acabado, cantos y herrajes, para que puedas comparar.</p></details>
+          <details class="faq-item"><summary>¿Cuál es la diferencia entre melamina y MDF?</summary><p>La melamina viene con la superficie decorativa incluida y tiene muchos colores; el MDF es un tablero parejo que se puede fresar y lacar. Muchos proyectos usan melamina adentro y MDF en los frentes.</p></details>
+          <details class="faq-item"><summary>¿Cuándo conviene la madera maciza?</summary><p>Cuando querés una pieza con veta, que se pueda lijar y recuperar, como una mesada de apoyo, una tapa o un frente. El lapacho es más duro y denso; el cedro es más liviano y fácil de trabajar. Se define según el uso.</p></details>
+          <details class="faq-item"><summary>¿Cómo influye la humedad en la elección del material?</summary><p>Mucho en cocinas y baños. Ahí importa el sellado de cantos, la ventilación y los herrajes. Contá dónde va el mueble y cuánta agua lo alcanza.</p></details>
           <details class="faq-item"><summary>¿Puedo mandar una foto de Pinterest?</summary><p>Sí, como referencia. Sumá fotos reales del lugar y marcá qué parte de la imagen querés replicar o adaptar.</p></details>
-          <details class="faq-item"><summary>¿Hay precios estándar?</summary><p>No. Un mueble cambia por medidas, interiores, frentes, herrajes y condiciones de instalación.</p></details>
+          <details class="faq-item"><summary>¿Hay precios estándar?</summary><p>No. Un mueble cambia por medidas, interiores, frentes, herrajes y condiciones de instalación, y se define en el presupuesto.</p></details>
       </div>
   </div></section>
       <section class="quote-band"><div class="container quote-band__inner">
