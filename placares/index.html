@@ -18,146 +18,232 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/placares/#webpage",
-            "url": "https://carpinteria.com.py/placares/",
-            "name": "Placares y vestidores en Asunción | Carpinteria.com.py",
-            "description": "Organizá un placar o vestidor según tu ambiente. Consultá por módulos, cajones y puertas para Asunción y Gran Asunción.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/placares/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Placares y vestidores en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/placares/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/placares/#service",
-            "name": "Placares y vestidores en Asunción | Carpinteria.com.py",
-            "serviceType": "Placares y vestidores",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/placares/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/placares/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Qué medidas necesito enviar para cotizar un placar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Ancho, alto y profundidad disponibles, medidos en más de un punto, además de fotos de frente y de los laterales. Indicá si hay zócalos, enchufes, aire acondicionado o vigas, porque condicionan el diseño."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Convienen puertas corredizas o de abrir?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del espacio libre frente al placar, del acceso interior que buscás y del sistema de herrajes. Las corredizas ahorran espacio de giro pero dejan abierta solo una parte del interior; las batientes dan acceso completo pero necesitan lugar para abrir."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cuál es la diferencia entre un placar empotrado y uno de piso a techo?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "El empotrado se ubica dentro de un nicho o entre paredes; el de piso a techo aprovecha toda la altura del ambiente. Ambos se miden en obra, y en los dos hay que revisar desniveles de piso, techo y paredes antes de definir los módulos."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Puedo pedir solamente el interior del placar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Es una posibilidad que debe evaluarse según el estado del nicho o frente existente. Mostrá fotos claras del interior y de las puertas actuales para entender qué se puede conservar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué se puede incluir dentro de un closet o vestidor?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Barrales para ropa corta y larga, estantes, cajoneras, zapateros y maleteros superiores. Cuántos de cada uno y con qué medidas se define según lo que guardás."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Conviene melamina o MDF para un placar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del uso, la terminación que busques y el presupuesto. Se comparan en general: la propuesta debe indicar qué material se usa en cada parte, incluidos frentes, laterales y fondos."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Atienden consultas para vestidores en Gran Asunción?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, se atiende Asunción y Gran Asunción. Al escribir, indicá la ciudad o el barrio y si el dormitorio está en planta alta."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Los presupuestos tienen precio publicado?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No publicamos precios. Cada propuesta se arma según medidas, materiales, herrajes e instalación, y debe detallar qué incluye y qué no."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/placares/#webpage",
+              "url": "https://carpinteria.com.py/placares/",
+              "name": "Placares y vestidores en Asunción | Carpinteria.com.py",
+              "description": "Organizá un placar o vestidor según tu ambiente. Consultá por módulos, cajones y puertas para Asunción y Gran Asunción.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/placares/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Placares y vestidores en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/placares/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/placares/#service",
+              "name": "Placares y vestidores en Asunción | Carpinteria.com.py",
+              "serviceType": "Placares y vestidores",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/placares/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/placares/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué medidas necesito enviar para cotizar un placar?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Ancho, alto y profundidad disponibles, medidos en más de un punto, además de fotos de frente y de los laterales. Indicá si hay zócalos, enchufes, aire acondicionado o vigas, porque condicionan el diseño."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Convienen puertas corredizas o de abrir?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del espacio libre frente al placar, del acceso interior que buscás y del sistema de herrajes. Las corredizas ahorran espacio de giro pero dejan abierta solo una parte del interior; las batientes dan acceso completo pero necesitan lugar para abrir."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cuál es la diferencia entre un placar empotrado y uno de piso a techo?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "El empotrado se ubica dentro de un nicho o entre paredes; el de piso a techo aprovecha toda la altura del ambiente. Ambos se miden en obra, y en los dos hay que revisar desniveles de piso, techo y paredes antes de definir los módulos."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Puedo pedir solamente el interior del placar?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Es una posibilidad que debe evaluarse según el estado del nicho o frente existente. Mostrá fotos claras del interior y de las puertas actuales para entender qué se puede conservar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué se puede incluir dentro de un closet o vestidor?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Barrales para ropa corta y larga, estantes, cajoneras, zapateros y maleteros superiores. Cuántos de cada uno y con qué medidas se define según lo que guardás."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Conviene melamina o MDF para un placar?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del uso, la terminación que busques y el presupuesto. Se comparan en general: la propuesta debe indicar qué material se usa en cada parte, incluidos frentes, laterales y fondos."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Atienden consultas para vestidores en Gran Asunción?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, se atiende Asunción y Gran Asunción. Al escribir, indicá la ciudad o el barrio y si el dormitorio está en planta alta."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Los presupuestos tienen precio publicado?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No publicamos precios. Cada propuesta se arma según medidas, materiales, herrajes e instalación, y debe detallar qué incluye y qué no."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--placares">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

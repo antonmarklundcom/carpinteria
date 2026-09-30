@@ -18,130 +18,216 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/vanitorys/#webpage",
-            "url": "https://carpinteria.com.py/vanitorys/",
-            "name": "Vanitorys y muebles de baño en Asunción",
-            "description": "Muebles de baño y vanitorys a medida para Asunción y Gran Asunción. Consultá con fotos, medidas y ubicación de cañerías.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/vanitorys/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Vanitorys y muebles de baño en Asunción",
-                    "item": "https://carpinteria.com.py/vanitorys/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/vanitorys/#service",
-            "name": "Vanitorys y muebles de baño en Asunción",
-            "serviceType": "Vanitorys y muebles de baño",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/vanitorys/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/vanitorys/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Qué fotos sirven para consultar un vanitory?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Una foto frontal del baño completo, otra lateral y una de cerca de lo que hay bajo la pileta: desagüe, sifón y llave de paso. Sumá ancho, alto y profundidad disponibles."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Conviene un vanitory suspendido o de piso?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del piso, de la pared y de cómo limpiás. El suspendido libera el piso y se ve más liviano, pero la pared tiene que sostenerlo. El de piso apoya en el suelo y suele dar más guardado."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede hacer el mueble para una bacha existente?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Puede evaluarse si se conocen el modelo, las medidas y el tipo de apoyo. La bacha y la grifería se coordinan aparte: nosotros resolvemos el mueble y sus recortes."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué material conviene por la humedad?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende de cuánta agua recibe el mueble y de la ventilación del baño. Se pueden usar MDF o melamina resistentes a la humedad con cantos sellados; el material se define al medir."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cajones o puertas bajo la pileta?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Los cajones aprovechan mejor el fondo, pero deben rodear el sifón con un recorte. Las puertas dan acceso directo a las cañerías. Se elige según dónde bajan los desagües."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿También hacen el espejo o el botiquín?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Podés incluirlos en la consulta. Un espejo con guardado o un botiquín se piensan junto al vanitory para que no compitan por la misma pared, la luz ni las tomas existentes."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/vanitorys/#webpage",
+              "url": "https://carpinteria.com.py/vanitorys/",
+              "name": "Vanitorys y muebles de baño en Asunción",
+              "description": "Muebles de baño y vanitorys a medida para Asunción y Gran Asunción. Consultá con fotos, medidas y ubicación de cañerías.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/vanitorys/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Vanitorys y muebles de baño en Asunción",
+                      "item": "https://carpinteria.com.py/vanitorys/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/vanitorys/#service",
+              "name": "Vanitorys y muebles de baño en Asunción",
+              "serviceType": "Vanitorys y muebles de baño",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/vanitorys/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/vanitorys/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué fotos sirven para consultar un vanitory?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Una foto frontal del baño completo, otra lateral y una de cerca de lo que hay bajo la pileta: desagüe, sifón y llave de paso. Sumá ancho, alto y profundidad disponibles."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Conviene un vanitory suspendido o de piso?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del piso, de la pared y de cómo limpiás. El suspendido libera el piso y se ve más liviano, pero la pared tiene que sostenerlo. El de piso apoya en el suelo y suele dar más guardado."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede hacer el mueble para una bacha existente?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Puede evaluarse si se conocen el modelo, las medidas y el tipo de apoyo. La bacha y la grifería se coordinan aparte: nosotros resolvemos el mueble y sus recortes."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué material conviene por la humedad?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende de cuánta agua recibe el mueble y de la ventilación del baño. Se pueden usar MDF o melamina resistentes a la humedad con cantos sellados; el material se define al medir."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cajones o puertas bajo la pileta?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Los cajones aprovechan mejor el fondo, pero deben rodear el sifón con un recorte. Las puertas dan acceso directo a las cañerías. Se elige según dónde bajan los desagües."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿También hacen el espejo o el botiquín?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Podés incluirlos en la consulta. Un espejo con guardado o un botiquín se piensan junto al vanitory para que no compitan por la misma pared, la luz ni las tomas existentes."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--vanitorys">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

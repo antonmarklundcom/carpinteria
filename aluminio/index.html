@@ -18,146 +18,232 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/aluminio/#webpage",
-            "url": "https://carpinteria.com.py/aluminio/",
-            "name": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
-            "description": "Ventanas, mamparas, blindex y cerramientos de aluminio para Asunción y Gran Asunción. Consultá con fotos y medidas.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/aluminio/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/aluminio/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/aluminio/#service",
-            "name": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
-            "serviceType": "Carpintería de aluminio",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/aluminio/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/aluminio/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Qué medidas necesito?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Ancho y alto del vano en varios puntos, espesor de pared y fotos de interior y exterior. Con eso se orienta la consulta y la medida definitiva se confirma en el lugar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué diferencia hay entre ventana y cerramiento?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Una ventana resuelve un vano; un cerramiento organiza una superficie mayor con paños, accesos y encuentros."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿El vidrio está incluido?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Debe indicarse expresamente en el presupuesto junto con el tipo y el espesor. Si no aparece, preguntá antes de comparar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué diferencia hay entre línea liviana y reforzada?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La línea reforzada usa perfiles más robustos y se piensa para hojas grandes, mayor exposición o uso intenso. Cuál corresponde se define según medidas y ubicación."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cuándo conviene vidrio laminado, templado o DVH?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "El templado y el laminado se eligen por seguridad, altura y tamaño del paño. El DVH suma una cámara sellada entre dos vidrios y se elige por ruido y confort térmico. Se define caso por caso."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se pueden agregar mosquiteros?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, en muchas ventanas y puertas. Conviene pedirlos desde el inicio, porque afectan el diseño del marco y del riel."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Anodizado o pintado?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Los dos son terminaciones del aluminio con distinto aspecto y mantenimiento. Pedí ver la muestra de color y consultá cuál resiste mejor según dónde va la abertura."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Trabajan en Gran Asunción?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La cobertura es Asunción y Gran Asunción, sujeta a confirmación por ubicación y proyecto."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/aluminio/#webpage",
+              "url": "https://carpinteria.com.py/aluminio/",
+              "name": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
+              "description": "Ventanas, mamparas, blindex y cerramientos de aluminio para Asunción y Gran Asunción. Consultá con fotos y medidas.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/aluminio/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/aluminio/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/aluminio/#service",
+              "name": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
+              "serviceType": "Carpintería de aluminio",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/aluminio/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/aluminio/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué medidas necesito?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Ancho y alto del vano en varios puntos, espesor de pared y fotos de interior y exterior. Con eso se orienta la consulta y la medida definitiva se confirma en el lugar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué diferencia hay entre ventana y cerramiento?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Una ventana resuelve un vano; un cerramiento organiza una superficie mayor con paños, accesos y encuentros."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿El vidrio está incluido?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Debe indicarse expresamente en el presupuesto junto con el tipo y el espesor. Si no aparece, preguntá antes de comparar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué diferencia hay entre línea liviana y reforzada?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "La línea reforzada usa perfiles más robustos y se piensa para hojas grandes, mayor exposición o uso intenso. Cuál corresponde se define según medidas y ubicación."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cuándo conviene vidrio laminado, templado o DVH?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "El templado y el laminado se eligen por seguridad, altura y tamaño del paño. El DVH suma una cámara sellada entre dos vidrios y se elige por ruido y confort térmico. Se define caso por caso."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se pueden agregar mosquiteros?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, en muchas ventanas y puertas. Conviene pedirlos desde el inicio, porque afectan el diseño del marco y del riel."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Anodizado o pintado?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Los dos son terminaciones del aluminio con distinto aspecto y mantenimiento. Pedí ver la muestra de color y consultá cuál resiste mejor según dónde va la abertura."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Trabajan en Gran Asunción?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "La cobertura es Asunción y Gran Asunción, sujeta a confirmación por ubicación y proyecto."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="hub-page hub-page--aluminio">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

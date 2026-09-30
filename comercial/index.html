@@ -18,138 +18,224 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/comercial/#webpage",
-            "url": "https://carpinteria.com.py/comercial/",
-            "name": "Muebles comerciales a medida en Asunción",
-            "description": "Mostradores, recepciones, exhibición y muebles de oficina para negocios de Asunción y Gran Asunción. Cotizá por WhatsApp.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/comercial/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Muebles comerciales a medida en Asunción",
-                    "item": "https://carpinteria.com.py/comercial/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/comercial/#service",
-            "name": "Muebles comerciales a medida en Asunción",
-            "serviceType": "Muebles comerciales a medida",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/comercial/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/comercial/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Qué necesitan para presupuestar un mostrador?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Medidas del sector, fotos del local, los equipos que irán encima o adentro y cómo se mueve el cliente hasta llegar al mostrador."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Pueden resolver todos los muebles de un mismo local?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí. Conviene enviar un listado por sector (recepción, exhibición, apoyo) para priorizar y cotizar cada mueble según su función."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Qué material aguanta mejor el uso intensivo?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Depende del mueble. En superficies de mucho roce suele convenir laminado o melamina con cantos bien protegidos; en frentes decorativos se puede usar madera o MDF."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Trabajan con oficinas y consultorios?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, en recepciones, escritorios, archivo y guardado de apoyo. Contá las necesidades propias del rubro, como la discreción en la atención."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Se puede trabajar por etapas o fuera de horario?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Se puede coordinar. Contá el horario de atención y qué sector podría liberarse primero; se define en el presupuesto."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hacen la parte eléctrica del mostrador?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No hacemos la instalación eléctrica. Dejamos previstos pasacables y huecos para equipos, y las conexiones se coordinan con quien se ocupe de la electricidad."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hay precios por metro?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No hay precios públicos ni valor por metro: herrajes, superficies y funciones cambian mucho. La cotización se arma sobre un alcance definido."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/comercial/#webpage",
+              "url": "https://carpinteria.com.py/comercial/",
+              "name": "Muebles comerciales a medida en Asunción",
+              "description": "Mostradores, recepciones, exhibición y muebles de oficina para negocios de Asunción y Gran Asunción. Cotizá por WhatsApp.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/comercial/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Muebles comerciales a medida en Asunción",
+                      "item": "https://carpinteria.com.py/comercial/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/comercial/#service",
+              "name": "Muebles comerciales a medida en Asunción",
+              "serviceType": "Muebles comerciales a medida",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/comercial/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/comercial/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué necesitan para presupuestar un mostrador?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Medidas del sector, fotos del local, los equipos que irán encima o adentro y cómo se mueve el cliente hasta llegar al mostrador."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Pueden resolver todos los muebles de un mismo local?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí. Conviene enviar un listado por sector (recepción, exhibición, apoyo) para priorizar y cotizar cada mueble según su función."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué material aguanta mejor el uso intensivo?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Depende del mueble. En superficies de mucho roce suele convenir laminado o melamina con cantos bien protegidos; en frentes decorativos se puede usar madera o MDF."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Trabajan con oficinas y consultorios?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, en recepciones, escritorios, archivo y guardado de apoyo. Contá las necesidades propias del rubro, como la discreción en la atención."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Se puede trabajar por etapas o fuera de horario?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Se puede coordinar. Contá el horario de atención y qué sector podría liberarse primero; se define en el presupuesto."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hacen la parte eléctrica del mostrador?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No hacemos la instalación eléctrica. Dejamos previstos pasacables y huecos para equipos, y las conexiones se coordinan con quien se ocupe de la electricidad."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hay precios por metro?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No hay precios públicos ni valor por metro: herrajes, superficies y funciones cambian mucho. La cotización se arma sobre un alcance definido."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="service-page service-page--comercial">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">

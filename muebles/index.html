@@ -18,138 +18,224 @@
   <link rel="preload" href="/assets/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/site.css">
   <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "HomeAndConstructionBusiness",
-            "@id": "https://carpinteria.com.py/#business",
-            "name": "Carpinteria.com.py",
-            "url": "https://carpinteria.com.py/",
-            "telephone": "+595992279599",
-            "areaServed": [
-                {
-                    "@type": "City",
-                    "name": "Asunción"
-                },
-                {
-                    "@type": "AdministrativeArea",
-                    "name": "Gran Asunción"
-                }
-            ],
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+595992279599",
-                "contactType": "presupuestos",
-                "availableLanguage": "es-PY"
-            }
-        },
-        {
-            "@type": "WebPage",
-            "@id": "https://carpinteria.com.py/muebles/#webpage",
-            "url": "https://carpinteria.com.py/muebles/",
-            "name": "Muebles a medida en Asunción | Carpinteria.com.py",
-            "description": "Cocinas, placares, racks, escritorios, vanitorys y muebles comerciales a medida para Asunción y Gran Asunción.",
-            "inLanguage": "es-PY",
-            "isPartOf": {
-                "@id": "https://carpinteria.com.py/#website"
-            }
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://carpinteria.com.py/muebles/#breadcrumb",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Inicio",
-                    "item": "https://carpinteria.com.py/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Muebles a medida en Asunción | Carpinteria.com.py",
-                    "item": "https://carpinteria.com.py/muebles/"
-                }
-            ]
-        },
-        {
-            "@type": "Service",
-            "@id": "https://carpinteria.com.py/muebles/#service",
-            "name": "Muebles a medida en Asunción | Carpinteria.com.py",
-            "serviceType": "Muebles a medida",
-            "areaServed": [
-                "Asunción",
-                "Gran Asunción"
-            ],
-            "provider": {
-                "@id": "https://carpinteria.com.py/#business"
-            },
-            "url": "https://carpinteria.com.py/muebles/"
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://carpinteria.com.py/muebles/#faq",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "¿Qué mueble conviene consultar primero?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Empezá por el ambiente que más te limita hoy y del que ya tenés medidas. Si son varios, listalos por prioridad y consultá cada uno en su página."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hacen muebles de melamina?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, la melamina es una de las opciones habituales. En la propuesta se define espesor, acabado, cantos y herrajes, para que puedas comparar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cuál es la diferencia entre melamina y MDF?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La melamina viene con la superficie decorativa incluida y tiene muchos colores; el MDF es un tablero parejo que se puede fresar y lacar. Muchos proyectos usan melamina adentro y MDF en los frentes."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cuándo conviene la madera maciza?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Cuando querés una pieza con veta, que se pueda lijar y recuperar, como una mesada de apoyo, una tapa o un frente. El lapacho es más duro y denso; el cedro es más liviano y fácil de trabajar. Se define según el uso."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Cómo influye la humedad en la elección del material?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Mucho en cocinas y baños. Ahí importa el sellado de cantos, la ventilación y los herrajes. Contá dónde va el mueble y cuánta agua lo alcanza."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Puedo mandar una foto de Pinterest?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí, como referencia. Sumá fotos reales del lugar y marcá qué parte de la imagen querés replicar o adaptar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "¿Hay precios estándar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No. Un mueble cambia por medidas, interiores, frentes, herrajes y condiciones de instalación, y se define en el presupuesto."
-                    }
-                }
-            ]
-        }
-    ]
-}</script>
+      "@context": "https://schema.org",
+      "@graph": [
+          {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://carpinteria.com.py/#business",
+              "name": "Carpinteria.com.py",
+              "url": "https://carpinteria.com.py/",
+              "telephone": "+595992279599",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+595992279599",
+                  "contactType": "presupuestos",
+                  "availableLanguage": "es-PY"
+              }
+          },
+          {
+              "@type": "WebPage",
+              "@id": "https://carpinteria.com.py/muebles/#webpage",
+              "url": "https://carpinteria.com.py/muebles/",
+              "name": "Muebles a medida en Asunción | Carpinteria.com.py",
+              "description": "Cocinas, placares, racks, escritorios, vanitorys y muebles comerciales a medida para Asunción y Gran Asunción.",
+              "inLanguage": "es-PY",
+              "isPartOf": {
+                  "@id": "https://carpinteria.com.py/#website"
+              }
+          },
+          {
+              "@type": "BreadcrumbList",
+              "@id": "https://carpinteria.com.py/muebles/#breadcrumb",
+              "itemListElement": [
+                  {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Inicio",
+                      "item": "https://carpinteria.com.py/"
+                  },
+                  {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Muebles a medida en Asunción | Carpinteria.com.py",
+                      "item": "https://carpinteria.com.py/muebles/"
+                  }
+              ]
+          },
+          {
+              "@type": "Service",
+              "@id": "https://carpinteria.com.py/muebles/#service",
+              "name": "Muebles a medida en Asunción | Carpinteria.com.py",
+              "serviceType": "Muebles a medida",
+              "areaServed": [
+                  {
+                      "@type": "City",
+                      "name": "Asunción"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Lambaré"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Fernando de la Mora"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Lorenzo"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Luque"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Mariano Roque Alonso"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Villa Elisa"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Ñemby"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Capiatá"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "Limpio"
+                  },
+                  {
+                      "@type": "City",
+                      "name": "San Antonio"
+                  },
+                  {
+                      "@type": "AdministrativeArea",
+                      "name": "Gran Asunción"
+                  }
+              ],
+              "provider": {
+                  "@id": "https://carpinteria.com.py/#business"
+              },
+              "url": "https://carpinteria.com.py/muebles/"
+          },
+          {
+              "@type": "FAQPage",
+              "@id": "https://carpinteria.com.py/muebles/#faq",
+              "mainEntity": [
+                  {
+                      "@type": "Question",
+                      "name": "¿Qué mueble conviene consultar primero?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Empezá por el ambiente que más te limita hoy y del que ya tenés medidas. Si son varios, listalos por prioridad y consultá cada uno en su página."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hacen muebles de melamina?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, la melamina es una de las opciones habituales. En la propuesta se define espesor, acabado, cantos y herrajes, para que puedas comparar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cuál es la diferencia entre melamina y MDF?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "La melamina viene con la superficie decorativa incluida y tiene muchos colores; el MDF es un tablero parejo que se puede fresar y lacar. Muchos proyectos usan melamina adentro y MDF en los frentes."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cuándo conviene la madera maciza?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Cuando querés una pieza con veta, que se pueda lijar y recuperar, como una mesada de apoyo, una tapa o un frente. El lapacho es más duro y denso; el cedro es más liviano y fácil de trabajar. Se define según el uso."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Cómo influye la humedad en la elección del material?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Mucho en cocinas y baños. Ahí importa el sellado de cantos, la ventilación y los herrajes. Contá dónde va el mueble y cuánta agua lo alcanza."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Puedo mandar una foto de Pinterest?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Sí, como referencia. Sumá fotos reales del lugar y marcá qué parte de la imagen querés replicar o adaptar."
+                      }
+                  },
+                  {
+                      "@type": "Question",
+                      "name": "¿Hay precios estándar?",
+                      "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No. Un mueble cambia por medidas, interiores, frentes, herrajes y condiciones de instalación, y se define en el presupuesto."
+                      }
+                  }
+              ]
+          }
+      ]
+  }</script>
 </head>  <body class="hub-page hub-page--muebles">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
