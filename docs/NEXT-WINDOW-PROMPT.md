@@ -1,82 +1,118 @@
-# Build window prompt: carpinteria.com.py (paste as the first message)
+# Build window prompts: carpinteria.com.py
 
-Run this window on **Opus 5.5, medium effort**. Subagents: **Sonnet 5.5** at the effort named per phase. Never use Fable for anything in this window (no subagent, session, workflow or routine on Fable).
+Two windows, run one after the other:
+
+| Window | Model / effort | Does | Start when |
+|---|---|---|---|
+| **A** | **Opus 5.5, medium** | Tools, hotfix (3 dead pages, number, `.htaccess`), conversion layer (WhatsApp map, form, CTAs, video, fonts), obra handover, keyword map. Fans out mechanical edits to Sonnet 5.5 low subagents. | Tomorrow, first |
+| **B** | **Sonnet 5.5, medium** | Content deepening of all service pages, internal links, schema polish, final before/after verification and report. | After window A has merged and live-checked its PRs (`docs/seo/keyword-map.md` exists on `main`) |
+
+Why medium and not high: the plan, message drafts and gates are already written, and every risky step is checked by a script (verify, SEO diff, live check). High costs more without changing the outcome. Switch window A to high only if the 3 pages still 404 after a verified deploy and the cause needs real debugging.
+
+Never use Fable in either window (no subagent, session, workflow or routine on Fable).
 
 ---
 
-You are the director of the carpinteria.com.py improvement build. Repo: `antonmarklundcom/carpinteria` (static HTML on Hostinger, 22 sitemap URLs). Read `docs/IMPROVE-PLAN.md` and `audit-before.json` first; they are the spec. This prompt is self-contained if they are missing.
+## Prompt A (Opus 5.5, medium) — paste as the first message
 
-## Hard rules (apply to every phase and every subagent)
-1. **One WhatsApp number only**: +595 992 279599. Links `https://wa.me/595992279599?text=…`, calls `tel:+595992279599`, visible text `+595 992 279 599`, JSON-LD telephone `+595992279599`. The old `595995628862` (in any spacing, incl. `995 628862`) must appear **nowhere** in the repo or on the live site. Known leftover: `assets/js/site.js:139` and 4 files in `docs/seo/`.
-2. Every WhatsApp CTA has a pre-written **Spanish message** (Paraguay voseo, visitor's voice, no prices, PYG only if money is ever mentioned, never "tú/tienes/puedes"). Messages differ per page and per service and live in **one map file** `data/whatsapp.json`. QA fails on any other number or an empty/missing text.
-3. **Scope**: carpinteria = wood + aluminium/blindex only. `/pergolas/`, `/decks/`, `/machimbre/` stay (indexable, in sitemap, content kept) but hand over to obra.com.py with **one link** and a sentence saying Obra.com.py coordinates that work. obra = build/execution, arq = design. Exactly one contextual cross-domain link per page at most. Briefs go in `docs/seo/`.
-4. **Keywords**: use the keyword-library MCP (`list_projects`, `project_overview`, `list_groups`, `get_group`, `keyword_lookup`). One meaning group = one page or one section. Never plan pages for brand or competitor phrases. Volumes are Paraguay only. If the MCP is not connected, do phases 0–3 and 6, skip phase 4/5 title changes and new pages, and say so in the report.
-5. **SEO contract**: all 22 URLs stay with the same slug, canonical, indexability and sitemap entry. No URL changes → no 301s except the guard rules in phase 2. Keep each page's title/H1 primary keyword unless an MCP group justifies a change; list every title change old → new with group ID in the PR body; at most 1/3 of titles per deploy. Add content, don't remove it.
-6. **Secrets**: never print or commit secrets or private config. Only `*.example` files belong in git. Do not add GitHub Actions workflows (Anton's budget policy) unless he says yes in this window.
-7. **Git flow is yours end to end**: branch, focused commits, PR, wait for checks (the repo has no CI; the checks are the local gates below, pasted into the PR body), fix review comments and merge conflicts (merge the base in; never force-push), **merge only after local verification passes**, then verify live. On Hostinger a merge to `main` may auto-deploy, so run the live check right after every merge. Fix what you find (broken links, HTML errors, verify failures, conflicts) instead of only reporting. Stop only for Anton's decisions (list at the end).
-8. Do not generate images or video with Higgsfield or any other tool. Reuse existing assets; transcoding existing video is fine.
+```text
+You are the director of the carpinteria.com.py improvement build, window A of 2. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no build step, no CI). Read docs/IMPROVE-PLAN.md and audit-before.json on main first; they are the spec. Model rules: you run on Opus 5.5; any subagent you spawn is Sonnet 5.5 at the effort named below. Never Fable.
 
-## Preconditions (check in the first 5 minutes)
-- `curl -sI https://carpinteria.com.py/` returns a status (not a proxy 403). If the host is blocked: tell Anton to allow `carpinteria.com.py`, `obra.com.py`, `arq.com.py`, `d8j0ntlcm91z4.cloudfront.net` in the environment's network settings, and continue with local-only phases; mark every live step as NOT RUN in the report.
-- keyword-library MCP responds to `list_projects`.
-- Know the deploy path (Q1). If unknown, assume a merge to `main` may deploy immediately.
+HARD RULES (every phase, every subagent)
+1. One WhatsApp number only: +595 992 279599. Links https://wa.me/595992279599?text=..., calls tel:+595992279599, visible text "+595 992 279 599", JSON-LD telephone "+595992279599". The old 595995628862 (any spacing, incl. "995 628862") must appear nowhere in the repo or on the live site. Known leftovers: assets/js/site.js:139 and 4 files in docs/seo/.
+2. Every WhatsApp CTA has a pre-written Spanish message: Paraguay voseo, visitor's voice, no prices, PYG only if money is ever mentioned, never "tú/tienes/puedes". Messages differ per page and per service and live in ONE map file, data/whatsapp.json. QA fails on any other number or an empty/missing text.
+3. Scope: carpinteria = wood + aluminium/blindex only. /pergolas/, /decks/, /machimbre/ stay indexable, in the sitemap, content kept, but hand over to obra.com.py with ONE link and a sentence saying Obra.com.py coordinates that work. obra = build/execution, arq = design. At most one contextual cross-domain link per page. Briefs go in docs/seo/.
+4. Keywords: keyword-library MCP (list_projects, project_overview, list_groups, get_group, keyword_lookup). One meaning group = one page or one section. Never plan pages for brand or competitor phrases. Volumes are Paraguay only.
+5. SEO contract: all 22 URLs keep slug, canonical, indexability and sitemap entry. No URL changes, so no 301s except the .htaccess guard rules below. Do not change titles or H1s in this window.
+6. Never print or commit secrets or private config; only *.example files belong in git. No GitHub Actions workflows unless Anton says yes in this chat (budget policy).
+7. The git flow is yours end to end: branch from main, focused commits, PR, wait for checks (there is no CI; the checks are the local gates below, pasted into the PR body), fix review comments and merge conflicts (merge main into the branch; never force-push), merge only after local verification passes, then verify live. A merge to main may auto-deploy on Hostinger, so run tools/live-check.mjs right after every merge. Fix what you find (broken links, HTML errors, verify failures, conflicts) instead of only reporting it. Stop only for Anton's decisions (Q1–Q7 in the plan).
+8. Do not generate images or video with Higgsfield or any other tool. Transcoding the existing hero videos is fine.
 
-## Tooling you create (phase 0, Opus itself)
-Put in `tools/` with a minimal `package.json` (devDeps: `cheerio`, `playwright`; use the preinstalled Chromium at `/opt/pw-browsers`, never `playwright install`). `node_modules/` stays ignored.
-- `tools/audit.mjs <root|baseURL> <out.json>`: per sitemap URL: status, title, meta description, H1s, canonical, robots, word count (main + body), internal links out/in (+ in-body only), images without alt, schema types, WhatsApp numbers/texts, tel links, phone display strings, cross-domain links. Same shape as `audit-before.json`.
-- `tools/verify.mjs`: the number/message gate (rules 1–2) + HTML sanity (1 H1, self canonical, title/description present, JSON-LD parses, every internal href resolves to a file, every `/assets/` file exists, every page in sitemap and vice versa). Exit 1 on any failure.
-- `tools/apply-wa.mjs`: reads `data/whatsapp.json`, rewrites all `a[data-wa]` hrefs, visible numbers, `tel:` and JSON-LD telephone; writes `assets/js/wa-config.js` for the form. Idempotent.
-- `tools/pw-check.mjs`: Playwright at 1366×800 and 390×844 over every page served by `npx http-server -p 8080 -s -c-1 .`: console errors, failed requests, broken images, horizontal overflow, LCP element + time, JS/CSS/font/image bytes, sticky bar/FAB visibility, tap targets < 44 px. Screenshots to `./audit-shots/after/` (not committed).
-- `tools/linkcheck.mjs`: all internal links + all cross-domain links (HEAD/GET, expect 200).
-- `tools/seo-diff.mjs <before.json> <after.json> [--approved-titles file]`: fails per plan section 3.4 (status, canonical, noindex, H1, title change not approved, >10 % word drop, lost in-links, lost schema type, left sitemap); prints a diff table.
-- `tools/live-check.mjs`: every sitemap URL live → 200, title equals repo title, canonical self, contains `595992279599`, contains no `595995628862`; `https://carpinteria.com.py/no-existe/` → 404; `/docs/seo/entrega.md`, `/data/whatsapp.json`, `/audit-before.json`, `/tools/verify.mjs` → 403/404; fetch live `assets/js/site.js` and grep numbers.
-- Add `.gitignore` entries: `audit-shots/`, `node_modules/`.
+PRECONDITIONS (first 5 minutes)
+- curl -sI https://carpinteria.com.py/ must return a real status, not a proxy 403. If blocked: tell Anton to allow carpinteria.com.py, obra.com.py, arq.com.py and d8j0ntlcm91z4.cloudfront.net in the environment's network settings; continue with local-only work and mark every live step NOT RUN.
+- keyword-library MCP answers list_projects. If not, skip phase A4 and say so.
+- Deploy path (Q1): if Anton has not answered, assume a merge to main may deploy immediately.
 
-## Phases
+PHASE A0: TOOLS AND BASELINE (you, no subagents)
+Create tools/ with a minimal package.json (devDeps cheerio, playwright; use the preinstalled Chromium in /opt/pw-browsers, never "playwright install"). Add audit-shots/ and node_modules/ to .gitignore.
+- tools/audit.mjs <repoRoot|https://carpinteria.com.py> <out.json>: per sitemap URL: status, title, description, H1s, canonical, robots, word count (main and body), internal links out/in (and in-body only), images without alt, schema types, WhatsApp numbers and texts, tel links, phone display strings, cross-domain links. Same shape as audit-before.json.
+- tools/verify.mjs: rules 1–2 (any wa.me/api.whatsapp.com number other than 595992279599, any tel: other than +595992279599, 595995628862 or "995 628862" anywhere in the repo, wa link with empty text, two pages sharing a page message, price/"Gs"/"$"/"USD"/"tú/tienes/puedes" in a message, JSON-LD telephone not +595992279599) + HTML sanity (1 H1, self canonical, title and description present, JSON-LD parses, every internal href and /assets/ path exists, sitemap and pages match). Exit 1 on failure.
+- tools/apply-wa.mjs: reads data/whatsapp.json, rewrites every a[data-wa] href, visible numbers, tel: and JSON-LD telephone; writes assets/js/wa-config.js for the form. Idempotent.
+- tools/pw-check.mjs: Playwright at 1366x800 and 390x844 on every page served by "npx http-server -p 8080 -s -c-1 .": console errors, failed requests, broken images, horizontal overflow, LCP element and time, bytes by type, sticky bar/FAB visibility, tap targets under 44px. Screenshots to audit-shots/ (never committed).
+- tools/linkcheck.mjs: internal links plus cross-domain links (expect 200).
+- tools/seo-diff.mjs <before.json> <after.json> [--approved-titles file]: fails on status not 200, canonical changed, noindex added, H1 count not 1, unapproved title change, main word count down >10%, lost in-links, lost schema type, URL left sitemap. Prints a diff table.
+- tools/live-check.mjs: every sitemap URL live returns 200 with title equal to the repo title, self canonical, contains 595992279599 and not 595995628862; /no-existe/ returns 404; /docs/seo/entrega.md, /data/whatsapp.json, /audit-before.json, /tools/verify.mjs return 403 or 404; live /assets/js/site.js has no old number.
+Then: node tools/audit.mjs https://carpinteria.com.py audit-live-before.json (commit it), compare with audit-before.json, record the 404s, www behaviour, response headers and the 4 hero video sizes. Run pw-check on the untouched repo as the local baseline.
 
-### Phase 0: Baseline (Opus 5.5 medium, no subagents)
-- Branch `claude/<window-branch>` from `main`. Build the tools above.
-- `node tools/audit.mjs https://carpinteria.com.py audit-live-before.json` (live) and compare with `audit-before.json` (repo, 2026-09-30). Record the 3 known 404s, `www` behaviour, response headers, and the 4 hero video sizes (`curl -sI`).
-- Run `pw-check` on the untouched repo for a local baseline.
+PHASE A1: HOTFIX PR (you + one Sonnet 5.5 low subagent)
+- site.js:139 gets the number from the map/config; replace the old number in docs/seo/*.md.
+- Sonnet low subagent: phone display "+595 992 279 599", tel:+595992279599 and JSON-LD "+595992279599" on all 22 pages and 404.html. You check with verify.mjs.
+- .htaccess: return 404 for ^/(docs|tools|data|audit-shots|node_modules)/, \.(md|json|mjs)$ and package(-lock)?.json; 301 /(.*/)?index.html to /$1; www to apex only if live does not already do it. Keep the existing rules. Test every rule with curl after deploy; if any rule causes a 500, revert that rule immediately in a follow-up PR.
+- Gates: verify.mjs, linkcheck (internal), pw-check, seo-diff audit-before.json vs a fresh local audit (only phone strings may differ).
+- PR "Hotfix: missing pages, one WhatsApp number, hide non-public files". Merge after the gates pass. Deploy: Git auto-deploy, or build carpinteria-deploy.zip with only public files (html, assets, sitemap.xml, robots.txt, .htaccess, 404.html) and ask Anton to upload it. Run live-check. /vanitorys/, /ventanas/ and /trabajos/ must return 200. If they still 404 after a verified deploy, report exactly what the live responses show.
 
-### Phase 1: Hotfix PR (Opus 5.5 medium; one Sonnet 5.5 low subagent for the text sweep)
-Items 2, 3, 4 of the plan.
-- `site.js:139` → map-driven number; remove the old number from `docs/seo/*.md` (replace with the new one, note "updated 2026-10" inline).
-- Phone display `+595 992 279 599`, `tel:+595992279599`, JSON-LD `+595992279599` on all pages + `404.html` (Sonnet low sweep, then `verify.mjs`).
-- `.htaccess`: deny `^/(docs|tools|data|audit-shots|node_modules)/`, `\.(md|json|mjs)$`, `package(-lock)?.json`; 301 `/(.*/)?index\.html$` → `/$1`; `www` → apex only if live does not already do it. Test every rule with `curl` after deploy.
-- Gates: `verify.mjs`, `linkcheck.mjs` (internal), `pw-check`, `seo-diff audit-before.json audit-after.json` (expect no diffs except phone strings).
-- PR "Hotfix: missing pages, one WhatsApp number, hide non-public files". Merge after gates pass. Deploy (Git auto-deploy, or build `carpinteria-deploy.zip` of the public files only and ask Anton to upload). Run `live-check.mjs`; the 3 pages must be 200. If they still 404 after a verified deploy, check file permissions / case / `.htaccess` on the server via the live responses and report exactly what you see.
+PHASE A2: CONVERSION + PERFORMANCE PR (you + Sonnet 5.5 subagents)
+- Sonnet 5.5 medium subagent writes data/whatsapp.json: number/display/tel, 23 page messages (22 pages + 404), 18 service messages (home cards and form), and form templates, starting from the drafts in plan sections 5.2 and 5.3. You review every message against rule 2 and make sure all are distinct.
+- You add data-wa to every CTA (header, hero, mid-page, final block, footer, FAB, mobile bar, home service cards) and run apply-wa.mjs.
+- You rebuild the /cotizar/ form per plan 5.3: grouped project type select, zone select with Gran Asunción cities plus "Otra ciudad" (shows a city input), optional barrio, medidas yes/no, plazo, type-specific hints, live message preview, ?servicio=<key> preselect from service pages, obra note and "Consulta para el equipo de Obra.com.py:" prefix for pérgola/deck/machimbre, no-JS fallback form action="https://wa.me/595992279599" method="get" with hidden text, location.href on mobile and window.open on desktop, 1,200 char cap, nothing stored or sent to a server.
+- Sonnet 5.5 low subagent: mobile bar appears after the hero scrolls out (IntersectionObserver), safe-area padding, body bottom padding; FAB hidden at 768px and below; privacy overlay removed and its sentence moved to the footer and /privacidad/ (if Anton said no to Q7, make it a slim bottom line that never covers CTAs).
+- Sonnet 5.5 low subagent: obra handover block on /pergolas/, /decks/, /machimbre/ and the cross-link map in plan 4.5. You first verify the target URLs live on obra.com.py and arq.com.py (their sitemaps) and give the subagent the exact URLs.
+- You: hero video. Download the 4 cloudfront MP4s, ffmpeg -vf scale=-2:720 -c:v libx264 -crf 28 -preset slow -an -movflags +faststart, target 1.5 MB or less each, WebP posters, into assets/video/. Poster only below 1024px or when navigator.connection.saveData; remove every cloudfront reference. If Anton chose a still image for Q5, do that instead.
+- Sonnet 5.5 low subagent: self-host fonts (Archivo 700/800, Inter 400/600, latin WOFF2, font-display swap, preload 2 files), remove googleapis/gstatic.
+- Gates: everything from A1, plus pw-check shows 0 overflow, 0 console errors, 0 failed requests, no third-party requests, local LCP element. Put form screenshots and 3 generated messages in the PR body. Merge, deploy, live-check.
 
-### Phase 2: Conversion + performance PR (Opus 5.5 medium; Sonnet 5.5 subagents as named)
-Items 5, 6, 7, 8, 9, 10 of the plan.
-- **Sonnet 5.5 medium** writes `data/whatsapp.json`: 23 page messages + 18 service messages + form templates, from the drafts in plan §5.2/§5.3, following rule 2. Opus reviews every message (voseo, no prices, distinct).
-- Opus adds `data-wa` to every CTA (header, hero, mid, final block, footer, FAB, mobile bar, home service cards) and runs `apply-wa.mjs`.
-- Opus rebuilds the `/cotizar/` form per plan §5.3 (grouped type select, zone select + "Otra ciudad", medidas, plazo, type-specific hints, live preview, `?servicio=` preselect, obra note for exterior types, no-JS `action="https://wa.me/595992279599"` fallback, `location.href` on mobile).
-- **Sonnet 5.5 low**: mobile bar after hero via IntersectionObserver + safe-area padding; FAB hidden ≤768 px; privacy overlay removed, sentence moved to footer/`/privacidad/` (only if Anton said yes to Q7; otherwise make it a slim bottom line that never covers CTAs).
-- **Sonnet 5.5 low**: obra handover block on `/pergolas/` `/decks/` `/machimbre/` + cross-links per plan §4.5 (targets verified live on obra/arq first; one per page).
-- Opus: hero video → download the 4 MP4s, `ffmpeg -vf scale=-2:720 -c:v libx264 -crf 28 -preset slow -an -movflags +faststart`, target ≤1.5 MB each, WebP posters; `assets/video/`; poster-only below 1024 px or with `navigator.connection.saveData`; remove every cloudfront reference. (If Anton chose a still image for Q5, do that instead.)
-- **Sonnet 5.5 low**: self-host fonts (Archivo 700/800, Inter 400/600, latin WOFF2, `font-display: swap`, preload 2), remove googleapis/gstatic preconnects.
-- Gates: all of phase 1 + `pw-check` must show 0 overflow, 0 console errors, 0 failed requests, no third-party requests, LCP element local. Screenshot the form with each type group and paste 3 generated messages in the PR body. Merge, deploy, `live-check`.
+PHASE A3: KEYWORD MAP (you, no subagents)
+- MCP: list_projects, then the carpinteria project: project_overview, list_groups, get_group per relevant group, keyword_lookup for gaps.
+- Write docs/seo/keyword-map.md: group ID, head phrase, PY volume, owner (carpinteria page or section / obra / arq / none), action (keep / deepen / new page / route), plus for each of the 22 pages: primary group, secondary terms for H2s, and whether a title change is justified (old, proposed, group ID). Drop brand and competitor groups. Confirm or correct plan section 4. Choose at most 3 new pages.
+- Write docs/seo/obra-handover-brief.md (groups obra should own, source pages, anchors, target URLs).
+- If a new page or title change is proposed, ask Anton (Q2) in one short message and keep going; window B only builds what he approved.
+- Docs-only PR, merge.
 
-### Phase 3: Keyword map (Opus 5.5 medium, no subagents)
-- MCP: `list_projects` → carpinteria project → `project_overview` → `list_groups` → `get_group` for each relevant group; `keyword_lookup` for gaps.
-- Write `docs/seo/keyword-map.md`: group ID, head phrase, PY volume, owner (carpinteria page / section / obra / arq / none), action (keep / deepen / new page / route). Drop brand and competitor groups. Confirm or correct plan §4. Pick at most 3 new pages. Write `docs/seo/obra-handover-brief.md` (which groups obra should own, source pages, anchors).
-- Stop and ask Anton only if a new page or a title change needs Q2.
+PHASE A4: HANDOFF (you)
+- Update docs/IMPROVE-PLAN.md with a "Status after window A" section: what shipped (PR links), live-check result, answers to Q1–Q7 so far, approved titles and new pages, anything NOT RUN. Commit via a small PR and merge.
+- Final message to Anton: PR links, live-check output, what window B should start with, open questions.
+```
 
-### Phase 4: Content PRs (fan out; Sonnet 5.5 medium, one subagent per page)
-- Batch A (first PR): `/cocinas/` `/placares/` `/aluminio/` `/ventanas/` `/blindex/`. Batch B (second PR, after A is live and checked): the other 12 service pages + `/muebles/` hub. Batch C: up to 3 new pages (only if approved), each with nav/footer/sitemap entries and a map message.
-- Each subagent gets: the page file, its keyword group(s) from `keyword-map.md`, the hard rules, the page template (tipos, materiales/líneas, qué medir y cómo fotografiar, qué incluye el presupuesto, 6–8 FAQ in `<details>` + FAQPage schema, 3–5 in-body sibling links, the page's one cross-link, mid-page CTA). Target 800–1,200 words unique body for batch A, 600–900 for B. Keep URL, title, H1, canonical, existing images/alt; replace the shared H2 skeleton with page-specific H2s. No prices, no invented facts (years, number of jobs, clients, guarantees), images stay "visual de referencia".
-- Opus reviews every page diff (duplicate paragraphs across pages → rewrite), runs all gates + `seo-diff` with the approved-titles list, updates `lastmod` only for changed pages, merges, deploys, `live-check`.
+---
 
-### Phase 5: Linking and schema (Sonnet 5.5 low; Opus review)
-Plan items 14, 16, 18 (and 19 if time): contextual links so `/muebles/`, `/aluminio/`, `/trabajos/` get in-body links from their children; schema telephone/provider/areaServed; tap targets ≥ 44 px. Gates, PR, merge, deploy, live-check.
+## Prompt B (Sonnet 5.5, medium) — paste as the first message after window A is done
 
-### Phase 6: Final verification and report (Opus 5.5 medium)
-- `tools/audit.mjs https://carpinteria.com.py audit-after.json` (live) and `seo-diff audit-before.json audit-after.json` (and against `audit-live-before.json`).
-- Number check live and repo: `grep -rn "595995628862\|995 628862" .` returns nothing; `live-check.mjs` passes.
-- `linkcheck.mjs` incl. cross-domain links: 0 broken.
-- `pw-check` at 1366 and 390 on live: 0 overflow, 0 errors, 0 broken images.
-- Write `docs/BUILD-REPORT-<date>.md`: PRs (links) and merge commits; what shipped per plan item; SEO diff table; title changes with group IDs; live-check output; Playwright summary (before vs after bytes, LCP); keyword map summary; anything NOT RUN and why; open decisions for Anton. Commit it on a final small PR (or with the last content PR) and merge.
+```text
+You run window B of 2 for the carpinteria.com.py improvement build. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs). Window A already shipped the tools/ folder, data/whatsapp.json, the new form and CTAs, and docs/seo/keyword-map.md. Read these on main first: docs/IMPROVE-PLAN.md (especially "Status after window A"), docs/seo/keyword-map.md, audit-before.json, audit-live-before.json, tools/*.mjs. If keyword-map.md is missing, stop and tell Anton window A is not finished.
+You may spawn Sonnet 5.5 subagents (medium for page writing, low for mechanical edits). Never Fable, never Opus subagents unless Anton says so.
 
-## Decisions that are Anton's (stop and ask only for these)
-Q1 deploy method (Git vs zip) · Q2 new pages · Q3 message tone · Q4 obra target URLs and obra's WhatsApp number · Q5 hero video vs still · Q6 where the obra brief lives · Q7 privacy note overlay. If a question is unanswered, take the default in `docs/IMPROVE-PLAN.md`, note it in the report, and keep going on everything else.
+HARD RULES (every page, every subagent)
+1. One WhatsApp number only: +595 992 279599 (wa.me/595992279599, tel:+595992279599, visible "+595 992 279 599"). 595995628862 must appear nowhere. New CTAs use data-wa and messages from data/whatsapp.json only, then run node tools/apply-wa.mjs. New pages need a new distinct message in the map.
+2. Spanish copy: Paraguay voseo, no prices, PYG only if money is mentioned, never "tú/tienes/puedes". No invented facts (years, number of jobs, clients, guarantees, plazos). Images stay "visual de referencia". Do not generate images or video.
+3. Scope: wood + aluminium/blindex only. /pergolas/, /decks/, /machimbre/ keep their obra handover; do not add execution promises there. One contextual cross-domain link per page at most (window A placed them; keep them).
+4. SEO contract: never change a URL, canonical, robots or sitemap membership. Keep every title and H1 unless docs/seo/keyword-map.md lists an approved change for that page; list each change old -> new with group ID in the PR body; at most 1/3 of titles per deploy. Add content, never remove existing sections without replacing them with something richer. One meaning group = one page or section; no pages for brand or competitor phrases; volumes are Paraguay only.
+5. Never print or commit secrets or private config; only *.example files in git. No GitHub Actions workflows.
+6. The git flow is yours end to end: branch from main, focused commits, PR, wait for checks (no CI; paste the gate output in the PR body), fix review comments and merge conflicts (merge main in; never force-push), merge only after local gates pass, then run node tools/live-check.mjs because a merge may auto-deploy. Fix what you find (broken links, HTML errors, verify failures) instead of only reporting it. Stop only for decisions that are Anton's.
+
+GATES (run before every merge)
+node tools/verify.mjs; node tools/linkcheck.mjs; node tools/pw-check.mjs (1366 and 390: 0 overflow, 0 console errors, 0 broken images); node tools/audit.mjs . audit-local.json && node tools/seo-diff.mjs audit-before.json audit-local.json --approved-titles docs/seo/approved-titles.txt. After merge: node tools/live-check.mjs.
+
+PAGE TEMPLATE for service pages (give it to every page subagent with the page file, its groups from keyword-map.md and the rules above)
+- Keep: URL, title, H1 (unless approved), canonical, hero, existing images and alt, breadcrumb, the page's cross-link and handover block.
+- Replace the shared H2 skeleton ("Qué conviene definir / Situaciones que esta consulta puede resolver / De las fotos a un alcance... / Antes de pedir el presupuesto") with page-specific H2s that use the secondary terms of the page's group.
+- Sections: tipos or configuraciones; materiales, herrajes or líneas de aluminio and vidrios; qué medir y cómo sacar las fotos; qué incluye un presupuesto (no prices); 6–8 FAQ in <details> plus a matching FAQPage JSON-LD; 3–5 in-body links to sibling pages and the hub; a mid-page WhatsApp CTA (data-wa) and a "Armar mi consulta" link to /cotizar/?servicio=<key>.
+- Length of unique body: 800–1,200 words for batch 1, 600–900 for batch 2. No paragraph may repeat across pages; you check this with a simple shingle/overlap script before the PR.
+
+PHASE B1: BATCH 1 CONTENT PR (5 Sonnet 5.5 medium subagents in parallel, one per page)
+/cocinas/, /placares/, /aluminio/, /ventanas/, /blindex/. Review every diff yourself (voice, facts, duplicates, rule 2), run the gates, update sitemap lastmod only for changed pages, PR, merge, deploy, live-check.
+
+PHASE B2: BATCH 2 CONTENT PR (Sonnet 5.5 medium subagents, max 6 at a time)
+/muebles/ (hub: also links every child), /puertas/, /comercial/, /cerramientos/, /muebles-tv/, /escritorios/, /vanitorys/, /portones/, /escaleras/, /restauracion/, /pergolas/, /decks/, /machimbre/ (these three: deepen the planning/measuring content, keep the obra handover, no execution promises). Same review, gates, PR, merge, live-check. If batch 1 went live less than a few days ago, still ship batch 2, but do not change any title in it.
+
+PHASE B3: NEW PAGES PR (only pages Anton approved in keyword-map.md or the plan status; else skip)
+Each: same template, own map message, nav and footer entries, sitemap entry, in-body links from its hub and 2 siblings. Gates, PR, merge, live-check.
+
+PHASE B4: LINKS, SCHEMA, ACCESSIBILITY PR (Sonnet 5.5 low subagents)
+/trabajos/ linked from every service page; /muebles/ and /aluminio/ linked in-body from all their children; JSON-LD: telephone +595992279599, Service.provider -> {"@id":"https://carpinteria.com.py/#business"}, areaServed with the Gran Asunción cities; nav, footer and breadcrumb tap targets at least 44px on mobile. Gates, PR, merge, live-check.
+
+PHASE B5: FINAL VERIFICATION AND REPORT
+- node tools/audit.mjs https://carpinteria.com.py audit-after.json; seo-diff against audit-before.json and audit-live-before.json.
+- grep -rn "595995628862\|995 628862" . returns nothing; live-check passes; linkcheck incl. cross-domain links has 0 broken; pw-check on live at 1366 and 390 is clean.
+- Write docs/BUILD-REPORT-<date>.md: all PRs from windows A and B (links) and merge commits; what shipped per plan item; SEO diff table; title changes with group IDs; word counts before/after per page; live-check output; Playwright before/after (bytes, LCP); anything NOT RUN and why; open decisions for Anton; suggested next steps (Google Business Profile, real job photos, reviews). Commit audit-after.json and the report in a final small PR and merge.
+- Final message to Anton: link to the report, the 3 most important changes, anything that needs him.
+```

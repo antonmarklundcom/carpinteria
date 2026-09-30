@@ -262,7 +262,12 @@ Models: **Opus 5.5 medium** is the build-window director; subagents are **Sonnet
 | 19 | Optional: shared header/footer via `tools/sync-partials.mjs` (one partial file, script copies it into all pages between markers) so future edits touch one file | M | none | Opus 5.5 medium | – |
 | 20 | Off-site (not code): Google Business Profile, first real job photos, reviews | – | positive | – | Anton |
 
-Order in the build window: 1 → 2/3/4 (hotfix PR, deploy, live-verify) → 5–10 (conversion + performance PR) → 11 → 12–16 (content PRs) → 17–19.
+Order: 1 → 2/3/4 (hotfix PR, deploy, live-verify) → 5–10 (conversion + performance PR) → 11 → 12–16 (content PRs) → 17–19.
+
+Split over two windows (prompts in `docs/NEXT-WINDOW-PROMPT.md`):
+- **Window A, Opus 5.5 medium**: items 1–11 (tools, hotfix, conversion layer, video, fonts, handover, keyword map). Mechanical edits go to Sonnet 5.5 low subagents; the message map draft to a Sonnet 5.5 medium subagent.
+- **Window B, Sonnet 5.5 medium**: items 12–18 (content batches, new pages if approved, links, schema, tap targets) and the final before/after verification and report. Page writing is fanned out to Sonnet 5.5 medium subagents, one per page.
+Medium effort is enough for both because the spec, drafts and gates already exist; switch window A to high only if the 3 pages keep returning 404 after a verified deploy.
 
 ### 6.1 Git flow (Claude owns it end to end)
 In the build window Claude runs the whole git flow itself: creates the branch, makes small focused commits, opens the PR, waits for checks (there are no GitHub Actions in this repo, so the gate is the local `tools/verify.mjs` + Playwright + link check + SEO diff, whose output goes in the PR body), fixes review comments and merge conflicts (merge base into the branch, never force-push someone else's branch), merges only when everything is verified locally, and after deploy re-crawls the live URLs to confirm the live site matches the merged commit. On Hostinger a merge to `main` may auto-deploy, so **merge only after local verification**, and run `tools/live-check.mjs` right after the merge. Claude fixes what it finds along the way (broken links, lint, HTML errors, build/verify failures) instead of only reporting it, and stops only for decisions listed in section 7. No GitHub Actions workflow is added without Anton's explicit yes (budget policy).
