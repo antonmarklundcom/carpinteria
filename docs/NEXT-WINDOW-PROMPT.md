@@ -75,6 +75,38 @@ PHASE A4: HANDOFF (you)
 
 ---
 
+## Prompt C (Opus 5.5, medium) — use this next: finish window A, then run window B
+
+Window A (2026-09-30) shipped PRs #2 and #3 but could not reach the live site, CloudFront, obra/arq or the keyword-library MCP. Prompt B alone would stop because `docs/seo/keyword-map.md` is missing, so this prompt finishes those items first and then runs Prompt B's phases.
+
+```text
+You are the director of the carpinteria.com.py build, window C. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no CI). Read on main first: docs/IMPROVE-PLAN.md (especially "Status after window A"), docs/NEXT-WINDOW-PROMPT.md (Prompt B = the content phases you run later), docs/seo/obra-handover-brief.md, audit-before.json, data/whatsapp.json and tools/*.mjs (run `cd tools && npm ci` first; Playwright uses the preinstalled Chromium in /opt/pw-browsers, never "playwright install").
+Model rules: you run on Opus 5.5. Subagents are Sonnet 5.5 only (low for mechanical edits, medium for page writing). Never Fable.
+
+All HARD RULES and GATES of Prompt B apply to you and every subagent. Tools that exist and must be used: verify.mjs, apply-wa.mjs (after any CTA or message change), linkcheck.mjs [--external], pw-check.mjs [--strict], audit.mjs, seo-diff.mjs, live-check.mjs (run with NODE_USE_ENV_PROXY=1 in the cloud).
+
+PRECONDITIONS (first 5 minutes)
+- curl -sI https://carpinteria.com.py/, https://obra.com.py/, https://arq.com.py/ and https://d8j0ntlcm91z4.cloudfront.net/ must return a real status, not a proxy 403. If any is blocked, tell Anton in one short message to add it under the environment's Network access, then continue with what does not need it and mark the rest NOT RUN.
+- keyword-library MCP must answer list_projects. If it does not, say so and do phase C3 from the hypothesis in IMPROVE-PLAN section 4 (no title changes, no new pages).
+
+PHASE C1: LIVE BASELINE AND DEPLOY CHECK (you)
+- NODE_USE_ENV_PROXY=1 node tools/live-check.mjs. If live still serves the old site (old title/number, /vanitorys/ /ventanas/ /trabajos/ 404), the deploy did not happen: ask Anton (Q1) whether Git auto-deploy is connected; if not, give him the zip command from the status section (public files only: html, assets, sitemap.xml, robots.txt, .htaccess, 404.html) and wait for his upload before C2's live checks.
+- node tools/audit.mjs https://carpinteria.com.py audit-live-before.json (commit it). Record www behaviour, response headers, /no-existe/ status.
+- Curl every .htaccess rule live (docs/tools/data/*.md/*.json/*.mjs/package.json/.git → 404; /cocinas/index.html → 301 /cocinas/; www → apex). Any 500 → revert that rule in a small PR at once.
+
+PHASE C2: WINDOW A LEFTOVERS PR (you + one Sonnet 5.5 low subagent)
+- Hero video: download the 4 CloudFront MP4s referenced in index.html, ffmpeg -vf scale=-2:720 -c:v libx264 -crf 28 -preset slow -an -movflags +faststart (≤1.5 MB each, raise crf if needed), WebP posters (first frame) into assets/video/, point data-src/poster at them, remove every cloudfront reference. Keep the desktop-only loading logic in site.js. Transcoding is fine; never generate images or video.
+- Cross-links: read obra.com.py/sitemap.xml and arq.com.py/sitemap.xml. Point the 3 handover links (pergolas, decks, machimbre) and the /cotizar/ obra note at the best live obra page (quinchos / patios / pérgola / deck), and add the plan 4.5 links (cocinas and placares → arq interiores page; aluminio, ventanas, cerramientos → obra reformas or ampliaciones) as one sentence each, max one cross-domain link per page. Give the subagent the exact verified URLs. Update docs/seo/obra-handover-brief.md with the URLs.
+- Gates incl. pw-check --strict (now 0 third-party requests) and linkcheck --external. PR, merge, live-check.
+
+PHASE C3: KEYWORD MAP PR (you, no subagents)
+As in the original window A phase A3: list_projects → carpinteria project → project_overview, list_groups, get_group per relevant group, keyword_lookup for gaps. Write docs/seo/keyword-map.md (group ID, head phrase, PY volume, owner, action; per page: primary group, secondary H2 terms, title-change verdict old → proposed → group ID) and docs/seo/approved-titles.txt (empty until Anton approves). Drop brand/competitor groups. Choose at most 3 new pages. If any title change or new page is proposed, ask Anton (Q2) in ONE short message and keep going without them. Docs-only PR, merge.
+
+PHASE C4: RUN PROMPT B PHASES B1–B5 as written in docs/NEXT-WINDOW-PROMPT.md, with you as director (Sonnet 5.5 medium subagents write pages, one per page, max 6 in parallel; you review every diff for voice, invented facts, duplicates and rule 2 before the PR). Only build new pages or titles Anton approved in this chat.
+
+FINISH: update "Status after window A" in IMPROVE-PLAN.md into "Status after window C" (PR links, live-check output, answers to Q1–Q7, NOT RUN items), small PR, merge. Final message to Anton: PR links, live-check result, open questions, what the next window should do.
+```
+
 ## Prompt B (Sonnet 5.5, medium) — paste as the first message after window A is done
 
 ```text

@@ -289,3 +289,29 @@ In the build window Claude runs the whole git flow itself: creates the branch, m
 - **Q6 Obra brief**: The obra repo is not on GitHub yet. Should the obra handover brief live only in this repo for now?
 - **Q7 Privacy note**: OK to remove the overlay and keep the sentence in the footer and `/privacidad/`?
 - **Network**: allow `carpinteria.com.py`, `obra.com.py`, `arq.com.py`, `d8j0ntlcm91z4.cloudfront.net` in the cloud environment, and connect the keyword-library MCP there (or run the build window on the PC).
+
+---
+
+## Status after window A (2026-09-30)
+
+### Shipped (merged to `main`)
+| PR | What |
+|---|---|
+| [antonmarklundcom/carpinteria#2](https://github.com/antonmarklundcom/carpinteria/pull/2) | A0 + A1. QA tools in `tools/` (audit, verify, apply-wa, pw-check, linkcheck, seo-diff, live-check). Retired number removed from `site.js` and `docs/`. Phone format fixed on all pages (visible `+595 992 279 599`, tel and JSON-LD `+595992279599`). 404 is noindex with no canonical. `.htaccess` guard: 404 for docs/tools/data/md/json/mjs/dotfiles, 301 for `index.html` and for www. |
+| [antonmarklundcom/carpinteria#3](https://github.com/antonmarklundcom/carpinteria/pull/3) | A2. `data/whatsapp.json` (23 page, 19 service and form messages) with `data-wa` on every CTA. Mid-page CTA plus "Armar mi consulta" → `/cotizar/?servicio=`. Home WhatsApp chips. New `/cotizar/` quote builder (`assets/js/cotizar.js`). Mobile bar after the hero, FAB desktop-only. Privacy overlay moved to the footer and `/privacidad/`. Obra handover on `/pergolas/` `/decks/` `/machimbre/`. Self-hosted fonts. Hero video desktop-only (≥1024px, no saveData). `docs/seo/obra-handover-brief.md`. |
+| this PR | Status section + prompt for the next window |
+
+Local gates on `main` after #3: verify OK (23 distinct page messages); linkcheck 0 broken; seo-diff vs `audit-before.json` 0 failing (no title/H1/canonical/sitemap change, word counts only up); pw-check 0 overflow, 0 broken images, mobile FAB 0/23, bar only after the hero, footer never covered, privacy overlay 0.
+
+### NOT RUN in window A (the environment's egress proxy blocked all four hosts; the keyword-library MCP was not connected)
+1. **Live crawl** (`audit-live-before.json`), www/header/404 checks, and **`live-check.mjs` after both merges**. Whether live has been updated at all is unknown (depends on Q1).
+2. **`.htaccess` on Hostinger (LiteSpeed)**: rules were tested only on local Apache 2.4. Curl every rule live; if any causes a 500, revert that rule in a follow-up PR.
+3. **Hero video self-hosting**: the 4 CloudFront MP4s could not be downloaded, so desktop still streams them from `d8j0ntlcm91z4.cloudfront.net`. Mobile and saveData load no video. Still to do: ffmpeg 720p ≤1.5 MB each into `assets/video/`, WebP posters, and remove every cloudfront reference.
+4. **Obra/arq target URLs**: not verified. The 3 handover links and the `/cotizar/` obra note point to `https://obra.com.py/` (home). The plan 4.5 deep cross-links (cocinas/placares → arq `/interiores/`; aluminio/ventanas/cerramientos → obra `/reformas/`) are **not added**.
+5. **A3 keyword map**: `docs/seo/keyword-map.md` does **not exist** (no MCP). Section 4 above is still a hypothesis. No title changes and no new pages are approved.
+
+### Answers to Q1–Q7 so far
+None answered in window A. Defaults used: Q1 "a merge may deploy" (merged only after local gates) plus `carpinteria-deploy.zip` for manual upload; Q3 drafted tone used (5.2); Q4 obra home as the target until verified; Q5 video kept, desktop-only; Q6 brief kept in this repo; Q7 overlay removed.
+
+### Approved titles / new pages
+None yet (needs the keyword map, then Q2).
