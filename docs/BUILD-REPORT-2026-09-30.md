@@ -155,3 +155,54 @@ pw-check: 0 overflow, 0 broken images; the only console error / failed request /
 | /cocinas/, /placares/ | https://arq.com.py/arquitectos | yes (`sitemap.php` list; canonical has no trailing slash) |
 
 obra's sitemap was produced by running its `sitemap.php` with PHP locally (56 URLs). arq's `docs/seo/arq-urls.md` does not exist on arq `main` yet, so, per Anton's rule, no other arq URL may be linked. Links changed in window D: **all 7 removed**, on Anton's decision after the run ("no cross-linking between the domains; they must just not target the same SEO pages"). Each anchor was removed together with the sentence written to hold it; `verify.mjs` now fails on any obra/arq URL in served files. Gates after the change: verify OK, linkcheck 1760 refs / 0 broken / 0 cross-domain, overlap OK, seo-diff 0 failing, pw-check unchanged (the only problem is the blocked CloudFront video).
+
+## Window E addendum (2026-09-30)
+
+**Result: video and domain split shipped. Live checks are waiting on the deploy: live still runs the 2026-09-06 build.**
+
+### Preconditions
+| Check | Result |
+|---|---|
+| `curl -sI https://carpinteria.com.py/` | 200 (server hcdn, `last-modified: Sun, 06 Sep 2026 12:52:24 GMT`) |
+| `curl -sI https://www.carpinteria.com.py/` | 200 (served directly, no redirect to apex) |
+| `curl -sI https://d8j0ntlcm91z4.cloudfront.net/` | 403 from S3 at the bucket root (real origin answer); the 4 MP4s returned 200 |
+| keyword-library MCP `list_projects` | not connected (no such tool in the session) |
+
+### live-check (`NODE_USE_ENV_PROXY=1 node tools/live-check.mjs`, main at `9ef63ec`)
+```
+OK   19 of 22 sitemap URLs: 200, title, canonical, number
+FAIL /vanitorys/ status 404 (canonical https://carpinteria.com.py/404/)
+FAIL /ventanas/  status 404
+FAIL /trabajos/  status 404
+OK   /no-existe/ → 404; /docs/…, /data/whatsapp.json, /audit-before.json, /tools/… → 404
+FAIL /assets/js/site.js 200, old number PRESENT
+info /cocinas/index.html → 200 ; www → 200 ; no HSTS header
+live-check: FAIL (4)
+```
+Live `/cocinas/` differs from the repo (Google Fonts, `telephone: "+595 992 279599"`, no `data-wa`), and `/assets/video/*` returns 404. The 19 matching titles are unchanged pages from before the build. Conclusion: **nothing from PRs #2–#14 is deployed** and Git auto-deploy is not connected. The "hidden" paths return 404 only because they were never uploaded, not because of the `.htaccess` rules. `carpinteria-deploy.zip` was built with the §6 command (main at `92ec43f`, 69 files, 2,202,041 bytes, no docs/tools/data/md/json/mjs) and sent to Anton.
+
+### Live seo-diff before/after
+NOT RUN. `audit-live-after.json` needs the deploy first.
+
+### Hero video, before → after (PR #13)
+| Clip | CloudFront MP4 | Self-hosted MP4 (720p, CRF 28, faststart, no audio) | WebP poster |
+|---|---|---|---|
+| hero-puertas | 5,521,165 B | 329,452 B | 32,388 B |
+| hero-cocina | 4,084,444 B | 161,978 B | 9,920 B |
+| hero-placard | 6,545,593 B | 155,854 B | 9,610 B |
+| hero-aluminio | 3,632,044 B | 241,424 B | 17,944 B |
+| total | 19,783,246 B | 888,708 B | 69,862 B |
+
+Local pw-check `--strict`: 46 renders, 0 console errors, 0 failed requests, 0 broken images, 0 overflow, third-party hosts none. Home desktop loads only the first clip (329 KB); home mobile loads no media. `pw-check.mjs` now ignores `net::ERR_ABORTED` on media requests (Chromium's switch to range requests).
+
+### Domain split (PR #14, `docs/seo/domain-split.md`)
+- Built from the obra repo (56 URLs) and the arq repo (9 URLs), with title, H1, description and H2s rendered locally.
+- **Hard overlaps (3):** `/pergolas/` ↔ obra `/patios/pergolas/`, `/decks/` ↔ obra `/patios/decks/`, `/machimbre/` ↔ obra `/quinchos/techo-madera/`. Waiting on Q8; the recommendation is that carpinteria keeps the wood groups.
+- **Soft overlaps (5):** cocinas, vanitorys, portones, cerramientos, comercial/escritorios against obra's reformas, muros, ampliaciones and comerciales pages. Different groups; wording rules for both sides.
+- **arq:** no overlap with either domain.
+- **Links:** obra links to carpinteria.com.py and arq.com.py from its footer on all 56 pages. The fix belongs to the obra session.
+
+### NOT RUN
+1. E1 after the deploy: `audit-live-after.json`, live seo-diff, `.htaccess` curls (docs/tools/data/md/json/mjs/package.json/.git → 404, `/cocinas/index.html` → 301, www → apex), pw-check on live.
+2. MCP data: group IDs, PY volumes, title verdicts, new pages.
+3. E4 (Q8 not answered) and E5 (nothing approved).

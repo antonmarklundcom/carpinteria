@@ -294,6 +294,36 @@ In the build window Claude runs the whole git flow itself: creates the branch, m
 
 ---
 
+## Status after window E (2026-09-30)
+
+Full report: `docs/BUILD-REPORT-2026-09-30.md` ("Window E addendum").
+
+### Shipped (merged to `main`)
+| PR | What |
+|---|---|
+| [antonmarklundcom/carpinteria#12](https://github.com/antonmarklundcom/carpinteria/pull/12) | Window D: no obra/arq links, status, Prompt E (gates re-run, then merged) |
+| [antonmarklundcom/carpinteria#13](https://github.com/antonmarklundcom/carpinteria/pull/13) | E2: the 4 hero clips self-hosted in `assets/video/` (19.8 MB → 0.89 MB), first-frame WebP posters, 0 CloudFront references, pw-check `--strict` clean with 0 third-party hosts |
+| [antonmarklundcom/carpinteria#14](https://github.com/antonmarklundcom/carpinteria/pull/14) | E3: `docs/seo/domain-split.md` (all 3 domains, overlaps, obra's footer links) + keyword-map note |
+| this PR | Status after window E |
+
+### Live: the deploy has not happened
+- The hosts were reachable this time (carpinteria apex and www 200; CloudFront answered from S3).
+- Live still serves the **2026-09-06 build** (`last-modified: Sun, 06 Sep 2026 12:52:24 GMT`): Google Fonts, the old JSON-LD phone format, no `data-wa`, the retired number in `/assets/js/site.js`, and `/vanitorys/`, `/ventanas/`, `/trabajos/` return 404. No merge to `main` changed live, so **Git auto-deploy is not connected** (Q1 = zip in practice).
+- `carpinteria-deploy.zip` (main at `92ec43f`, 69 files, 2.2 MB; docs-only commits after it) was sent to Anton. Everything after the upload is NOT RUN: `audit-live-after.json`, live seo-diff, `.htaccess` curls, pw-check on live.
+
+### Answers
+Q1, Q5, Q8 and Q2 arrived as placeholders again. Defaults used: Q1 "a merge may deploy" (it did not; zip needed), Q5 keep the 4 videos (desktop only, self-hosted), Q8 **not applied** (E4 skipped; pérgolas/decks/machimbre still say "lo coordina el equipo de Obra.com.py"), Q2 nothing to approve (no MCP data).
+
+### NOT RUN
+1. E1 after the deploy (see above).
+2. keyword-library MCP not connected: no group IDs, no PY volumes, no title changes, no new pages.
+3. E4 (Q8) and E5 (nothing approved).
+
+### Next window (F)
+1. Anton uploads the zip (or connects Git auto-deploy). Then run E1 as written in Prompt E.
+2. With Q8 = carpinteria: E4 as written. obra's session applies the obra side of `domain-split.md` §2 (re-angle #1–#3, footer without links).
+3. With the MCP connected: E3's volumes, title verdicts, and at most 3 new pages (Q2).
+
 ## Status after window D (2026-09-30)
 
 Full report: `docs/BUILD-REPORT-2026-09-30.md` (see its "Window D addendum").
