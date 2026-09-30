@@ -123,25 +123,6 @@
     else reduceMotion.addListener(syncPlayback);
   }
 
-  const quoteForm = document.querySelector('#quote-form');
-  quoteForm?.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const project = quoteForm.querySelector('[name="proyecto"]')?.value || 'carpintería a medida';
-    const zone = quoteForm.querySelector('[name="zona"]')?.value.trim() || 'Asunción o Gran Asunción';
-    const details = quoteForm.querySelector('[name="detalle"]')?.value.trim();
-    const parts = [
-      'Hola, vi Carpinteria.com.py y quiero cotizar un proyecto.',
-      `Tipo: ${project}.`,
-      `Zona: ${zone}.`,
-      details ? `Detalles: ${details}.` : '',
-      'Voy a adjuntar fotos y medidas por WhatsApp.'
-    ].filter(Boolean);
-    // Number comes from data/whatsapp.json via the generated wa-config.js.
-    const waNumber = window.WA_CONFIG?.number;
-    if (!waNumber) return;
-    window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(parts.join(' '))}`, '_blank', 'noopener');
-  });
-
   const privacyNote = document.querySelector('.privacy-note');
   const privacyClose = document.querySelector('[data-privacy-close]');
   try {

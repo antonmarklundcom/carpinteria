@@ -265,6 +265,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s var(--ease), transform .65s var(--ease); }
 .reveal.is-visible { opacity: 1; transform: none; }
 
+/* Mid-page CTA (service pages) and direct WhatsApp chips (home). */
+.mid-cta { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--surface); }
+.mid-cta__inner { display: grid; gap: 16px; padding-top: 28px; padding-bottom: 28px; }
+.mid-cta p { max-width: 60ch; margin: 0; line-height: 1.55; }
+.mid-cta__actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.service-wa { margin-top: 28px; }
+.service-wa p { margin: 0 0 12px; color: var(--ash); font-weight: 600; }
+.service-wa__links { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-wa { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); padding: 0 14px; font-size: .86rem; font-weight: 600; }
+.chip-wa::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--whatsapp); }
+.chip-wa:hover { border-color: var(--ink); }
+
 @media (min-width: 640px) {
   .container { width: min(var(--max), calc(100% - 48px)); }
   .section { padding: 88px 0; }
@@ -289,6 +301,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 @media (min-width: 1024px) {
+  .mid-cta__inner { grid-template-columns: minmax(0,1fr) auto; align-items: center; }
   body { padding-bottom: 0; }
   .mobile-bar { display: none; }
   .home-hero, .home-hero__grid { min-height: calc(100svh - 76px); }

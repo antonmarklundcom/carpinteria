@@ -3,6 +3,317 @@ window.WA_CONFIG = {
   "number": "595992279599",
   "display": "+595 992 279 599",
   "tel": "+595992279599",
-  "services": {},
-  "form": {}
+  "services": {
+    "cocinas": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero una cocina a medida. ¿Te mando fotos del ambiente y el largo de las paredes?",
+    "placares": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un placar o vestidor a medida. ¿Te paso ancho, alto y una foto de la pared?",
+    "muebles-tv": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un mueble de TV a medida. ¿Te mando el ancho de la pared y el tamaño de la tele?",
+    "escritorios": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un escritorio o una biblioteca a medida. ¿Te paso las medidas del rincón y fotos?",
+    "vanitorys": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un vanitory a medida para mi baño. ¿Te mando el ancho disponible y una foto?",
+    "comercial": "Hola, vengo de la página principal de Carpinteria.com.py. Necesito muebles para mi local u oficina. ¿Te cuento el rubro y te paso fotos y medidas?",
+    "puertas": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero consultar por puertas de madera. ¿Te digo cuántas son y te mando la medida de cada vano?",
+    "portones": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un portón de madera. ¿Te mando ancho, alto y una foto de la entrada?",
+    "pergolas": "Hola, vengo de la página principal de Carpinteria.com.py y quiero una pérgola. Entiendo que el trabajo lo coordina el equipo de Obra.com.py. ¿Te paso fotos del patio y medidas?",
+    "decks": "Hola, vengo de la página principal de Carpinteria.com.py y quiero un deck. Entiendo que el trabajo lo coordina el equipo de Obra.com.py. ¿Te mando el largo y ancho del área y fotos?",
+    "machimbre": "Hola, vengo de la página principal de Carpinteria.com.py y quiero un techo de machimbre. Entiendo que lo coordina el equipo de Obra.com.py. ¿Te paso fotos y medidas del quincho?",
+    "aluminio": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero consultar por aberturas de aluminio. ¿Te paso cuántas son, sus medidas y fotos?",
+    "ventanas": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero ventanas de aluminio. ¿Te mando la cantidad y la medida de cada vano?",
+    "blindex": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero una mampara o división de blindex. ¿Te paso el ancho, el alto y fotos del lugar?",
+    "cerramientos": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero cerrar una galería, balcón o quincho con aluminio. ¿Te mando fotos y medidas?",
+    "escaleras": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero una escalera o baranda de madera. ¿Te paso la altura entre pisos, el ancho y fotos?",
+    "restauracion": "Hola, vengo de la página principal de Carpinteria.com.py. Tengo un mueble para restaurar. ¿Te mando fotos de cómo está y sus medidas?",
+    "muebles": "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un mueble a medida para mi casa. ¿Te paso fotos del lugar y medidas aproximadas?",
+    "otro": "Hola, vengo de la página principal de Carpinteria.com.py. Tengo un proyecto a medida en madera o aluminio. ¿Te cuento la idea y te mando fotos y medidas?"
+  },
+  "form": {
+    "groups": [
+      {
+        "label": "Muebles a medida",
+        "types": [
+          "cocinas",
+          "placares",
+          "muebles-tv",
+          "escritorios",
+          "vanitorys",
+          "comercial",
+          "restauracion",
+          "muebles"
+        ]
+      },
+      {
+        "label": "Madera",
+        "types": [
+          "puertas",
+          "portones",
+          "escaleras"
+        ]
+      },
+      {
+        "label": "Aluminio y blindex",
+        "types": [
+          "ventanas",
+          "blindex",
+          "cerramientos",
+          "aluminio"
+        ]
+      },
+      {
+        "label": "Exterior con Obra.com.py",
+        "types": [
+          "pergolas",
+          "decks",
+          "machimbre"
+        ]
+      },
+      {
+        "label": "Otro",
+        "types": [
+          "otro"
+        ]
+      }
+    ],
+    "types": {
+      "cocinas": {
+        "option": "Cocina",
+        "phrase": "una cocina a medida",
+        "placeholder": "Ej.: pared de 3,20 m en L, mesada de granito, heladera de dos puertas",
+        "hints": [
+          "¿Cuánto miden las paredes?",
+          "¿Qué tipo de mesada querés?",
+          "¿Qué electrodomésticos van?"
+        ],
+        "closing": "Te mando fotos de las paredes de la cocina."
+      },
+      "placares": {
+        "option": "Placar o vestidor",
+        "phrase": "un placar o vestidor a medida",
+        "placeholder": "Ej.: placar de 2,40 m de ancho por 2,60 m de alto, con puertas corredizas",
+        "hints": [
+          "¿Cuánto miden de ancho y de alto?",
+          "¿Puertas corredizas o batientes?",
+          "¿Lo querés con cajones o zapatero?"
+        ],
+        "closing": "Te mando fotos de la pared donde iría el placar."
+      },
+      "muebles-tv": {
+        "option": "Mueble de TV",
+        "phrase": "un mueble de TV a medida",
+        "placeholder": "Ej.: tele de 55 pulgadas, pared de 2,80 m, con estantes y cajones",
+        "hints": [
+          "¿Cuánto mide la pared?",
+          "¿De cuántas pulgadas es la tele?",
+          "¿Lo querés flotante o apoyado?"
+        ],
+        "closing": "Te mando fotos de la pared del living."
+      },
+      "escritorios": {
+        "option": "Escritorio o biblioteca",
+        "phrase": "un escritorio o biblioteca a medida",
+        "placeholder": "Ej.: escritorio en L de 1,80 m, con estantes arriba y cajonera",
+        "hints": [
+          "¿Qué medidas tiene el espacio?",
+          "¿Es para trabajo, estudio o los dos?",
+          "¿Necesitás estantes o cajones?"
+        ],
+        "closing": "Te mando fotos del espacio."
+      },
+      "vanitorys": {
+        "option": "Vanitory o mueble de baño",
+        "phrase": "un vanitory o mueble de baño a medida",
+        "placeholder": "Ej.: ancho disponible de 90 cm, bacha de apoyar, dos puertas",
+        "hints": [
+          "¿Qué ancho tenés disponible?",
+          "¿Ya tenés la bacha y la grifería?",
+          "¿Puertas o cajones?"
+        ],
+        "closing": "Te mando fotos del baño."
+      },
+      "comercial": {
+        "option": "Mueble comercial u oficina",
+        "phrase": "muebles para mi local u oficina",
+        "placeholder": "Ej.: mostrador de 2 m, góndolas para un local de ropa, recepción",
+        "hints": [
+          "¿Qué rubro es el local?",
+          "¿Qué muebles necesitás?",
+          "¿Cuánto mide el espacio?"
+        ],
+        "closing": "Te mando fotos y medidas del local."
+      },
+      "restauracion": {
+        "option": "Restauración de un mueble",
+        "phrase": "la restauración de un mueble",
+        "placeholder": "Ej.: mesa de algarrobo con la tapa manchada y una pata floja",
+        "hints": [
+          "¿Qué mueble es y de qué madera?",
+          "¿Qué daños tiene?",
+          "¿Lo querés dejar como estaba o cambiarle el color?"
+        ],
+        "closing": "Te mando fotos de cómo está el mueble."
+      },
+      "muebles": {
+        "option": "Otro mueble a medida",
+        "phrase": "un mueble a medida",
+        "placeholder": "Ej.: aparador de 1,60 m para el comedor, con puertas y estantes",
+        "hints": [
+          "¿Qué mueble tenés en mente?",
+          "¿Qué medidas tiene el lugar?",
+          "¿Tenés alguna foto de referencia?"
+        ],
+        "closing": "Te mando fotos del lugar donde va el mueble."
+      },
+      "puertas": {
+        "option": "Puertas",
+        "phrase": "puertas de madera",
+        "placeholder": "Ej.: 4 puertas de interior de 0,80 x 2,10 m, y una de entrada",
+        "hints": [
+          "¿Cuántas puertas son?",
+          "¿Son de interior o de exterior?",
+          "¿Cuánto mide cada vano?"
+        ],
+        "closing": "Te mando fotos de los vanos."
+      },
+      "portones": {
+        "option": "Portón",
+        "phrase": "un portón de madera",
+        "placeholder": "Ej.: portón de 3 m de ancho, corredizo, para entrada de auto",
+        "hints": [
+          "¿Cuánto miden de ancho y de alto?",
+          "¿Corredizo o de abrir?",
+          "¿Es para auto o solo para peatones?"
+        ],
+        "closing": "Te mando fotos de la entrada."
+      },
+      "escaleras": {
+        "option": "Escalera o baranda",
+        "phrase": "una escalera o baranda de madera",
+        "placeholder": "Ej.: escalera recta de 2,80 m de altura entre pisos, con baranda",
+        "hints": [
+          "¿Qué altura hay entre pisos?",
+          "¿Cuánto ancho tiene el hueco?",
+          "¿Es escalera, baranda o las dos cosas?"
+        ],
+        "closing": "Te mando fotos del lugar."
+      },
+      "ventanas": {
+        "option": "Ventanas",
+        "phrase": "ventanas de aluminio",
+        "placeholder": "Ej.: 5 ventanas, dos de 1,50 x 1,10 m corredizas y tres de 0,60 x 0,60 m",
+        "hints": [
+          "¿Cuántas ventanas son?",
+          "¿Qué medida tiene cada vano?",
+          "¿Corredizas o de abrir?"
+        ],
+        "closing": "Te mando fotos de cada abertura."
+      },
+      "blindex": {
+        "option": "Mampara o blindex",
+        "phrase": "una mampara o división de blindex",
+        "placeholder": "Ej.: mampara de ducha de 1,20 m, vidrio templado incoloro",
+        "hints": [
+          "¿Qué ancho y alto tiene el lugar?",
+          "¿Es para baño, oficina o local?",
+          "¿Vidrio incoloro o esmerilado?"
+        ],
+        "closing": "Te mando fotos del lugar de la mampara."
+      },
+      "cerramientos": {
+        "option": "Cerramiento",
+        "phrase": "un cerramiento de aluminio",
+        "placeholder": "Ej.: cerrar una galería de 4 x 2,50 m con vidrio y puertas corredizas",
+        "hints": [
+          "¿Qué querés cerrar: galería, balcón o quincho?",
+          "¿Cuánto miden el ancho y el alto?",
+          "¿Con puertas corredizas o fijo?"
+        ],
+        "closing": "Te mando fotos del espacio a cerrar."
+      },
+      "aluminio": {
+        "option": "Otras aberturas de aluminio",
+        "phrase": "aberturas de aluminio",
+        "placeholder": "Ej.: 2 puertas balcón y una puerta de entrada de aluminio",
+        "hints": [
+          "¿Qué aberturas necesitás?",
+          "¿Cuántas son y cuánto miden?",
+          "¿Qué color de aluminio preferís?"
+        ],
+        "closing": "Te mando fotos de cada abertura."
+      },
+      "pergolas": {
+        "option": "Pérgola",
+        "phrase": "una pérgola de madera",
+        "placeholder": "Ej.: pérgola de 4 x 3 m junto a la casa, con techo de sombra",
+        "hints": [
+          "¿Cuánto mide el patio?",
+          "¿Va pegada a la casa o exenta?",
+          "¿La querés con techo o abierta?"
+        ],
+        "closing": "Te mando fotos del patio.",
+        "obra": true
+      },
+      "decks": {
+        "option": "Deck",
+        "phrase": "un deck de madera",
+        "placeholder": "Ej.: deck de 5 x 3 m alrededor de la piscina",
+        "hints": [
+          "¿Cuántos metros cuadrados son?",
+          "¿Dónde va: piscina, patio o quincho?",
+          "¿Hay un piso anterior que sacar?"
+        ],
+        "closing": "Te mando fotos del área.",
+        "obra": true
+      },
+      "machimbre": {
+        "option": "Machimbre o techo de quincho",
+        "phrase": "un techo de machimbre",
+        "placeholder": "Ej.: techo de machimbre para un quincho de 6 x 4 m",
+        "hints": [
+          "¿Cuánto mide el ambiente?",
+          "¿Es un techo nuevo o para revestir uno existente?",
+          "¿Lo querés barnizado o pintado?"
+        ],
+        "closing": "Te mando fotos y medidas del quincho.",
+        "obra": true
+      },
+      "otro": {
+        "option": "Otro proyecto",
+        "phrase": "un trabajo a medida",
+        "placeholder": "Ej.: contame qué querés hacer, en madera o en aluminio",
+        "hints": [
+          "¿Qué querés hacer?",
+          "¿Qué medidas tiene el lugar?",
+          "¿Es de madera, de aluminio o de los dos?"
+        ],
+        "closing": "Te mando fotos del lugar."
+      }
+    },
+    "zones": [
+      "Asunción",
+      "Lambaré",
+      "Fernando de la Mora",
+      "San Lorenzo",
+      "Luque",
+      "Mariano Roque Alonso",
+      "Villa Elisa",
+      "Ñemby",
+      "Capiatá",
+      "Limpio",
+      "San Antonio"
+    ],
+    "templates": {
+      "opening": "Hola, vengo de Carpinteria.com.py y quiero cotizar {phrase}.",
+      "zone_in": "Estoy en {barrio}{ciudad}.",
+      "zone_out": "Estoy en {ciudad}, fuera de Gran Asunción. ¿Me decís si llegan hasta acá?",
+      "zone_unknown": "Todavía no definí la zona, estoy en Gran Asunción.",
+      "medidas_si": "Tengo medidas aproximadas.",
+      "medidas_no": "Todavía no tengo medidas, ¿me decís qué tengo que medir?",
+      "plazo": {
+        "pronto": "Lo necesito lo antes posible.",
+        "1-3": "Lo pienso hacer en 1 a 3 meses.",
+        "averiguando": "Por ahora estoy averiguando."
+      },
+      "detalles": "Detalles: {detalles}",
+      "obra_prefix": "Consulta para el equipo de Obra.com.py:",
+      "obra_note": "Estos trabajos los coordina el equipo de Obra.com.py. Tu mensaje llega al mismo WhatsApp y lo derivamos.",
+      "fallback": "Hola, armé mi consulta desde el formulario de Carpinteria.com.py y prefiero contarte el proyecto por acá. Te mando fotos y medidas apenas me digas qué necesitás."
+    }
+  }
 };
