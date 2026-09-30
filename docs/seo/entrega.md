@@ -58,7 +58,7 @@ Ingen Node-slot, ingen databas, inget byggsteg. Ladda upp `index.html` + `assets
 
 - 360 / 390 / 768 / 1024 / 1440 px — noll horisontell scroll på någon
 - Ett H1, alla bilder har spansk alt-text, JSON-LD (GeneralContractor + FAQPage) parsar
-- 8 WhatsApp-länkar, alla `wa.me/595995628862` med sektionsspecifik förifylld text
+- 8 WhatsApp-länkar, alla till det gamla, nu avvecklade numret (ersatt av `wa.me/595992279599` 2026-09) med sektionsspecifik förifylld text
 - Telefonnumret klickbart och synligt som text på 5 ställen
 - Voseo genomgående, noll "tú"-former, noll engelska i UI
 - Grön `#25D366` förekommer bara på WhatsApp-element

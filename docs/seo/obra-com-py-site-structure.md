@@ -9,7 +9,7 @@ Supervision/fiscalización/ingeniería de obra = construction-side services → 
 
 **URL rule:** short slugs, max 2 levels, Ads display-path friendly (≤15 chars/segment).
 
-**Conventions:** WhatsApp-first (+595 995 628862 stage 1), no prices, PYG only, Gran Asunción coverage language,
+**Conventions:** WhatsApp-first (+595 992 279 599), no prices, PYG only, Gran Asunción coverage language,
 AI imagery of obras/equipo without names. Every form asks: ¿Ya tenés terreno? + ¿Cómo pensás financiar?
 
 ---
