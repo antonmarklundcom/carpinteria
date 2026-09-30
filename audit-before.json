@@ -1,0 +1,4249 @@
+{
+  "generated": "2026-09-30T03:03:37.876Z",
+  "source": "repo antonmarklundcom/carpinteria @ 7d10d0d (static parse). Live host carpinteria.com.py was blocked by this session's egress policy; per docs/seo/site-audit-2026-09-29.md the repo is byte-identical to live for 19/22 URLs and /vanitorys/ /ventanas/ /trabajos/ return 404 live. Re-run against live in the build window.",
+  "sitemap_url_count": 22,
+  "summary": {
+    "live_404": [
+      "/vanitorys/",
+      "/ventanas/",
+      "/trabajos/"
+    ],
+    "broken_internal_links": [],
+    "old_number_hits": [
+      "assets/js/site.js:139",
+      "docs/seo/arq-com-py-site-structure.md:12",
+      "docs/seo/audit-2026-09-01.md:130",
+      "docs/seo/audit-2026-09-01.md:277",
+      "docs/seo/carpinteria-com-py-site-structure.md:8",
+      "docs/seo/entrega.md:61",
+      "docs/seo/obra-com-py-site-structure.md:12"
+    ],
+    "pages_missing_meta_description": [],
+    "pages_multi_or_no_h1": [],
+    "pages_canonical_not_self": [],
+    "duplicate_titles": [],
+    "pages_without_cross_domain_link": [
+      "/",
+      "/cocinas/",
+      "/placares/",
+      "/muebles-tv/",
+      "/escritorios/",
+      "/vanitorys/",
+      "/comercial/",
+      "/puertas/",
+      "/portones/",
+      "/pergolas/",
+      "/decks/",
+      "/machimbre/",
+      "/ventanas/",
+      "/blindex/",
+      "/cerramientos/",
+      "/escaleras/",
+      "/restauracion/",
+      "/muebles/",
+      "/aluminio/",
+      "/trabajos/",
+      "/cotizar/",
+      "/privacidad/"
+    ],
+    "images_without_alt_total": 0,
+    "external_media_hosts": [
+      "d8j0ntlcm91z4.cloudfront.net"
+    ],
+    "phone_display_variants": [
+      "+595 992 279599"
+    ],
+    "word_count_main_min_max": [
+      76,
+      568
+    ]
+  },
+  "pages": {
+    "/": {
+      "url": "https://carpinteria.com.py/",
+      "file": "index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Carpintería a medida en Paraguay | Carpinteria.com.py",
+      "title_len": 53,
+      "meta_description": "Cocinas, placares, muebles, madera, aluminio y blindex para Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp.",
+      "meta_description_len": 121,
+      "h1": [
+        "Carpintería a medida en Paraguay"
+      ],
+      "h2_count": 7,
+      "canonical": "https://carpinteria.com.py/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 568,
+      "word_count_body": 785,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/aluminio/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/pergolas/",
+        "/placares/",
+        "/puertas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 3,
+      "images_without_alt": [],
+      "external_media": [
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_73b39c9a-5db8-4e2d-a075-68811f0aaeb2.mp4",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_26cd4e34-8635-4ce3-afc8-22070bab29e1.mp4",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_ed05883b-806c-4451-8ead-d22f6ace80b9.mp4",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_02f38af2-5ac9-48e1-8eb0-17596bd1cb82.mp4"
+      ],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "faq_items": 9,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por carpintería a medida. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ]
+    },
+    "/cocinas/": {
+      "url": "https://carpinteria.com.py/cocinas/",
+      "file": "cocinas/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Cocinas a medida en Asunción | Carpinteria.com.py",
+      "title_len": 49,
+      "meta_description": "Planificá muebles de cocina a medida para Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp para orientar tu presupuesto.",
+      "meta_description_len": 132,
+      "h1": [
+        "Cocinas a medida en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/cocinas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 451,
+      "word_count_body": 668,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/comercial/",
+        "/placares/",
+        "/vanitorys/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Cocinas a medida. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/placares/",
+        "/vanitorys/",
+        "/comercial/",
+        "/muebles/",
+        "/trabajos/"
+      ]
+    },
+    "/placares/": {
+      "url": "https://carpinteria.com.py/placares/",
+      "file": "placares/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Placares y vestidores en Asunción | Carpinteria.com.py",
+      "title_len": 54,
+      "meta_description": "Organizá un placar o vestidor según tu ambiente. Consultá por módulos, cajones y puertas para Asunción y Gran Asunción.",
+      "meta_description_len": 119,
+      "h1": [
+        "Placares y vestidores a medida en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/placares/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/placard-ilustrativo.webp",
+      "word_count_main": 446,
+      "word_count_body": 663,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/escritorios/",
+        "/muebles-tv/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Placares y vestidores. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/muebles/",
+        "/trabajos/"
+      ]
+    },
+    "/muebles-tv/": {
+      "url": "https://carpinteria.com.py/muebles-tv/",
+      "file": "muebles-tv/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Muebles de TV a medida en Asunción | Carpinteria.com.py",
+      "title_len": 55,
+      "meta_description": "Racks, paneles y muebles de TV según tu pared y equipos. Cotizá por WhatsApp para Asunción y Gran Asunción.",
+      "meta_description_len": 107,
+      "h1": [
+        "Muebles de TV a medida en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/muebles-tv/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/placard-ilustrativo.webp",
+      "word_count_main": 423,
+      "word_count_body": 640,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/comercial/",
+        "/escritorios/",
+        "/placares/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Muebles de TV. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/placares/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/restauracion/",
+        "/muebles/"
+      ]
+    },
+    "/escritorios/": {
+      "url": "https://carpinteria.com.py/escritorios/",
+      "file": "escritorios/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Escritorios a medida en Asunción | Carpinteria.com.py",
+      "title_len": 53,
+      "meta_description": "Planificá escritorios, bibliotecas y home office a medida. Mandá fotos y medidas para consultar en Asunción y Gran Asunción.",
+      "meta_description_len": 124,
+      "h1": [
+        "Escritorios y bibliotecas a medida en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/escritorios/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/comercial-ilustrativo.webp",
+      "word_count_main": 414,
+      "word_count_body": 631,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/comercial/",
+        "/muebles-tv/",
+        "/placares/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Escritorios y bibliotecas. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/placares/",
+        "/muebles-tv/",
+        "/comercial/",
+        "/restauracion/",
+        "/muebles/"
+      ]
+    },
+    "/vanitorys/": {
+      "url": "https://carpinteria.com.py/vanitorys/",
+      "file": "vanitorys/index.html",
+      "status_live_2026_09_29": 404,
+      "title": "Vanitorys y muebles de baño en Asunción",
+      "title_len": 39,
+      "meta_description": "Muebles de baño y vanitorys a medida para Asunción y Gran Asunción. Consultá con fotos, medidas y ubicación de cañerías.",
+      "meta_description_len": 120,
+      "h1": [
+        "Vanitorys y muebles de baño en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/vanitorys/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 406,
+      "word_count_body": 623,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/placares/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Vanitorys y baños. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/muebles/"
+      ]
+    },
+    "/comercial/": {
+      "url": "https://carpinteria.com.py/comercial/",
+      "file": "comercial/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Muebles comerciales a medida en Asunción",
+      "title_len": 40,
+      "meta_description": "Mostradores, recepciones, exhibición y muebles de oficina para negocios de Asunción y Gran Asunción. Cotizá por WhatsApp.",
+      "meta_description_len": 121,
+      "h1": [
+        "Muebles comerciales a medida en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/comercial/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/comercial-ilustrativo.webp",
+      "word_count_main": 404,
+      "word_count_body": 621,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/escritorios/",
+        "/muebles-tv/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Muebles comerciales. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/muebles/",
+        "/trabajos/"
+      ]
+    },
+    "/puertas/": {
+      "url": "https://carpinteria.com.py/puertas/",
+      "file": "puertas/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Puertas de madera en Asunción | Carpinteria.com.py",
+      "title_len": 50,
+      "meta_description": "Consultá por puertas macizas, placa, interiores y exteriores en Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp.",
+      "meta_description_len": 125,
+      "h1": [
+        "Puertas de madera en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/puertas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 405,
+      "word_count_body": 622,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/escaleras/",
+        "/portones/",
+        "/restauracion/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Puertas de madera. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/portones/",
+        "/escaleras/",
+        "/restauracion/",
+        "/trabajos/"
+      ]
+    },
+    "/portones/": {
+      "url": "https://carpinteria.com.py/portones/",
+      "file": "portones/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Portones de madera en Asunción | Carpinteria.com.py",
+      "title_len": 51,
+      "meta_description": "Consultá por portones y accesos de madera en Asunción y Gran Asunción. Enviá fotos, medidas y tipo de apertura por WhatsApp.",
+      "meta_description_len": 124,
+      "h1": [
+        "Portones de madera en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/portones/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 411,
+      "word_count_body": 628,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/decks/",
+        "/pergolas/",
+        "/puertas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Portones de madera. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/puertas/",
+        "/pergolas/"
+      ]
+    },
+    "/pergolas/": {
+      "url": "https://carpinteria.com.py/pergolas/",
+      "file": "pergolas/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Pérgolas de madera en Asunción | Carpinteria.com.py",
+      "title_len": 51,
+      "meta_description": "Planificá una pérgola de madera para patio o quincho en Asunción y Gran Asunción. Consultá con fotos y medidas.",
+      "meta_description_len": 111,
+      "h1": [
+        "Pérgolas de madera en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/pergolas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 393,
+      "word_count_body": 610,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/decks/",
+        "/machimbre/",
+        "/portones/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Pérgolas de madera. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/portones/",
+        "/decks/",
+        "/machimbre/",
+        "/trabajos/"
+      ]
+    },
+    "/decks/": {
+      "url": "https://carpinteria.com.py/decks/",
+      "file": "decks/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Decks de madera en Asunción | Carpinteria.com.py",
+      "title_len": 48,
+      "meta_description": "Consultá por decks de madera para patios y quinchos en Asunción y Gran Asunción. Mandá fotos, medidas y estado de la base.",
+      "meta_description_len": 122,
+      "h1": [
+        "Decks de madera en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/decks/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 400,
+      "word_count_body": 617,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/escaleras/",
+        "/machimbre/",
+        "/pergolas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Decks de madera. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/portones/",
+        "/pergolas/",
+        "/machimbre/",
+        "/escaleras/"
+      ]
+    },
+    "/machimbre/": {
+      "url": "https://carpinteria.com.py/machimbre/",
+      "file": "machimbre/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Machimbre y techos de madera en Asunción",
+      "title_len": 40,
+      "meta_description": "Consultá por revestimientos de machimbre y cielorrasos de madera para quinchos en Asunción y Gran Asunción.",
+      "meta_description_len": 107,
+      "h1": [
+        "Machimbre y techos de madera en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/machimbre/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 389,
+      "word_count_body": 606,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/decks/",
+        "/escaleras/",
+        "/pergolas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Machimbre y techos de madera. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/pergolas/",
+        "/decks/"
+      ]
+    },
+    "/ventanas/": {
+      "url": "https://carpinteria.com.py/ventanas/",
+      "file": "ventanas/index.html",
+      "status_live_2026_09_29": 404,
+      "title": "Ventanas de aluminio en Asunción | Carpinteria.com.py",
+      "title_len": 53,
+      "meta_description": "Consultá por ventanas y aberturas de aluminio para Asunción y Gran Asunción. Enviá medidas del vano y tipo de apertura.",
+      "meta_description_len": 119,
+      "h1": [
+        "Ventanas de aluminio en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/ventanas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 404,
+      "word_count_body": 621,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Ventanas de aluminio. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/blindex/",
+        "/cerramientos/",
+        "/aluminio/"
+      ]
+    },
+    "/blindex/": {
+      "url": "https://carpinteria.com.py/blindex/",
+      "file": "blindex/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Mamparas de blindex en Asunción | Carpinteria.com.py",
+      "title_len": 52,
+      "meta_description": "Consultá por mamparas, divisiones y vidrio blindex para Asunción y Gran Asunción. Mandá fotos, medidas y uso del ambiente.",
+      "meta_description_len": 122,
+      "h1": [
+        "Mamparas y divisiones de blindex en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/blindex/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 385,
+      "word_count_body": 602,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/cerramientos/",
+        "/ventanas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Mamparas y blindex. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/ventanas/",
+        "/cerramientos/",
+        "/aluminio/"
+      ]
+    },
+    "/cerramientos/": {
+      "url": "https://carpinteria.com.py/cerramientos/",
+      "file": "cerramientos/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Cerramientos de aluminio en Asunción",
+      "title_len": 36,
+      "meta_description": "Consultá por cerramientos de aluminio y vidrio para galerías, patios y ambientes en Asunción y Gran Asunción.",
+      "meta_description_len": 109,
+      "h1": [
+        "Cerramientos de aluminio en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/cerramientos/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 379,
+      "word_count_body": 596,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/ventanas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Cerramientos de aluminio. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/ventanas/",
+        "/blindex/",
+        "/aluminio/"
+      ]
+    },
+    "/escaleras/": {
+      "url": "https://carpinteria.com.py/escaleras/",
+      "file": "escaleras/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Escaleras de madera en Asunción | Carpinteria.com.py",
+      "title_len": 52,
+      "meta_description": "Consultá por escalones, revestimientos y barandas de madera en Asunción y Gran Asunción. Enviá fotos y medidas.",
+      "meta_description_len": 111,
+      "h1": [
+        "Escaleras y barandas de madera en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/escaleras/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 394,
+      "word_count_body": 611,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/decks/",
+        "/puertas/",
+        "/restauracion/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Escaleras y barandas. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/puertas/",
+        "/decks/",
+        "/machimbre/"
+      ]
+    },
+    "/restauracion/": {
+      "url": "https://carpinteria.com.py/restauracion/",
+      "file": "restauracion/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Restauración de muebles en Asunción",
+      "title_len": 35,
+      "meta_description": "Consultá por reparación y restauración de muebles de madera en Asunción y Gran Asunción. Enviá fotos claras del estado actual.",
+      "meta_description_len": 126,
+      "h1": [
+        "Restauración de muebles en Asunción"
+      ],
+      "h2_count": 6,
+      "canonical": "https://carpinteria.com.py/restauracion/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 394,
+      "word_count_body": 611,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/escritorios/",
+        "/muebles-tv/",
+        "/puertas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Restauración de muebles. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/puertas/",
+        "/escaleras/"
+      ]
+    },
+    "/muebles/": {
+      "url": "https://carpinteria.com.py/muebles/",
+      "file": "muebles/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Muebles a medida en Asunción | Carpinteria.com.py",
+      "title_len": 49,
+      "meta_description": "Cocinas, placares, racks, escritorios, vanitorys y muebles comerciales a medida para Asunción y Gran Asunción.",
+      "meta_description_len": 110,
+      "h1": [
+        "Muebles a medida en Asunción"
+      ],
+      "h2_count": 11,
+      "canonical": "https://carpinteria.com.py/muebles/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/placard-ilustrativo.webp",
+      "word_count_main": 483,
+      "word_count_body": 700,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/escritorios/",
+        "/muebles-tv/",
+        "/placares/",
+        "/vanitorys/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Muebles a medida. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": []
+    },
+    "/aluminio/": {
+      "url": "https://carpinteria.com.py/aluminio/",
+      "file": "aluminio/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
+      "title_len": 56,
+      "meta_description": "Ventanas, mamparas, blindex y cerramientos de aluminio para Asunción y Gran Asunción. Consultá con fotos y medidas.",
+      "meta_description_len": 115,
+      "h1": [
+        "Carpintería de aluminio en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/aluminio/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 365,
+      "word_count_body": 582,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cotizar/",
+        "/ventanas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por Carpintería de aluminio. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/trabajos/"
+      ]
+    },
+    "/trabajos/": {
+      "url": "https://carpinteria.com.py/trabajos/",
+      "file": "trabajos/index.html",
+      "status_live_2026_09_29": 404,
+      "title": "Ideas de carpintería a medida | Carpinteria.com.py",
+      "title_len": 50,
+      "meta_description": "Explorá referencias visuales para cocinas, placares, madera, aluminio y muebles a medida. Imágenes ilustrativas para preparar tu consulta.",
+      "meta_description_len": 138,
+      "h1": [
+        "Ideas para proyectos de carpintería a medida"
+      ],
+      "h2_count": 3,
+      "canonical": "https://carpinteria.com.py/trabajos/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 229,
+      "word_count_body": 446,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/pergolas/",
+        "/placares/",
+        "/puertas/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 7,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "WebPage"
+      ],
+      "faq_items": 3,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por ideas para un proyecto de carpintería. Tengo fotos y medidas para enviar.",
+        "Hola, vi Carpinteria.com.py y quiero consultar por un proyecto inspirado en la galería. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": []
+    },
+    "/cotizar/": {
+      "url": "https://carpinteria.com.py/cotizar/",
+      "file": "cotizar/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Cotizar carpintería a medida | Carpinteria.com.py",
+      "title_len": 49,
+      "meta_description": "Prepará una consulta de carpintería con servicio, zona, fotos y medidas. Abrí un mensaje de WhatsApp listo para enviar.",
+      "meta_description_len": 119,
+      "h1": [
+        "Cotizá tu proyecto de carpintería"
+      ],
+      "h2_count": 2,
+      "canonical": "https://carpinteria.com.py/cotizar/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/comercial-ilustrativo.webp",
+      "word_count_main": 249,
+      "word_count_body": 466,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "WebPage"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 5,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por un presupuesto de carpintería. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/"
+      ]
+    },
+    "/privacidad/": {
+      "url": "https://carpinteria.com.py/privacidad/",
+      "file": "privacidad/index.html",
+      "status_live_2026_09_29": 200,
+      "title": "Privacidad | Carpinteria.com.py",
+      "title_len": 31,
+      "meta_description": "Información sobre privacidad, contenido visual y contacto en Carpinteria.com.py.",
+      "meta_description_len": 80,
+      "h1": [
+        "Privacidad y contacto"
+      ],
+      "h2_count": 0,
+      "canonical": "https://carpinteria.com.py/privacidad/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 76,
+      "word_count_body": 293,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/"
+      ],
+      "external_link_hosts": [
+        "wa.me"
+      ],
+      "images": 0,
+      "images_without_alt": [],
+      "external_media": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "WebPage"
+      ],
+      "faq_items": 3,
+      "whatsapp_ctas": 5,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi Carpinteria.com.py y quiero consultar por privacidad del sitio. Tengo fotos y medidas para enviar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279599"
+      ],
+      "cross_domain_links": [],
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": []
+    }
+  },
+  "local_render_check": {
+    "method": "Playwright 1.56 Chromium against http-server on repo root, viewports 1366x800 and 390x844 (DPR2). Screenshots in ./audit-shots/ (not committed).",
+    "sandbox_note": "Failed requests to d8j0ntlcm91z4.cloudfront.net (hero video) and fonts.googleapis.com are egress blocks of this session, not site bugs; they do show the page depends on 2 third-party hosts.",
+    "findings": [
+      "0px horizontal overflow on all 44 renders",
+      "0 broken local images",
+      "0 JS console errors apart from blocked third-party requests",
+      "site.js = 6769 bytes, the only script; site.css = 28722 bytes render-blocking; Google Fonts CSS render-blocking external",
+      "LCP element: page-hero <img> (480w desktop / 960w mobile, via srcset) on service pages; hero text on home (video blocked here)",
+      "Mobile: .whatsapp-fab and .mobile-bar are BOTH visible, FAB floats over content right above the bar",
+      "Privacy overlay covers content on first view at both widths",
+      "15 tap targets <40px high per page (nav/footer/breadcrumb links)"
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_73b39c9a-5db8-4e2d-a075-68811f0aaeb2.mp4",
+            "err": "net::ERR_TUNNEL_CONNECTION_FAILED"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 652,
+          "el": "P.hero-lead",
+          "size": 49824
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 28985,
+          "stylesheet": 28722,
+          "image": 98152,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/cocinas/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 388,
+          "el": "IMG http://127.0.0.1:8080/assets/img/cocina-ilustrativa-480.webp",
+          "size": 153550
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 23217,
+          "stylesheet": 28722,
+          "image": 9594,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/placares/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 396,
+          "el": "IMG http://127.0.0.1:8080/assets/img/placard-ilustrativo-480.webp",
+          "size": 150331
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 23174,
+          "stylesheet": 28722,
+          "image": 20256,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/muebles-tv/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 436,
+          "el": "IMG http://127.0.0.1:8080/assets/img/placard-ilustrativo-480.webp",
+          "size": 153550
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22911,
+          "stylesheet": 28722,
+          "image": 10128,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/escritorios/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 428,
+          "el": "IMG http://127.0.0.1:8080/assets/img/comercial-ilustrativo-480.webp",
+          "size": 144031
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22873,
+          "stylesheet": 28722,
+          "image": 21368,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/vanitorys/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 404,
+          "el": "IMG http://127.0.0.1:8080/assets/img/cocina-ilustrativa-480.webp",
+          "size": 144031
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22682,
+          "stylesheet": 28722,
+          "image": 19188,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/comercial/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 396,
+          "el": "IMG http://127.0.0.1:8080/assets/img/comercial-ilustrativo-480.webp",
+          "size": 144031
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22791,
+          "stylesheet": 28722,
+          "image": 10684,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/puertas/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 408,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-480.webp",
+          "size": 153550
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22637,
+          "stylesheet": 28722,
+          "image": 28608,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/portones/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 404,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-480.webp",
+          "size": 153541
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22785,
+          "stylesheet": 28722,
+          "image": 14304,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/pergolas/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 392,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-480.webp",
+          "size": 153550
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22648,
+          "stylesheet": 28722,
+          "image": 18832,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/decks/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 372,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-480.webp",
+          "size": 153541
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22598,
+          "stylesheet": 28722,
+          "image": 18832,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/machimbre/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 412,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-480.webp",
+          "size": 150331
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22748,
+          "stylesheet": 28722,
+          "image": 18832,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/ventanas/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 268,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-480.webp",
+          "size": 153541
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22661,
+          "stylesheet": 28722,
+          "image": 13702,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/blindex/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 396,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-480.webp",
+          "size": 150331
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22577,
+          "stylesheet": 28722,
+          "image": 13702,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/cerramientos/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 384,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-480.webp",
+          "size": 153541
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22668,
+          "stylesheet": 28722,
+          "image": 13702,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/escaleras/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 256,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-480.webp",
+          "size": 144031
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22756,
+          "stylesheet": 28722,
+          "image": 14304,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/restauracion/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 308,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-480.webp",
+          "size": 153558
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22808,
+          "stylesheet": 28722,
+          "image": 28608,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/muebles/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 260,
+          "el": "IMG http://127.0.0.1:8080/assets/img/placard-ilustrativo-480.webp",
+          "size": 153550
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 23202,
+          "stylesheet": 28722,
+          "image": 20256,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/aluminio/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 376,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-480.webp",
+          "size": 153541
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22166,
+          "stylesheet": 28722,
+          "image": 13702,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/trabajos/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 336,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-480.webp",
+          "size": 138237
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 20325,
+          "stylesheet": 28722,
+          "image": 66560,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/cotizar/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 396,
+          "el": "IMG http://127.0.0.1:8080/assets/img/comercial-ilustrativo-480.webp",
+          "size": 153541
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 19585,
+          "stylesheet": 28722,
+          "image": 10684,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/privacidad/",
+        "viewport": "desktop",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 368,
+          "el": "P.section-lead",
+          "size": 67284
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": false
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 14284,
+          "stylesheet": 28722,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_73b39c9a-5db8-4e2d-a075-68811f0aaeb2.mp4",
+            "err": "net::ERR_TUNNEL_CONNECTION_FAILED"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 428,
+          "el": "P.hero-lead",
+          "size": 38468
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 28985,
+          "stylesheet": 28722,
+          "image": 98152,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/cocinas/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 248,
+          "el": "IMG http://127.0.0.1:8080/assets/img/cocina-ilustrativa-960.webp",
+          "size": 59696
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 23217,
+          "stylesheet": 28722,
+          "image": 26024,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/placares/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 340,
+          "el": "IMG http://127.0.0.1:8080/assets/img/placard-ilustrativo-960.webp",
+          "size": 45920
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 23174,
+          "stylesheet": 28722,
+          "image": 26856,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/muebles-tv/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 388,
+          "el": "IMG http://127.0.0.1:8080/assets/img/placard-ilustrativo-960.webp",
+          "size": 59696
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22911,
+          "stylesheet": 28722,
+          "image": 26856,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/escritorios/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 364,
+          "el": "IMG http://127.0.0.1:8080/assets/img/comercial-ilustrativo-960.webp",
+          "size": 45920
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22873,
+          "stylesheet": 28722,
+          "image": 28642,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/vanitorys/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 232,
+          "el": "IMG http://127.0.0.1:8080/assets/img/cocina-ilustrativa-960.webp",
+          "size": 45920
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22682,
+          "stylesheet": 28722,
+          "image": 26024,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/comercial/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 388,
+          "el": "IMG http://127.0.0.1:8080/assets/img/comercial-ilustrativo-960.webp",
+          "size": 45920
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22791,
+          "stylesheet": 28722,
+          "image": 28642,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/puertas/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 376,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-960.webp",
+          "size": 59696
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22637,
+          "stylesheet": 28722,
+          "image": 44314,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/portones/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 372,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-960.webp",
+          "size": 68198
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22785,
+          "stylesheet": 28722,
+          "image": 44314,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/pergolas/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 320,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-960.webp",
+          "size": 68198
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22648,
+          "stylesheet": 28722,
+          "image": 59168,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/decks/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 412,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-960.webp",
+          "size": 68198
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22598,
+          "stylesheet": 28722,
+          "image": 59168,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/machimbre/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 368,
+          "el": "IMG http://127.0.0.1:8080/assets/img/pergola-ilustrativa-960.webp",
+          "size": 45920
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22748,
+          "stylesheet": 28722,
+          "image": 59168,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/ventanas/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 384,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-960.webp",
+          "size": 68198
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22661,
+          "stylesheet": 28722,
+          "image": 45272,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/blindex/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 372,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-960.webp",
+          "size": 54448
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22577,
+          "stylesheet": 28722,
+          "image": 45272,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/cerramientos/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 336,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-960.webp",
+          "size": 68198
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22668,
+          "stylesheet": 28722,
+          "image": 45272,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/escaleras/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 356,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-960.webp",
+          "size": 54448
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22756,
+          "stylesheet": 28722,
+          "image": 44314,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/restauracion/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 364,
+          "el": "IMG http://127.0.0.1:8080/assets/img/puertas-ilustrativa-960.webp",
+          "size": 59696
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22808,
+          "stylesheet": 28722,
+          "image": 44314,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/muebles/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 384,
+          "el": "IMG http://127.0.0.1:8080/assets/img/placard-ilustrativo-960.webp",
+          "size": 48846
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 23202,
+          "stylesheet": 28722,
+          "image": 26856,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/aluminio/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 404,
+          "el": "IMG http://127.0.0.1:8080/assets/img/aluminio-ilustrativo-960.webp",
+          "size": 57343
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 22166,
+          "stylesheet": 28722,
+          "image": 45272,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/trabajos/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 352,
+          "el": "H1",
+          "size": 40356
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 20325,
+          "stylesheet": 28722,
+          "image": 112048,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/cotizar/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 360,
+          "el": "IMG http://127.0.0.1:8080/assets/img/comercial-ilustrativo-960.webp",
+          "size": 68198
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 19585,
+          "stylesheet": 28722,
+          "image": 28642,
+          "script": 6769,
+          "other": 257
+        }
+      },
+      {
+        "path": "/privacidad/",
+        "viewport": "mobile",
+        "horizontalOverflowPx": 0,
+        "brokenImages": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+        ],
+        "failedRequests": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap",
+            "err": "net::ERR_CERT_AUTHORITY_INVALID"
+          }
+        ],
+        "lcp": {
+          "t": 344,
+          "el": "P.section-lead",
+          "size": 42904
+        },
+        "stickyCta": [
+          {
+            "cls": "whatsapp-fab",
+            "visible": true
+          },
+          {
+            "cls": "mobile-bar",
+            "visible": true
+          }
+        ],
+        "smallTapTargets": 15,
+        "bytesByType": {
+          "document": 14284,
+          "stylesheet": 28722,
+          "script": 6769,
+          "other": 257
+        }
+      }
+    ]
+  }
+}
