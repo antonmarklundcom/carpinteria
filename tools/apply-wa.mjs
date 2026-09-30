@@ -2,7 +2,8 @@
 // Reads data/whatsapp.json and rewrites, in every page:
 //   - <a data-wa="page">          → page message of that URL
 //   - <a data-wa="service:KEY">   → service message KEY
-//   - <input data-wa-fallback>    → value = page message (no-JS form)
+//   - <input data-wa-fallback[="form"]> → value = page message, or the
+//     form fallback template (no-JS quote form)
 //   - visible phone text          → "+595 992 279 599"
 //   - tel: links and JSON-LD telephone → "+595992279599"
 // and writes assets/js/wa-config.js for the quote form. Idempotent.
@@ -31,9 +32,10 @@ for (const p of paths) {
     if (!text) { problems.push(`${p}: no message for data-wa="${key}"`); return tag; }
     return /\bhref="[^"]*"/.test(tag) ? tag.replace(/\bhref="[^"]*"/, `href="${waHref(text)}"`) : tag.replace(/^<a\b/, `<a href="${waHref(text)}"`);
   });
-  html = html.replace(/<input\b[^>]*\bdata-wa-fallback\b[^>]*>/g, (tag) => {
-    if (!pageText) { problems.push(`${p}: fallback input but no page message`); return tag; }
-    return tag.replace(/\bvalue="[^"]*"/, `value="${escAttr(pageText)}"`);
+  html = html.replace(/<input\b[^>]*\bdata-wa-fallback(?:="([^"]*)")?[^>]*>/g, (tag, kind) => {
+    const text = kind === 'form' ? map.form?.templates?.fallback : pageText;
+    if (!text) { problems.push(`${p}: fallback input without message`); return tag; }
+    return tag.replace(/\bvalue="[^"]*"/, `value="${escAttr(text)}"`);
   });
   html = html
     .replace(/tel:\+?595[\s-]*992[\s-]*279[\s-]*599/g, `tel:${tel}`)
