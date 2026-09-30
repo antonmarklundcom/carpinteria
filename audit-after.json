@@ -1,0 +1,2863 @@
+{
+  "generated": "2026-09-30T15:11:12.623Z",
+  "source": "repo .",
+  "sitemap_url_count": 22,
+  "summary": {
+    "not_200": [],
+    "old_number_hits": [],
+    "pages_missing_meta_description": [],
+    "pages_multi_or_no_h1": [],
+    "pages_canonical_not_self": [],
+    "duplicate_titles": [],
+    "pages_without_cross_domain_link": [
+      "/",
+      "/muebles-tv/",
+      "/escritorios/",
+      "/vanitorys/",
+      "/comercial/",
+      "/puertas/",
+      "/portones/",
+      "/blindex/",
+      "/escaleras/",
+      "/restauracion/",
+      "/muebles/",
+      "/trabajos/",
+      "/privacidad/"
+    ],
+    "images_without_alt_total": 0,
+    "external_media_hosts": [
+      "d8j0ntlcm91z4.cloudfront.net"
+    ],
+    "phone_display_variants": [
+      "+595 992 279 599"
+    ],
+    "whatsapp_numbers": [
+      "595992279599"
+    ],
+    "word_count_main_min_max": [
+      82,
+      1234
+    ]
+  },
+  "pages": {
+    "/": {
+      "url": "https://carpinteria.com.py/",
+      "file": "index.html",
+      "status": 200,
+      "title": "Carpintería a medida en Paraguay | Carpinteria.com.py",
+      "title_len": 53,
+      "meta_description": "Cocinas, placares, muebles, madera, aluminio y blindex para Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp.",
+      "meta_description_len": 121,
+      "h1": [
+        "Carpintería a medida en Paraguay"
+      ],
+      "h2_count": 7,
+      "canonical": "https://carpinteria.com.py/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 584,
+      "word_count_body": 792,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/aluminio/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/pergolas/",
+        "/placares/",
+        "/puertas/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 3,
+      "images_without_alt": [],
+      "external_media": [
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_73b39c9a-5db8-4e2d-a075-68811f0aaeb2.mp4",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_26cd4e34-8635-4ce3-afc8-22070bab29e1.mp4",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_ed05883b-806c-4451-8ead-d22f6ace80b9.mp4",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260829_194555_02f38af2-5ac9-48e1-8eb0-17596bd1cb82.mp4"
+      ],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 16,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vengo de Carpinteria.com.py. Quiero consultar por un trabajo a medida en madera o aluminio. ¿Te paso fotos y medidas por acá?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero una cocina a medida. ¿Te mando fotos del ambiente y el largo de las paredes?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un placar o vestidor a medida. ¿Te paso ancho, alto y una foto de la pared?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero un mueble de TV a medida. ¿Te mando el ancho de la pared y el tamaño de la tele?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero consultar por puertas de madera. ¿Te digo cuántas son y te mando la medida de cada vano?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero ventanas de aluminio. ¿Te mando la cantidad y la medida de cada vano?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero una mampara o división de blindex. ¿Te paso el ancho, el alto y fotos del lugar?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Quiero cerrar una galería, balcón o quincho con aluminio. ¿Te mando fotos y medidas?",
+        "Hola, vengo de la página principal de Carpinteria.com.py. Necesito muebles para mi local u oficina. ¿Te cuento el rubro y te paso fotos y medidas?",
+        "Hola, vengo de la página principal de Carpinteria.com.py y quiero una pérgola. Entiendo que el trabajo lo coordina el equipo de Obra.com.py. ¿Te paso fotos del patio y medidas?"
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ]
+    },
+    "/cocinas/": {
+      "url": "https://carpinteria.com.py/cocinas/",
+      "file": "cocinas/index.html",
+      "status": 200,
+      "title": "Cocinas a medida en Asunción | Carpinteria.com.py",
+      "title_len": 49,
+      "meta_description": "Planificá muebles de cocina a medida para Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp para orientar tu presupuesto.",
+      "meta_description_len": 132,
+      "h1": [
+        "Cocinas a medida en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/cocinas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 1229,
+      "word_count_body": 1437,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/comercial/",
+        "/cotizar/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/placares/",
+        "/trabajos/",
+        "/vanitorys/"
+      ],
+      "external_link_hosts": [
+        "arq.com.py",
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 8,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi la página de cocinas a medida en Carpinteria.com.py. Quiero presupuestar una cocina. Te paso fotos del ambiente, el largo de las paredes y qué electrodomésticos van."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://arq.com.py/arquitectos",
+          "anchor": "arquitectos para el diseño de la cocina en Arq.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/placares/",
+        "/muebles-tv/",
+        "/vanitorys/",
+        "/comercial/",
+        "/muebles/",
+        "/trabajos/"
+      ]
+    },
+    "/placares/": {
+      "url": "https://carpinteria.com.py/placares/",
+      "file": "placares/index.html",
+      "status": 200,
+      "title": "Placares y vestidores en Asunción | Carpinteria.com.py",
+      "title_len": 54,
+      "meta_description": "Organizá un placar o vestidor según tu ambiente. Consultá por módulos, cajones y puertas para Asunción y Gran Asunción.",
+      "meta_description_len": 119,
+      "h1": [
+        "Placares y vestidores a medida en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/placares/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/placard-ilustrativo.webp",
+      "word_count_main": 1205,
+      "word_count_body": 1413,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/cotizar/",
+        "/escritorios/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/puertas/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "arq.com.py",
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 8,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi placares y vestidores en Carpinteria.com.py. Quiero consultar por un placar a medida. Te mando ancho, alto y fotos de la pared."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://arq.com.py/arquitectos",
+          "anchor": "arquitectos de interiores en Arq.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/puertas/",
+        "/muebles/",
+        "/trabajos/"
+      ]
+    },
+    "/muebles-tv/": {
+      "url": "https://carpinteria.com.py/muebles-tv/",
+      "file": "muebles-tv/index.html",
+      "status": 200,
+      "title": "Muebles de TV a medida en Asunción | Carpinteria.com.py",
+      "title_len": 55,
+      "meta_description": "Racks, paneles y muebles de TV según tu pared y equipos. Cotizá por WhatsApp para Asunción y Gran Asunción.",
+      "meta_description_len": 107,
+      "h1": [
+        "Muebles de TV a medida en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/muebles-tv/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/placard-ilustrativo.webp",
+      "word_count_main": 883,
+      "word_count_body": 1091,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/escritorios/",
+        "/muebles/",
+        "/placares/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi muebles de TV en Carpinteria.com.py. Quiero un rack a medida. Te paso el ancho de la pared, el tamaño de la tele y fotos."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/placares/",
+        "/escritorios/",
+        "/restauracion/",
+        "/muebles/"
+      ]
+    },
+    "/escritorios/": {
+      "url": "https://carpinteria.com.py/escritorios/",
+      "file": "escritorios/index.html",
+      "status": 200,
+      "title": "Escritorios a medida en Asunción | Carpinteria.com.py",
+      "title_len": 53,
+      "meta_description": "Planificá escritorios, bibliotecas y home office a medida. Mandá fotos y medidas para consultar en Asunción y Gran Asunción.",
+      "meta_description_len": 124,
+      "h1": [
+        "Escritorios y bibliotecas a medida en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/escritorios/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/comercial-ilustrativo.webp",
+      "word_count_main": 898,
+      "word_count_body": 1106,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/comercial/",
+        "/cotizar/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/placares/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi escritorios y bibliotecas en Carpinteria.com.py. Quiero consultar por un escritorio o biblioteca a medida. Te mando medidas y fotos del espacio."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/placares/",
+        "/muebles-tv/",
+        "/comercial/",
+        "/restauracion/",
+        "/muebles/"
+      ]
+    },
+    "/vanitorys/": {
+      "url": "https://carpinteria.com.py/vanitorys/",
+      "file": "vanitorys/index.html",
+      "status": 200,
+      "title": "Vanitorys y muebles de baño en Asunción",
+      "title_len": 39,
+      "meta_description": "Muebles de baño y vanitorys a medida para Asunción y Gran Asunción. Consultá con fotos, medidas y ubicación de cañerías.",
+      "meta_description_len": 120,
+      "h1": [
+        "Vanitorys y muebles de baño en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/vanitorys/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 897,
+      "word_count_body": 1105,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/blindex/",
+        "/cocinas/",
+        "/cotizar/",
+        "/muebles/",
+        "/placares/",
+        "/restauracion/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi vanitorys en Carpinteria.com.py. Quiero un mueble de baño a medida. Te paso el ancho disponible y fotos del baño."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/blindex/",
+        "/restauracion/",
+        "/muebles/"
+      ]
+    },
+    "/comercial/": {
+      "url": "https://carpinteria.com.py/comercial/",
+      "file": "comercial/index.html",
+      "status": 200,
+      "title": "Muebles comerciales a medida en Asunción",
+      "title_len": 40,
+      "meta_description": "Mostradores, recepciones, exhibición y muebles de oficina para negocios de Asunción y Gran Asunción. Cotizá por WhatsApp.",
+      "meta_description_len": 121,
+      "h1": [
+        "Muebles comerciales a medida en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/comercial/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/comercial-ilustrativo.webp",
+      "word_count_main": 825,
+      "word_count_body": 1033,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/blindex/",
+        "/cocinas/",
+        "/cotizar/",
+        "/escritorios/",
+        "/muebles/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi muebles comerciales en Carpinteria.com.py. Necesito mostrador, góndolas o recepción para mi local. Te cuento el rubro y te mando fotos y medidas."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/cocinas/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/muebles/",
+        "/trabajos/"
+      ]
+    },
+    "/puertas/": {
+      "url": "https://carpinteria.com.py/puertas/",
+      "file": "puertas/index.html",
+      "status": 200,
+      "title": "Puertas de madera en Asunción | Carpinteria.com.py",
+      "title_len": 50,
+      "meta_description": "Consultá por puertas macizas, placa, interiores y exteriores en Asunción y Gran Asunción. Mandá fotos y medidas por WhatsApp.",
+      "meta_description_len": 125,
+      "h1": [
+        "Puertas de madera en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/puertas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 910,
+      "word_count_body": 1118,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cotizar/",
+        "/escaleras/",
+        "/muebles/",
+        "/placares/",
+        "/portones/",
+        "/restauracion/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi puertas de madera en Carpinteria.com.py. Quiero consultar por puertas. Te paso cuántas son, si son de interior o exterior y las medidas del vano."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/placares/",
+        "/portones/",
+        "/machimbre/",
+        "/ventanas/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/"
+      ]
+    },
+    "/portones/": {
+      "url": "https://carpinteria.com.py/portones/",
+      "file": "portones/index.html",
+      "status": 200,
+      "title": "Portones de madera en Asunción | Carpinteria.com.py",
+      "title_len": 51,
+      "meta_description": "Consultá por portones y accesos de madera en Asunción y Gran Asunción. Enviá fotos, medidas y tipo de apertura por WhatsApp.",
+      "meta_description_len": 124,
+      "h1": [
+        "Portones de madera en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/portones/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 900,
+      "word_count_body": 1108,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/muebles/",
+        "/pergolas/",
+        "/puertas/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi portones de madera en Carpinteria.com.py. Quiero consultar por un portón. Te mando ancho, alto, si es corredizo o de abrir, y fotos de la entrada."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/puertas/",
+        "/pergolas/",
+        "/decks/"
+      ]
+    },
+    "/pergolas/": {
+      "url": "https://carpinteria.com.py/pergolas/",
+      "file": "pergolas/index.html",
+      "status": 200,
+      "title": "Pérgolas de madera en Asunción | Carpinteria.com.py",
+      "title_len": 51,
+      "meta_description": "Planificá una pérgola de madera para patio o quincho en Asunción y Gran Asunción. Consultá con fotos y medidas.",
+      "meta_description_len": 111,
+      "h1": [
+        "Pérgolas de madera en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/pergolas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 880,
+      "word_count_body": 1088,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cerramientos/",
+        "/cotizar/",
+        "/decks/",
+        "/machimbre/",
+        "/portones/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vengo de Carpinteria.com.py por una pérgola de madera. Entiendo que la coordina el equipo de Obra.com.py. Te mando fotos del patio y medidas aproximadas."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/patios/pergolas/",
+          "anchor": "pérgolas y patios con Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/portones/",
+        "/decks/",
+        "/machimbre/",
+        "/cerramientos/",
+        "/trabajos/"
+      ]
+    },
+    "/decks/": {
+      "url": "https://carpinteria.com.py/decks/",
+      "file": "decks/index.html",
+      "status": 200,
+      "title": "Decks de madera en Asunción | Carpinteria.com.py",
+      "title_len": 48,
+      "meta_description": "Consultá por decks de madera para patios y quinchos en Asunción y Gran Asunción. Mandá fotos, medidas y estado de la base.",
+      "meta_description_len": 122,
+      "h1": [
+        "Decks de madera en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/decks/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 897,
+      "word_count_body": 1105,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cotizar/",
+        "/escaleras/",
+        "/machimbre/",
+        "/pergolas/",
+        "/portones/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 8,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vengo de Carpinteria.com.py por un deck de madera. Entiendo que lo coordina el equipo de Obra.com.py. Te paso medidas del área y fotos del piso actual."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/patios/decks/",
+          "anchor": "decks y patios con Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/portones/",
+        "/pergolas/",
+        "/machimbre/",
+        "/escaleras/"
+      ]
+    },
+    "/machimbre/": {
+      "url": "https://carpinteria.com.py/machimbre/",
+      "file": "machimbre/index.html",
+      "status": 200,
+      "title": "Machimbre y techos de madera en Asunción",
+      "title_len": 40,
+      "meta_description": "Consultá por revestimientos de machimbre y cielorrasos de madera para quinchos en Asunción y Gran Asunción.",
+      "meta_description_len": 107,
+      "h1": [
+        "Machimbre y techos de madera en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/machimbre/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 898,
+      "word_count_body": 1106,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/pergolas/",
+        "/puertas/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vengo de Carpinteria.com.py por un techo de machimbre. Entiendo que lo coordina el equipo de Obra.com.py. Te mando fotos y medidas del quincho o ambiente."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/quinchos/techo-madera/",
+          "anchor": "techos de madera para quinchos con Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/pergolas/",
+        "/decks/",
+        "/escaleras/"
+      ]
+    },
+    "/ventanas/": {
+      "url": "https://carpinteria.com.py/ventanas/",
+      "file": "ventanas/index.html",
+      "status": 200,
+      "title": "Ventanas de aluminio en Asunción | Carpinteria.com.py",
+      "title_len": 53,
+      "meta_description": "Consultá por ventanas y aberturas de aluminio para Asunción y Gran Asunción. Enviá medidas del vano y tipo de apertura.",
+      "meta_description_len": 119,
+      "h1": [
+        "Ventanas de aluminio en Asunción"
+      ],
+      "h2_count": 9,
+      "canonical": "https://carpinteria.com.py/ventanas/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 1234,
+      "word_count_body": 1442,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cotizar/",
+        "/puertas/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 8,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi ventanas de aluminio en Carpinteria.com.py. Quiero presupuestar ventanas. Te mando cantidad, medidas de cada vano y si son corredizas o de abrir."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/reformas/",
+          "anchor": "reformas con Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/blindex/",
+        "/cerramientos/",
+        "/aluminio/"
+      ]
+    },
+    "/blindex/": {
+      "url": "https://carpinteria.com.py/blindex/",
+      "file": "blindex/index.html",
+      "status": 200,
+      "title": "Mamparas de blindex en Asunción | Carpinteria.com.py",
+      "title_len": 52,
+      "meta_description": "Consultá por mamparas, divisiones y vidrio blindex para Asunción y Gran Asunción. Mandá fotos, medidas y uso del ambiente.",
+      "meta_description_len": 122,
+      "h1": [
+        "Mamparas y divisiones de blindex en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/blindex/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 1159,
+      "word_count_body": 1367,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/cerramientos/",
+        "/cotizar/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 8,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi mamparas y blindex en Carpinteria.com.py. Quiero consultar por una mampara o división de vidrio. Te paso medidas y fotos del lugar."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/vanitorys/",
+        "/comercial/",
+        "/ventanas/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/aluminio/"
+      ]
+    },
+    "/cerramientos/": {
+      "url": "https://carpinteria.com.py/cerramientos/",
+      "file": "cerramientos/index.html",
+      "status": 200,
+      "title": "Cerramientos de aluminio en Asunción",
+      "title_len": 36,
+      "meta_description": "Consultá por cerramientos de aluminio y vidrio para galerías, patios y ambientes en Asunción y Gran Asunción.",
+      "meta_description_len": 109,
+      "h1": [
+        "Cerramientos de aluminio en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/cerramientos/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 888,
+      "word_count_body": 1096,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cotizar/",
+        "/pergolas/",
+        "/trabajos/",
+        "/ventanas/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi cerramientos de aluminio en Carpinteria.com.py. Quiero cerrar un espacio. Te mando fotos, medidas y qué quiero cerrar (galería, balcón o quincho)."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/ampliaciones/galeria/",
+          "anchor": "ampliación de galería con Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/pergolas/",
+        "/ventanas/",
+        "/blindex/",
+        "/aluminio/"
+      ]
+    },
+    "/escaleras/": {
+      "url": "https://carpinteria.com.py/escaleras/",
+      "file": "escaleras/index.html",
+      "status": 200,
+      "title": "Escaleras de madera en Asunción | Carpinteria.com.py",
+      "title_len": 52,
+      "meta_description": "Consultá por escalones, revestimientos y barandas de madera en Asunción y Gran Asunción. Enviá fotos y medidas.",
+      "meta_description_len": 111,
+      "h1": [
+        "Escaleras y barandas de madera en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/escaleras/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 892,
+      "word_count_body": 1100,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/blindex/",
+        "/cotizar/",
+        "/decks/",
+        "/machimbre/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 6,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi escaleras y barandas en Carpinteria.com.py. Quiero consultar por una escalera o baranda de madera. Te paso fotos, altura entre pisos y ancho."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/puertas/",
+        "/portones/",
+        "/decks/",
+        "/machimbre/",
+        "/restauracion/"
+      ]
+    },
+    "/restauracion/": {
+      "url": "https://carpinteria.com.py/restauracion/",
+      "file": "restauracion/index.html",
+      "status": 200,
+      "title": "Restauración de muebles en Asunción",
+      "title_len": 35,
+      "meta_description": "Consultá por reparación y restauración de muebles de madera en Asunción y Gran Asunción. Enviá fotos claras del estado actual.",
+      "meta_description_len": 126,
+      "h1": [
+        "Restauración de muebles en Asunción"
+      ],
+      "h2_count": 8,
+      "canonical": "https://carpinteria.com.py/restauracion/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/puertas-ilustrativa.webp",
+      "word_count_main": 877,
+      "word_count_body": 1085,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cotizar/",
+        "/escaleras/",
+        "/escritorios/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/puertas/",
+        "/trabajos/",
+        "/vanitorys/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi restauración de muebles en Carpinteria.com.py. Tengo un mueble para restaurar. Te mando fotos de cómo está y sus medidas."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/vanitorys/",
+        "/puertas/",
+        "/escaleras/",
+        "/muebles/"
+      ]
+    },
+    "/muebles/": {
+      "url": "https://carpinteria.com.py/muebles/",
+      "file": "muebles/index.html",
+      "status": 200,
+      "title": "Muebles a medida en Asunción | Carpinteria.com.py",
+      "title_len": 49,
+      "meta_description": "Cocinas, placares, racks, escritorios, vanitorys y muebles comerciales a medida para Asunción y Gran Asunción.",
+      "meta_description_len": 110,
+      "h1": [
+        "Muebles a medida en Asunción"
+      ],
+      "h2_count": 14,
+      "canonical": "https://carpinteria.com.py/muebles/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/placard-ilustrativo.webp",
+      "word_count_main": 1140,
+      "word_count_body": 1348,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/escritorios/",
+        "/muebles-tv/",
+        "/placares/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 7,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi la sección de muebles a medida en Carpinteria.com.py. Quiero consultar por un mueble para mi casa. Te mando fotos del lugar y medidas aproximadas."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/restauracion/"
+      ]
+    },
+    "/aluminio/": {
+      "url": "https://carpinteria.com.py/aluminio/",
+      "file": "aluminio/index.html",
+      "status": 200,
+      "title": "Carpintería de aluminio en Asunción | Carpinteria.com.py",
+      "title_len": 56,
+      "meta_description": "Ventanas, mamparas, blindex y cerramientos de aluminio para Asunción y Gran Asunción. Consultá con fotos y medidas.",
+      "meta_description_len": 115,
+      "h1": [
+        "Carpintería de aluminio en Asunción"
+      ],
+      "h2_count": 12,
+      "canonical": "https://carpinteria.com.py/aluminio/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/aluminio-ilustrativo.webp",
+      "word_count_main": 1219,
+      "word_count_body": 1427,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cotizar/",
+        "/puertas/",
+        "/trabajos/",
+        "/ventanas/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "Service",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 8,
+      "whatsapp_ctas": 8,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi carpintería de aluminio en Carpinteria.com.py. Quiero consultar por aberturas de aluminio. Te paso cuántas son, medidas y fotos."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/reformas/",
+          "anchor": "reformas con Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/trabajos/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/trabajos/"
+      ]
+    },
+    "/trabajos/": {
+      "url": "https://carpinteria.com.py/trabajos/",
+      "file": "trabajos/index.html",
+      "status": 200,
+      "title": "Ideas de carpintería a medida | Carpinteria.com.py",
+      "title_len": 50,
+      "meta_description": "Explorá referencias visuales para cocinas, placares, madera, aluminio y muebles a medida. Imágenes ilustrativas para preparar tu consulta.",
+      "meta_description_len": 138,
+      "h1": [
+        "Ideas para proyectos de carpintería a medida"
+      ],
+      "h2_count": 3,
+      "canonical": "https://carpinteria.com.py/trabajos/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/pergola-ilustrativa.webp",
+      "word_count_main": 230,
+      "word_count_body": 438,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/",
+        "/aluminio/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/pergolas/",
+        "/placares/",
+        "/puertas/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 7,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 0,
+      "whatsapp_ctas": 7,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, vi las ideas de proyectos en Carpinteria.com.py y me gustó una referencia. Te cuento qué quiero hacer y te mando fotos de mi espacio."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/cotizar/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/"
+      ]
+    },
+    "/cotizar/": {
+      "url": "https://carpinteria.com.py/cotizar/",
+      "file": "cotizar/index.html",
+      "status": 200,
+      "title": "Cotizar carpintería a medida | Carpinteria.com.py",
+      "title_len": 49,
+      "meta_description": "Prepará una consulta de carpintería con servicio, zona, fotos y medidas. Abrí un mensaje de WhatsApp listo para enviar.",
+      "meta_description_len": 119,
+      "h1": [
+        "Cotizá tu proyecto de carpintería"
+      ],
+      "h2_count": 2,
+      "canonical": "https://carpinteria.com.py/cotizar/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/comercial-ilustrativo.webp",
+      "word_count_main": 357,
+      "word_count_body": 565,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "obra.com.py",
+        "wa.me"
+      ],
+      "images": 1,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "Answer",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "Question",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 4,
+      "whatsapp_ctas": 5,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, estoy en la página de cotizar de Carpinteria.com.py y prefiero contarte mi proyecto directamente por acá."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [
+        {
+          "href": "https://obra.com.py/patios/",
+          "anchor": "Obra.com.py",
+          "in_main": true
+        }
+      ],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/privacidad/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/"
+      ]
+    },
+    "/privacidad/": {
+      "url": "https://carpinteria.com.py/privacidad/",
+      "file": "privacidad/index.html",
+      "status": 200,
+      "title": "Privacidad | Carpinteria.com.py",
+      "title_len": 31,
+      "meta_description": "Información sobre privacidad, contenido visual y contacto en Carpinteria.com.py.",
+      "meta_description_len": 80,
+      "h1": [
+        "Privacidad y contacto"
+      ],
+      "h2_count": 0,
+      "canonical": "https://carpinteria.com.py/privacidad/",
+      "canonical_self": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "og_image": "https://carpinteria.com.py/assets/img/cocina-ilustrativa.webp",
+      "word_count_main": 82,
+      "word_count_body": 290,
+      "internal_links_out": [
+        "/",
+        "/aluminio/",
+        "/blindex/",
+        "/cerramientos/",
+        "/cocinas/",
+        "/comercial/",
+        "/cotizar/",
+        "/decks/",
+        "/escaleras/",
+        "/escritorios/",
+        "/machimbre/",
+        "/muebles-tv/",
+        "/muebles/",
+        "/pergolas/",
+        "/placares/",
+        "/portones/",
+        "/privacidad/",
+        "/puertas/",
+        "/restauracion/",
+        "/trabajos/",
+        "/vanitorys/",
+        "/ventanas/"
+      ],
+      "internal_links_out_in_main": [
+        "/"
+      ],
+      "external_link_hosts": [
+        "carpinteria.com.py",
+        "wa.me"
+      ],
+      "images": 0,
+      "images_without_alt": [],
+      "external_media": [],
+      "jsonld_parse_errors": [],
+      "schema_types": [
+        "AdministrativeArea",
+        "BreadcrumbList",
+        "City",
+        "ContactPoint",
+        "HomeAndConstructionBusiness",
+        "ListItem",
+        "WebPage"
+      ],
+      "schema_telephones": [
+        "+595992279599"
+      ],
+      "faq_items": 0,
+      "whatsapp_ctas": 5,
+      "whatsapp_numbers": [
+        "595992279599"
+      ],
+      "whatsapp_texts_distinct": [
+        "Hola, leí la página de privacidad de Carpinteria.com.py y tengo una consulta sobre mis datos o un proyecto."
+      ],
+      "tel_links": [
+        "tel:+595992279599"
+      ],
+      "phone_display": [
+        "+595 992 279 599"
+      ],
+      "cross_domain_links": [],
+      "old_number_present": false,
+      "internal_links_in": [
+        "/",
+        "/cocinas/",
+        "/placares/",
+        "/muebles-tv/",
+        "/escritorios/",
+        "/vanitorys/",
+        "/comercial/",
+        "/puertas/",
+        "/portones/",
+        "/pergolas/",
+        "/decks/",
+        "/machimbre/",
+        "/ventanas/",
+        "/blindex/",
+        "/cerramientos/",
+        "/escaleras/",
+        "/restauracion/",
+        "/muebles/",
+        "/aluminio/",
+        "/trabajos/",
+        "/cotizar/"
+      ],
+      "internal_links_in_count": 21,
+      "internal_links_in_from_main": []
+    }
+  }
+}
