@@ -1,0 +1,2 @@
+# Approved title changes, one per line: /path/ | old title | new title | group ID
+# Empty: no title change is approved (keyword-library MCP not connected; see keyword-map.md).
