@@ -89,9 +89,13 @@
   // loading all 4 automatically (via a timer or an idle-time preload) meant
   // every visitor paid for ~4 full video downloads even if they never looked
   // past the first one. That matters on Paraguayan mobile data plans.
+  // Video only on desktop-sized screens without data saver; below 1024px
+  // (or with saveData) the poster image stays and no video is downloaded.
+  const saveData = Boolean(navigator.connection && navigator.connection.saveData);
+  const allowVideo = !saveData && window.matchMedia('(min-width: 1024px)').matches;
   const loadVideo = (index) => {
     const video = videos[index];
-    if (!video || video.src) return;
+    if (!allowVideo || !video || video.src) return;
     video.src = video.dataset.src || '';
     video.load();
   };
@@ -123,34 +127,13 @@
     else reduceMotion.addListener(syncPlayback);
   }
 
-  const quoteForm = document.querySelector('#quote-form');
-  quoteForm?.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const project = quoteForm.querySelector('[name="proyecto"]')?.value || 'carpintería a medida';
-    const zone = quoteForm.querySelector('[name="zona"]')?.value.trim() || 'Asunción o Gran Asunción';
-    const details = quoteForm.querySelector('[name="detalle"]')?.value.trim();
-    const parts = [
-      'Hola, vi Carpinteria.com.py y quiero cotizar un proyecto.',
-      `Tipo: ${project}.`,
-      `Zona: ${zone}.`,
-      details ? `Detalles: ${details}.` : '',
-      'Voy a adjuntar fotos y medidas por WhatsApp.'
-    ].filter(Boolean);
-    // Number comes from data/whatsapp.json via the generated wa-config.js.
-    const waNumber = window.WA_CONFIG?.number;
-    if (!waNumber) return;
-    window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(parts.join(' '))}`, '_blank', 'noopener');
-  });
-
-  const privacyNote = document.querySelector('.privacy-note');
-  const privacyClose = document.querySelector('[data-privacy-close]');
-  try {
-    if (privacyNote && sessionStorage.getItem('privacy-note-seen') !== '1') privacyNote.classList.add('is-visible');
-    privacyClose?.addEventListener('click', () => {
-      privacyNote?.classList.remove('is-visible');
-      sessionStorage.setItem('privacy-note-seen', '1');
-    });
-  } catch (_) {
-    privacyNote?.classList.remove('is-visible');
+  const hero = document.querySelector('.home-hero, .page-hero')
+    || document.querySelector('.breadcrumbs') || document.querySelector('main section');
+  if (hero && 'IntersectionObserver' in window) {
+    new IntersectionObserver((entries) => {
+      document.body.classList.toggle('show-mobile-bar', !entries[0].isIntersecting);
+    }).observe(hero);
+  } else {
+    document.body.classList.add('show-mobile-bar');
   }
 })();
