@@ -140,6 +140,8 @@ Hard cap: at most 3 new pages in the first build window.
 | mesada de granito / cuarzo | none (stone) | Mention on `/cocinas/` as coordination, no page |
 
 ### 4.5 Cross-link map (exactly one contextual cross-domain link per page)
+> **Superseded 2026-09-30 (window D):** Anton decided there are no links between carpinteria, obra and arq. All 7 links were removed and `tools/verify.mjs` now fails on any obra/arq URL in public files. The goal instead is that the three domains never target the same keywords. That split lives in `docs/seo/domain-split.md` (written in window E).
+
 | Page | Link target | Anchor idea |
 |---|---|---|
 | `/pergolas/` | obra `/quinchos/` or obra's pérgola page if it exists | "pérgolas y quinchos con Obra.com.py" |
@@ -292,9 +294,20 @@ In the build window Claude runs the whole git flow itself: creates the branch, m
 
 ---
 
-## Status after window C (2026-09-30)
+## Status after window D (2026-09-30)
 
-Full report: `docs/BUILD-REPORT-2026-09-30.md`.
+Full report: `docs/BUILD-REPORT-2026-09-30.md` (see its "Window D addendum").
+
+### Window D: blocked again, nothing live was checked
+- The egress proxy still answered 403 to CONNECT for all four hosts: `carpinteria.com.py`, `obra.com.py`, `arq.com.py`, `d8j0ntlcm91z4.cloudfront.net`. The keyword-library MCP was still not connected.
+- So D1 (live verification), D2 (hero video) and D3 (real keyword map) are **NOT RUN**, and so is Anton's extra check (`linkcheck --external`, every obra/arq link must return 200 live).
+- Done without the hosts: local gates re-run on `main` (all clean), and the 7 cross-domain targets re-checked against the obra and arq **repos** on their `main`. All 6 obra targets are in obra's generated `sitemap.xml`; arq `/arquitectos` is in arq's `sitemap.php` list. No link was changed.
+- arq: Anton wrote `https://arq.com.py/arquitectos/`. The pages link `https://arq.com.py/arquitectos`, which is the URL arq's sitemap and canonical use, so it was kept as is. arq's `docs/seo/arq-urls.md` does not exist on arq `main` yet, so no other arq URL is allowed.
+- Anton's Q1 and Q5 answers arrived as unfilled placeholders, so the defaults still hold.
+- **Decision after the run (Anton): no cross-domain links at all.** The 7 links (cocinas, placares → arq; aluminio, ventanas, cerramientos, pergolas, decks, machimbre, cotizar → obra) were removed with their lead-in sentences. `data/whatsapp.json` keeps `"obra": true` for the 3 exterior types, so the form still shows its note, now without a link. `tools/verify.mjs` fails on any `obra.com.py`/`arq.com.py` URL in served files.
+- Still open (Q8): `/pergolas/`, `/decks/` and `/machimbre/` target the same keywords as obra's `/patios/pergolas/`, `/patios/decks/` and `/quinchos/techo-madera/`, and they still say "lo coordina el equipo de Obra.com.py" in the copy and in the WhatsApp messages. Which domain owns those keywords is Anton's call; window E applies it.
+
+## Status after window C (2026-09-30)
 
 ### Shipped (merged to `main`)
 | PR | What |
@@ -320,7 +333,9 @@ Cross-domain targets (verified against the obra and arq **repos**, not live): pe
 3. Real keyword map (group IDs, PY volumes), so no title changes and no new pages.
 
 ### Answers to Q1–Q7 so far
-None answered by Anton yet. Window C's prompt left the Q1 answer as an unfilled placeholder. Defaults used: Q1 "a merge may deploy" (merged only after local gates; zip command in the report); Q2 nothing to approve; Q3 drafted tone; Q4 obra repo routes used, and obra's config defaults its WhatsApp to 595992279599; Q5 video kept, desktop-only; Q6 brief kept here (obra repo now exists); Q7 overlay removed.
+Window D (from Anton): Q6 do **not** copy the obra brief into the obra repo. No links between the domains at all (this replaces the earlier arq `/arquitectos` answer); the three sites must just not target the same keywords. Other questions: defaults. Q1 and Q5 still open (the answers were placeholders).
+
+Window C: none answered by Anton yet. Window C's prompt left the Q1 answer as an unfilled placeholder. Defaults used: Q1 "a merge may deploy" (merged only after local gates; zip command in the report); Q2 nothing to approve; Q3 drafted tone; Q4 obra repo routes used, and obra's config defaults its WhatsApp to 595992279599; Q5 video kept, desktop-only; Q6 brief kept here (obra repo now exists); Q7 overlay removed.
 
 ### Approved titles / new pages
 None (`docs/seo/approved-titles.txt` is empty).

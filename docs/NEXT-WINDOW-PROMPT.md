@@ -75,15 +75,73 @@ PHASE A4: HANDOFF (you)
 
 ---
 
-## Prompt D (Opus 5.5, medium) — use this next: live verification, video and real keyword data
+## Prompt E (Opus 5.5, medium) — use this next: live check, video, keyword split between the domains
+
+Replaces Prompt D (window D was blocked; see "Status after window D" in IMPROVE-PLAN.md). **Before starting:** in the environment settings (Network access), allow `carpinteria.com.py`, `www.carpinteria.com.py` and `d8j0ntlcm91z4.cloudfront.net` (Higgsfield's CDN, where the 4 existing hero videos are hosted). Also connect the keyword-library MCP. obra.com.py and arq.com.py are no longer needed, because there are no cross-domain links now; their repos on GitHub are enough. Merge PR #12 first, or let this window merge it.
+
+```text
+You are the director of the carpinteria.com.py build, window E. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no CI). Read on main first: docs/IMPROVE-PLAN.md ("Status after window D"), docs/BUILD-REPORT-2026-09-30.md (incl. "Window D addendum"), docs/seo/keyword-map.md, audit-before.json, audit-after.json, data/whatsapp.json, tools/*.mjs. Run `cd tools && npm ci`. Playwright uses the preinstalled Chromium in /opt/pw-browsers; never run "playwright install". Run live tools with NODE_USE_ENV_PROXY=1.
+Model rules: you run on Opus 5.5. Subagents are Sonnet 5.5 only (low for mechanical edits, medium for page writing). Never Fable.
+All HARD RULES and GATES of Prompt B in docs/NEXT-WINDOW-PROMPT.md apply, plus `node tools/overlap.mjs` before every content merge. One change to Prompt B rule 3: there are NO links between carpinteria, obra.com.py and arq.com.py (verify.mjs enforces it). The three domains must instead never target the same keyword group.
+Anton authorizes you to merge your own PRs once the local gates pass and are pasted in the PR body. If PR #12 is still open, check it and merge it first.
+
+ANTON'S ANSWERS
+- Q1 deploy: <"Git auto-deploy is connected" | "I will upload carpinteria-deploy.zip">
+- Q5 hero: <keep the 4 Higgsfield videos, self-hosted, desktop only | one still image>
+- Q8 pérgolas / decks / machimbre keywords belong to: <carpinteria | obra | keep as today>
+- Q2 new pages and title changes: <ask me after the MCP data | no title changes this window>
+- Other questions: defaults are fine.
+
+PRECONDITIONS (first 5 minutes)
+- curl -sI https://carpinteria.com.py/, https://www.carpinteria.com.py/ and https://d8j0ntlcm91z4.cloudfront.net/ must return a real status, not a proxy 403. If any is blocked, tell Anton in ONE short message, do only what does not need that host, and mark the rest NOT RUN.
+- The keyword-library MCP must answer list_projects. If not, say so and do E3 from the repos only (no volumes, no title changes, no new pages).
+
+PHASE E1: LIVE VERIFICATION (you)
+- NODE_USE_ENV_PROXY=1 node tools/live-check.mjs. If live still serves the old site (old title or number; /vanitorys/, /ventanas/, /trabajos/ 404), the deploy has not happened: if Q1 is zip, build it with the command in BUILD-REPORT §6, ask Anton to upload it, and wait.
+- Once live matches main: node tools/audit.mjs https://carpinteria.com.py audit-live-after.json (commit it), seo-diff it against audit-before.json, and confirm live has 0 obra/arq links.
+- Curl every .htaccess rule: docs/, tools/, data/, *.md, *.json, *.mjs, package.json, .git → 404; /cocinas/index.html → 301 /cocinas/; www → apex; /no-existe/ → 404. Any 500 → revert that rule in a small PR at once.
+- pw-check against live at 1366 and 390.
+
+PHASE E2: HERO VIDEO PR (you)
+- The 4 hero clips already exist (Higgsfield, 2026-08-29); never generate new ones. Download the 4 MP4s referenced in index.html and record their sizes.
+- ffmpeg -vf scale=-2:720 -c:v libx264 -crf 28 -preset slow -an -movflags +faststart, each ≤1.5 MB (raise crf if needed); WebP poster from each first frame; all into assets/video/. Point data-src and poster at them, remove every cloudfront reference, keep the desktop-only logic in site.js. If Q5 is "one still image", do that instead.
+- Gates incl. pw-check --strict (0 third-party requests). PR, merge, live-check.
+
+PHASE E3: KEYWORD MAP + DOMAIN SPLIT PR (you)
+- MCP: list_projects → carpinteria project → project_overview, list_groups, get_group per relevant group, keyword_lookup for melamina / muebles de oficina / vestidores / barandas / mosquiteros. If obra or arq projects exist in the MCP, read their groups too.
+- Read the public obra and arq repos read-only (git clone --depth 1 into the scratchpad; generate obra's sitemap with `php sitemap.php`, arq's list is in sitemap.php). Collect every page's URL, title and H1. Never edit those repos.
+- Write docs/seo/domain-split.md: one row per keyword group → owning domain (carpinteria = wood, aluminium, glass products; obra = building, structure, roofs, reformas, ampliaciones; arq = design, architects, plans) → owning page, plus an "overlaps today" list: every pair of pages on two domains that target the same group, with the proposed fix (which side keeps it, what the other side changes). Apply Q8 to pérgolas/decks/machimbre. The obra and arq sessions read this file from here; do not copy it anywhere.
+- Update docs/seo/keyword-map.md with the real group IDs and PY volumes; re-judge every title verdict against IMPROVE-PLAN §3.3. Propose at most 3 new pages and any justified title changes (old → new, group ID, at most 1/3 of titles). If Q2 says "ask me", ask Anton in ONE short message and keep going.
+- Docs-only PR, merge.
+
+PHASE E4: APPLY Q8 PR (Sonnet 5.5 medium subagents, one per page; you review)
+- If Q8 = carpinteria: /pergolas/, /decks/, /machimbre/ drop every "Obra.com.py coordina" sentence, H2, FAQ and JSON-LD answer. Replace them with page-specific planning content for the carpinteria keyword group (wood, sizes, orientation, finishes, maintenance, what the quote includes). Never promise foundations, structure or roofing; those are "se define en la visita". New distinct WhatsApp messages in data/whatsapp.json (page + service + form) without Obra; drop "obra": true, obra_prefix and obra_note plus the matching form markup and JS; the "Exterior con Obra.com.py" optgroup becomes "Exterior en madera". Run apply-wa.mjs.
+- If Q8 = obra: do not delete, noindex or redirect anything without Anton's explicit OK in this chat. Propose it in ONE message (options: keep with a different keyword angle, or noindex + out of sitemap) and wait.
+- If Q8 = keep as today: skip E4.
+- No title or H1 changes unless approved. Gates + overlap, PR, merge, live-check.
+
+PHASE E5: APPROVED PAGES AND TITLES (only what Anton approves in this chat)
+- New pages as in Prompt B phase B3 (Sonnet 5.5 medium, one per page). Titles through docs/seo/approved-titles.txt in a separate PR.
+
+FINISH
+- "Status after window E" in IMPROVE-PLAN.md; "Window E addendum" in the build report with live-check output, live seo-diff before/after, video sizes before/after, domain-split summary and NOT RUN items. Small PR, merge.
+- Final message to Anton: PR links, live-check result, open questions, what comes next (GBP, real photos, reviews).
+```
+
+---
+
+## Prompt D (Opus 5.5, medium) — SUPERSEDED by Prompt E, kept for reference
+
+**Window D was tried on 2026-09-30 and blocked again** (same four hosts denied, MCP not connected; see "Status after window D" in IMPROVE-PLAN.md). Run this prompt again as is once the network and MCP are open. Anton's answers from that attempt are now written into the prompt below; only Q1 and Q5 still need filling in.
 
 Window C (2026-09-30) shipped PRs #5–#10: cross-links, the keyword map as a hypothesis, all 18 service pages deepened, schema and tap targets, and the build report. Every live step, the video and the MCP work are still NOT RUN, because the environment blocked all four hosts and the MCP was not connected. **Before starting this window, add `carpinteria.com.py`, `obra.com.py`, `arq.com.py` and `d8j0ntlcm91z4.cloudfront.net` under the environment's Network access, and connect the keyword-library MCP.** Otherwise this window can do almost nothing.
 
 ```text
-You are the director of the carpinteria.com.py build, window D. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no CI). Read on main first: docs/IMPROVE-PLAN.md ("Status after window C"), docs/BUILD-REPORT-2026-09-30.md, docs/seo/keyword-map.md, docs/seo/obra-handover-brief.md, audit-before.json, audit-after.json, and tools/*.mjs. Run `cd tools && npm ci` first. Playwright uses the preinstalled Chromium in /opt/pw-browsers; never run "playwright install".
+You are the director of the carpinteria.com.py build, window D. Repo: antonmarklundcom/carpinteria (static HTML on Hostinger, 22 sitemap URLs, no CI). Read on main first: docs/IMPROVE-PLAN.md ("Status after window D" and "Status after window C"), docs/BUILD-REPORT-2026-09-30.md, docs/seo/keyword-map.md, docs/seo/obra-handover-brief.md, audit-before.json, audit-after.json, and tools/*.mjs. Run `cd tools && npm ci` first. Playwright uses the preinstalled Chromium in /opt/pw-browsers; never run "playwright install".
 Model rules: you run on Opus 5.5. Subagents are Sonnet 5.5 only (low for mechanical edits, medium for page writing). Never Fable.
 All HARD RULES and GATES of Prompt B in docs/NEXT-WINDOW-PROMPT.md apply to you and every subagent. Also run `node tools/overlap.mjs` before every content merge. Run live tools with NODE_USE_ENV_PROXY=1.
-Deploy answer (Q1): <write "Git auto-deploy is connected" or "I uploaded carpinteria-deploy.zip on <date>">. Other answers: <Q2–Q7 or "defaults are fine">.
+Deploy answer (Q1): <write "Git auto-deploy is connected" or "I uploaded carpinteria-deploy.zip on <date>">. Hero (Q5): <keep 4 desktop videos, self-hosted | one still image>.
+Answers already given: Q6 do NOT copy the obra handover brief into the obra repo; the obra session handles its own links. arq target: keep https://arq.com.py/arquitectos for cocinas and placares (the URL arq's sitemap and canonical use). Do not link to any other arq URL unless it returns 200 live AND is listed in arq's docs/seo/arq-urls.md on main. Other questions: defaults are fine.
 
 PRECONDITIONS (first 5 minutes)
 - curl -sI https://carpinteria.com.py/, https://obra.com.py/, https://arq.com.py/ and https://d8j0ntlcm91z4.cloudfront.net/ must return a real status, not a proxy 403. If any is blocked, tell Anton in ONE short message, then do only what does not need that host and mark the rest NOT RUN.
@@ -113,7 +171,8 @@ PHASE D3: REAL KEYWORD MAP PR (you)
 - If Anton approves in this chat: build the approved pages as in Prompt B phase B3 (Sonnet 5.5 medium, one per page), and apply the approved titles through docs/seo/approved-titles.txt in a separate PR.
 
 FINISH
-- Update the status section to "Status after window D" in IMPROVE-PLAN.md.
+- Before FINISH: every link to obra.com.py and arq.com.py must return 200 live (NODE_USE_ENV_PROXY=1 node tools/linkcheck.mjs --external). If one fails, replace it with the closest URL from that site's sitemap.xml; if none exists, fall back to the site's home page. Note each change in the window D addendum.
+- Update the status section "Status after window D" in IMPROVE-PLAN.md.
 - Add a short "Window D addendum" to the build report, with live-check output, the before/after live seo-diff and NOT RUN items. Small PR, then merge.
 - Final message to Anton: PR links, live-check result, open questions, what comes next (GBP, real photos, reviews).
 ```

@@ -247,7 +247,7 @@ window.WA_CONFIG = {
           "¿La querés con techo o abierta?"
         ],
         "closing": "Te mando fotos del patio.",
-        "obra": "https://obra.com.py/patios/pergolas/"
+        "obra": true
       },
       "decks": {
         "option": "Deck",
@@ -259,7 +259,7 @@ window.WA_CONFIG = {
           "¿Hay un piso anterior que sacar?"
         ],
         "closing": "Te mando fotos del área.",
-        "obra": "https://obra.com.py/patios/decks/"
+        "obra": true
       },
       "machimbre": {
         "option": "Machimbre o techo de quincho",
@@ -271,7 +271,7 @@ window.WA_CONFIG = {
           "¿Lo querés barnizado o pintado?"
         ],
         "closing": "Te mando fotos y medidas del quincho.",
-        "obra": "https://obra.com.py/quinchos/techo-madera/"
+        "obra": true
       },
       "otro": {
         "option": "Otro proyecto",
