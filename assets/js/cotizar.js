@@ -58,6 +58,7 @@
     hints.replaceChildren(...(type?.hints || []).map((h) => Object.assign(document.createElement('li'), { textContent: h })));
     hints.hidden = !type;
     obraNote.hidden = !type?.obra;
+    if (typeof type?.obra === 'string') obraNote.querySelector('a').href = type.obra;
   };
 
   const syncZone = () => {
