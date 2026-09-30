@@ -41,7 +41,9 @@ for (const vp of viewports) {
     const consoleErrors = []; const failed = []; const thirdParty = new Set(); const bytes = {};
     page.on('console', (m) => { if (m.type() === 'error') consoleErrors.push(m.text()); });
     page.on('pageerror', (e) => consoleErrors.push(`pageerror: ${e.message}`));
-    page.on('requestfailed', (r) => failed.push({ url: r.url(), err: r.failure()?.errorText }));
+    // Chromium aborts a video's first request once it switches to range
+    // requests; that is normal media loading, not a failure.
+    page.on('requestfailed', (r) => { const err = r.failure()?.errorText; if (!(r.resourceType() === 'media' && err === 'net::ERR_ABORTED')) failed.push({ url: r.url(), err }); });
     page.on('request', (r) => { const u = new URL(r.url()); if (!['127.0.0.1', 'localhost'].includes(u.hostname) && u.protocol.startsWith('http')) thirdParty.add(u.hostname); });
     page.on('response', async (r) => {
       if (r.status() >= 400 && !(p === '/404.html' && r.url().endsWith('/404.html'))) failed.push({ url: r.url(), status: r.status() });
