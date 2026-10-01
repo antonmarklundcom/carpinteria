@@ -12,7 +12,8 @@
   --surface: #fffaf0;
   --surface-2: #eadfce;
   --ink: #15120f;
-  --ash: #5d5146;
+  --ash: #4a3f36;
+  --paper-text: #6a380c;
   --wood: #6e3a1c;
   --dark: #22201c;
   --line: #d8c8b3;
@@ -43,8 +44,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .section--surface { background: var(--surface); }
 .section--dark { background: var(--dark); color: #fff8ec; }
 .section--paper { background: var(--paper); }
-.section-kicker { margin: 0 0 14px; color: var(--paper-deep); font-size: .76rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-.section--dark .section-kicker { color: var(--paper); }
+.section-kicker { margin: 0 0 14px; color: var(--paper-text); font-size: .76rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.section--dark .section-kicker, .process-band .section-kicker { color: var(--paper); }
+.quote-band .section-kicker, .mid-cta .section-kicker, .page-hero .section-kicker { color: var(--ink); }
+.section--dark .section-head__aside { color: rgba(255,248,236,.86); }
 .section-title { max-width: 18ch; margin: 0; font-family: Archivo, Inter, sans-serif; font-size: clamp(2rem, 7vw, 3rem); letter-spacing: -.045em; line-height: 1.02; text-wrap: balance; }
 .section-lead { max-width: 67ch; margin: 20px 0 0; color: var(--ash); font-size: clamp(1rem, 2vw, 1.18rem); line-height: 1.65; text-wrap: pretty; }
 .section--dark .section-lead { color: rgba(255,248,236,.75); }
@@ -126,6 +129,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .video-tabs { position: absolute; top: 14px; right: 14px; z-index: 7; display: flex; gap: 4px; }
 .video-tabs button { width: 48px; height: 48px; border: 1px solid rgba(255,248,236,.46); background: rgba(15,12,9,.48); color: #fff8ec; cursor: pointer; font-size: .65rem; font-weight: 850; backdrop-filter: blur(8px); }
 .video-tabs button[aria-selected="true"] { background: var(--paper); color: var(--ink); }
+@media (max-width: 639px) {
+  .video-kicker { top: 18px; left: 18px; right: 18px; }
+  .video-tabs { top: 48px; right: auto; left: 14px; }
+  .hero-media { min-height: clamp(400px, 105vw, 520px); }
+}
 .video-caption { position: absolute; right: 20px; bottom: 20px; left: 20px; z-index: 7; display: grid; gap: 7px; color: #fff8ec; }
 .video-caption strong { font-family: Archivo, Inter, sans-serif; font-size: clamp(1.1rem,3vw,1.55rem); line-height: 1.1; }
 .video-caption span { max-width: 34rem; color: rgba(255,248,236,.84); font-size: .78rem; line-height: 1.48; }
@@ -134,7 +142,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .service-bento { display: grid; gap: 14px; }
 .service-card { position: relative; display: flex; min-height: 220px; flex-direction: column; justify-content: space-between; overflow: hidden; border: 1px solid var(--line); background: var(--surface); padding: 24px; box-shadow: var(--shadow); transition: transform .25s var(--ease), border-color .25s ease; }
 .service-card:hover { border-color: var(--paper-deep); transform: translateY(-4px); }
-.service-card__tag { color: var(--paper-deep); font-size: .68rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+.service-card__tag { color: var(--paper-text); font-size: .68rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
 .service-card h3 { max-width: 15ch; margin: 28px 0 10px; font-family: Archivo, Inter, sans-serif; font-size: clamp(1.45rem,4vw,2rem); letter-spacing: -.035em; line-height: 1.05; }
 .service-card p { max-width: 40ch; margin: 0; color: var(--ash); font-size: .92rem; line-height: 1.55; }
 .service-card__arrow { display: grid; width: 48px; height: 48px; margin-top: 22px; place-items: center; border: 1px solid var(--line); font-size: 1.2rem; }
@@ -196,6 +204,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
 .breadcrumbs { padding: 18px 0; color: var(--ash); font-size: .78rem; }
 .breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.breadcrumbs li { display: flex; min-width: 0; align-items: center; }
 .breadcrumbs li + li::before { margin-right: 8px; color: var(--paper-deep); content: "/"; }
 .breadcrumbs a { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -318,7 +327,7 @@ body.show-mobile-bar .mobile-bar { transform: translateY(0); visibility: visible
   .mobile-bar { display: none; }
   .home-hero, .home-hero__grid { min-height: calc(100svh - 76px); }
   .home-hero__grid { grid-template-columns: minmax(0,.98fr) minmax(0,1.02fr); }
-  .home-copy { min-height: 0; gap: 24px; padding: clamp(42px,5vh,68px) 40px clamp(34px,4vh,52px); }
+  .home-copy { min-height: 0; justify-content: center; gap: clamp(28px,5vh,52px); padding: clamp(42px,5vh,68px) 40px clamp(34px,4vh,52px); }
   .home-title { max-width: 8.9ch; font-size: clamp(3.4rem,5.5vw,5.35rem); }
   .hero-lead { font-size: clamp(.92rem,1.3vw,1.05rem); line-height: 1.52; }
   .hero-media { min-height: 0; border-top: 0; border-left: 1px dashed rgba(93,51,19,.72); }
@@ -373,9 +382,23 @@ body.show-mobile-bar .mobile-bar { transform: translateY(0); visibility: visible
 @media (max-width: 768px) {
   .brand { min-height: 44px; }
   .breadcrumbs a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; }
-  .breadcrumbs ol { gap: 0 8px; }
+  .breadcrumbs ol { align-items: center; gap: 0 6px; }
+  .breadcrumbs li + li::before { margin-right: 6px; }
+  .breadcrumbs li[aria-current] { min-height: 44px; line-height: 1.35; }
   .breadcrumbs { padding: 6px 0; }
   .footer-links { gap: 0; }
   .footer-links a, .footer-bottom a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; }
   .related-links a { display: inline-flex; min-height: 44px; align-items: center; }
+}
+
+/* /cotizar/ on phones: compact hero and short photo so the first step shows above the fold */
+@media (max-width: 1023px) {
+  .quote-page .page-hero__copy { padding: 26px 20px 22px; }
+  .quote-page .page-hero__copy h1 { font-size: clamp(2.1rem,9vw,3rem); }
+  .quote-page .page-hero__copy p { margin-top: 14px; }
+  .quote-page .page-hero__actions { margin-top: 18px; }
+  .quote-page .page-hero__grid { padding-bottom: 8px; }
+  .quote-page .page-hero__media { min-height: 0; height: 120px; }
+  .quote-page .section--surface { padding-top: 24px; }
+  .quote-page .quote-builder > .quote-form { order: -1; }
 }
