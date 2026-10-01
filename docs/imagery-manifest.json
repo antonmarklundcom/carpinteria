@@ -1,0 +1,94 @@
+{
+  "_notes": {
+    "generated": "2026-10-01",
+    "model": "gpt_image_2_5 sunburst, quality medium, resolution 2k, 3:2",
+    "cost_preflight": "1 credit per image (get_cost), 6 images = 6",
+    "actual_spend_credits": 7,
+    "actual_spend_detail": "6 hero images at 1 credit each + 1 credit lost to an accidental job (get_cost was passed to generate_image_batch, which submitted a real job, job 5bf24365-a4a1-4209-a255-acf47f17c200, no image used)",
+    "ledger_checked": "2026-10-01: six -1 'GPT Image 2.5 Sunburst' lines for the six jobs, plus one -1 for the accidental job",
+    "download_status": "done: converted with webimg at 480/960/1536 WebP; 1536 file renamed to <name>.webp to match the site's convention; AVIF dropped",
+    "pixel_size": "2048x1360 for all six",
+    "source": "higgsfield",
+    "regenerations": 0
+  },
+  "images": [
+    {
+      "id": "vanitorys",
+      "file": "assets/img/vanitory-madera-lavatorio-ilustrativo.webp",
+      "alt": "Referencia ilustrativa de vanitory de madera con lavatorio y espejo en un baño de Asunción",
+      "ratio": "3:2",
+      "px": "2048x1360",
+      "prompt": "Realistic documentary interior photograph, natural window light, a modern bathroom in Asunción, Paraguay: a wall-hung bathroom vanity cabinet in warm natural oak wood veneer with smooth flat drawer fronts, a white ceramic countertop basin with a simple chrome tap, a frameless rectangular mirror above it, light beige tiles, a small green plant. Empty room, no people, no text, no logos, no construction work. Neutral warm tones, sharp focus, clean fixtures, 3:2 landscape.",
+      "model": "gpt_image_2_5",
+      "variant": "sunburst",
+      "job_id": "b6d55b70-1fa2-4afc-83fd-381b1a012e69",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20261001_033438_b6d55b70-1fa2-4afc-83fd-381b1a012e69.png",
+      "credits": 1
+    },
+    {
+      "id": "restauracion",
+      "file": "assets/img/restauracion-mueble-madera-lustre-taller-ilustrativa.webp",
+      "alt": "Referencia ilustrativa de mueble de madera en restauración con lustre en un taller de carpintería",
+      "ratio": "3:2",
+      "px": "2048x1360",
+      "prompt": "Realistic documentary photograph inside a small carpentry workshop in Paraguay, natural daylight from a side window: a vintage hardwood cedar cabinet with turned legs placed on a workbench, half of its surface freshly sanded and lustred to a glossy warm amber shine, the other half still worn with old varnish, beside it a sanding block, a soft cloth, brushes and a can of shellac. Close detail of wood grain and lustre. No people, no hands, no text, no logos. Warm neutral tones, sharp focus, 3:2 landscape.",
+      "model": "gpt_image_2_5",
+      "variant": "sunburst",
+      "job_id": "13259922-a335-4947-9ec7-4d297fa15b0d",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20261001_033438_13259922-a335-4947-9ec7-4d297fa15b0d.png",
+      "credits": 1
+    },
+    {
+      "id": "escaleras",
+      "file": "assets/img/escalera-madera-baranda-interior-ilustrativa.webp",
+      "alt": "Referencia ilustrativa de escalera de madera con baranda en el interior de una casa en Asunción",
+      "ratio": "3:2",
+      "px": "2048x1360",
+      "prompt": "Realistic documentary interior photograph, natural daylight, a finished home in Asunción, Paraguay: a straight wooden staircase in solid hardwood with open risers, wooden treads and a matching wooden handrail with vertical balusters, light cream walls, tiled floor, large window letting in soft light. Clean, correct stair geometry, evenly spaced balusters. No people, no text, no logos, no construction work. Warm neutral tones, sharp focus, 3:2 landscape.",
+      "model": "gpt_image_2_5",
+      "variant": "sunburst",
+      "job_id": "8fd2f5bd-efbd-4ece-9548-ee490972bf55",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20261001_033438_8fd2f5bd-efbd-4ece-9548-ee490972bf55.png",
+      "credits": 1
+    },
+    {
+      "id": "escritorios",
+      "file": "assets/img/escritorio-biblioteca-madera-oficina-ilustrativo.webp",
+      "alt": "Referencia ilustrativa de escritorio y biblioteca de madera a medida en una oficina en casa",
+      "ratio": "3:2",
+      "px": "2048x1360",
+      "prompt": "Realistic documentary interior photograph, natural window light, a home office in Asunción, Paraguay: a custom wooden desk in warm walnut with a drawer unit, a built-in wooden bookshelf with open shelves holding books and a few objects behind it, a simple office chair, a closed laptop, a desk lamp, a plant. No people, no readable text on books, no logos. Neutral warm tones, sharp focus, 3:2 landscape.",
+      "model": "gpt_image_2_5",
+      "variant": "sunburst",
+      "job_id": "c15b5f37-7561-4169-8048-ad66d2d2fa3d",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20261001_033438_c15b5f37-7561-4169-8048-ad66d2d2fa3d.png",
+      "credits": 1
+    },
+    {
+      "id": "blindex",
+      "file": "assets/img/mampara-blindex-ducha-vidrio-templado-ilustrativa.webp",
+      "alt": "Referencia ilustrativa de mampara de ducha en vidrio templado blindex en un baño de Asunción",
+      "ratio": "3:2",
+      "px": "2048x1360",
+      "prompt": "Realistic documentary interior photograph, natural daylight, a modern bathroom in Asunción, Paraguay: a frameless tempered glass shower screen with a clear glass door and slim chrome hardware, a walk-in shower with light stone-look tiles, a rain shower head, clean white towels on a rail. Crisp transparent glass, accurate reflections, correct hinges and handle. No people, no text, no logos, no construction work. 3:2 landscape.",
+      "model": "gpt_image_2_5",
+      "variant": "sunburst",
+      "job_id": "10d24890-d73f-4de3-b7a8-fdb2ab34466b",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20261001_033438_10d24890-d73f-4de3-b7a8-fdb2ab34466b.png",
+      "credits": 1
+    },
+    {
+      "id": "decks",
+      "file": "assets/img/deck-madera-patio-jardin-ilustrativo.webp",
+      "alt": "Referencia ilustrativa de deck de madera en un jardín de Gran Asunción con sillones de madera",
+      "ratio": "3:2",
+      "px": "2048x1360",
+      "prompt": "Realistic documentary exterior photograph, soft late-afternoon natural light, a backyard in Gran Asunción, Paraguay: a low wooden deck made of hardwood boards with a visible plank pattern, seen from a low angle along the boards toward a green lawn and trees, two simple wooden lounge chairs and a small side table, no pergola and no roof structure. No people, no text, no logos, no construction work. Warm natural tones, sharp focus, 3:2 landscape.",
+      "model": "gpt_image_2_5",
+      "variant": "sunburst",
+      "job_id": "875c3faf-e275-496c-831a-abbc9918a3f9",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20261001_033438_875c3faf-e275-496c-831a-abbc9918a3f9.png",
+      "credits": 1
+    }
+  ]
+}
