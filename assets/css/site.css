@@ -402,3 +402,23 @@ body.show-mobile-bar .mobile-bar { transform: translateY(0); visibility: visible
   .quote-page .section--surface { padding-top: 24px; }
   .quote-page .quote-builder > .quote-form { order: -1; }
 }
+
+/* Inner-page heroes: keep headline, buttons and caption inside a 1366x800 first view */
+@media (min-width: 1024px) {
+  .page-hero__copy { padding: 48px 46px; }
+  .page-hero__copy h1 { max-width: 13ch; font-size: clamp(2.65rem,4.2vw,3.9rem); }
+  .page-hero__grid { min-height: 580px; }
+  /* leave room for the floating WhatsApp button over the caption */
+  .page-hero__media .image-disclosure { right: 84px; }
+  .visual-card:last-child:nth-child(even) { grid-column: 1 / -1; }
+}
+.image-disclosure span { color: rgba(255,248,236,.88); }
+.visual-card__overlay small { color: rgba(255,248,236,.9); font-size: .78rem; }
+/* Phones: the two hero buttons share one clean row width */
+@media (max-width: 639px) {
+  .page-hero__actions { display: grid; grid-template-columns: 1fr; }
+  .page-hero__actions .button { width: 100%; }
+}
+/* Content stays visible without JavaScript and in print */
+@media (scripting: none) { .reveal { opacity: 1; transform: none; } }
+@media print { .reveal { opacity: 1; transform: none; } }
