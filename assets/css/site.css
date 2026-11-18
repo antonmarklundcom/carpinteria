@@ -166,7 +166,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .material-row span { color: var(--ash); font-size: .84rem; text-align: right; }
 .guide-panel { position: relative; overflow: hidden; background: var(--paper); padding: 28px; }
 .guide-panel::after { position: absolute; right: -45px; bottom: -65px; width: 180px; height: 180px; border: 1px dashed var(--paper-deep); border-radius: 50%; content: ""; }
-.guide-panel h3 { margin: 0 0 14px; font-family: Archivo, Inter, sans-serif; font-size: 1.7rem; letter-spacing: -.035em; }
+.guide-panel h2, .guide-panel h3 { margin: 0 0 14px; font-family: Archivo, Inter, sans-serif; font-size: 1.7rem; letter-spacing: -.035em; }
 .guide-panel p { max-width: 42ch; margin: 0; line-height: 1.65; }
 .guide-panel .button { margin-top: 22px; }
 
